@@ -1,21 +1,19 @@
-# Introduction to Game Design Syllabus
+# Advanced Game Design and Development - Graduate Level
 
-**Course Code:** 
-**Schedule:** 
+**Course Code:** 5310
+**Schedule:** Friday Night :(
 **Instructor:** John Bezark
 **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
 
 ## **Course Description:**
-An introductory course exploring the fundamentals of digital game design and development. This course will use Godot 4 as the primary game creation tool, and it wil cover the basics of game development, coding fundamentals, and game design principles. Students will engage in hands-on projects to develop practical skills in both 2D and 3D game design. Students are not expected to have any prior programming or game design experience.
+This course offers a thorough introduction to the world of video game design and development. Using the Godot 4 game engine, students will learn everything from the fundamentals of how to create 2D and 3D video games for any platform, up through advanced game development concepts like systems architecture and programming patterns. Additional topics covered will include introductory  3D modeling, animation, UX/UI, AI agent design, multiplayer and networking and iterative design processes. This course is highly project focused as students will create several different games over the semester including paper prototypes, 2D games, and 3D games. Game design is an inherently collaborative art form, and as such group work will be a major component of the class.  No prior game design or development experience is necessary, but a fluency with at least one programming language is required. Even for students who are not ultimately interested in video game design, the skills of systems thinking and systems design, team collaboration and communication and iterative based design process are broadly applicable to many technical fields.
 
 ## **Course Objectives:**
-- Understand the principles of game design and development.
-- Gain proficiency in Godot 4.
-- Develop basic coding skills relevant to game design.
-- Complete three major game design projects: a tabletop game, a 2D game, and a capstone game.
-- Enhance writing and oral presentation skills through game-related assignments.
-- Be able to better work in teams
-- Respond to critical feedback constructively
+- Master the fundamentals of 2D and 3D game development using Godot 4.
+- Apply advanced game development concepts and programming patterns.
+- Develop skills in UX/UI design, multiplayer networking, and 3D modeling.
+- Explore machine learning applications and next-gen platform prototyping.*(Dependent on hardware availability)
+- Execute a comprehensive game project from concept to completion.
 
 # **Assessment**
 
@@ -23,16 +21,13 @@ The  work of the class consists of the following:
 
 | Assignment                                                                     | Description                                                                | Due Date                     | Points        |
 |:-------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:-----------------------------|---------------|
-| Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 15            |
-| [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             |                              | 10            |
-| [Tabletop Game](/Assignments//Tabletop/Tabletop.md)                            | A playable prototype of a tabletop game                                    |                              | 16            |
-| [Tabletop Game Process Paper](/Assignments/Tabletop/TableTop_Process_Paper.md) | Paper which documents process, execution and playtesting of tabletop game  |                              | 10            |
-| [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   |                              | 24            |
-| [2D Game Design Document](/Assignments/2D/2D_Concept.md)                       | A brief paper describing your concept for the 2D Game                      |                              | 10            |
-| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          |                              | 25            |
-| [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the 2D Game               |                              | 10            |
-| [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | Final                        | 30            |
-| **Total Points Possible**                                                      |                                                                            |                              | **150**       |
+| Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 10            |
+| [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    |                              | 12            |
+| [Labs 1-3](/Assignments/Labs/)                                                 | 3 short coding assignments designed to build proficiency. 6 points each.   |                              | 18            |
+| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          |                              | 20            |
+| [Walking Sim](/Assignments/WalkingSim.md)                                      | A playable walking simulator                                               |                              | 16            |
+| [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | Final                        | 24            |
+| **Total Points Possible**                                                      |                                                                            |                              | **100**       |
 
 All assignments will be graded on the due date. Students are always allowed to revise and resubmit work **up until the class before the final.**
 
@@ -40,38 +35,41 @@ All assignments will be graded on the due date. Students are always allowed to r
 
 # **Course Outline**
 
-The course is split into 3 distinct modules each with a unique project:
-- Week 1-3: Game Design Fundamentals and tabletop design
-- Week 4-10: 2D Game Design
-- Week 10-14: 3D Game Design/Final Project Development
+The course is split into 4 distinct modules each with a unique project:
+- Week 1-2: Game Design Fundamentals and tabletop design
+- Week 2-6: 2D Game Design
+- Week 7-10: 3D Game Design
+- Week 10-14: Advanced Topics and Final Project Development
 
 
-## Week 1 - What is a Game?
-
+## Weekly Outline
+### Week 1 - What is a Game?
 - [Week 1 Slides](https://docs.google.com/presentation/d/1o1wn7qCIHvm6pyRf_S_lDHJCvFAZv06cnDHy8nc7OfY/edit?usp=sharing)
 - [FILL OUT THIS FORM](https://forms.gle/5X6TjT88Yg5m5XLs8) so you can tell me if I’m giving you too much homework!
 
 - Who are you/Syllabus Review
-- Professor John
 - Game Design Fundamentals
-Break
-- The Iterative Game Design Process 20
+- The Iterative Game Design Process
 - Prototyping
 - Playtesting
 - Group Work
 
-
-- **Homework: [Game Review](/Assignments/Game_Review.md)**
 - **Homework: [Tabletop Game](/Assignments/Tabletop.md)**
 
-## Week 2 - Prototyping and Iteration
+### Week 2 - Closing the Loop, Spiraling Outward/ Hello Godot
 - [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
 - Prototyping Tabletop Games: Balancing and Mechanics
 - Reading: MDA 
 - MDA Framework
 - Systems, Loops and Balance
+- Sharing Final Playtests
+- Longer Design Processes
+- DUE: Tabletop Game
 
-## Week 3  Playtesting/Hello Godot
+- Introduction to the Godot Editor
+  - Nodes
+  - Scenes
+  - Navigation
 
 - Playtesting
 - Getting started with Godot
@@ -81,162 +79,110 @@ Break
 
 - **DUE: Tabletop Game**
 - **Homework: [Lab 1](/Assignments/Labs/Lab_1.md)**
-
----
-
-## Week 4 - Getting Started in 2D
-- Hello Godot
-  - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
-  - Lab 1 review
-  - Nodes and Scenes
-
-- [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
-  - [2D Game Brainstorming](/Resources/2D_Brainstorming.md)
-
-- **DUE: Process Paper**
-- **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 - **Homework: [2D Game](/Assignments/2D/2DGame.md)**
 
-## Week 5 - Coding Fundamentals
-
+### Week 3 - GDScript 101
+  - Getting Up to Speed with Scripting
+  - Data types
+  - Functions
+  - Conditionals & Loops
+  - Arrays & Dicts
+  - Properties and Methods
+  - User Input
 - [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
 - [Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
 - [Coding Fundamentals](Resources/Coding_Fundamentals.md)
   - Scripts and properties
   - Variables
 - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
-- **DUE: Lab 1**
 
-- ****DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)****
+- **DUE: Lab 1**
 - **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 
 
-## Week 6 – Input and Interactions
+### Week 4 - Nodes to Know, Making Connections
+   - Signaling and Referencing nodes
+   - Patterns: [Singleton](https://gameprogrammingpatterns.com/singleton.html),[Observer](https://gameprogrammingpatterns.com/observer.html)
 
-- [Lecture](https://youtube.com/live/hgKD1UNwm_k)
-- Lab Review - 20
+  - Area2D Review
+  - Assets
+    - Tilemaps
+    - Sprite Sheets
+    - Paralax layers
+    - Where to find assets
+      - [Kraftpix](https://craftpix.net/freebies/?utm_campaign=Website&utm_source=gamedev.net&utm_medium=10-free-2d-game-asset-sites)
+      - [Kenny](https://kenney.nl/assets)
+      - [Noun Project](https://thenounproject.com/)
+      - [Dotown](https://dotown.maeda-design-room.net/)
+      - [Open Game Art](https://opengameart.org/)
 
-- Input map
+  - Sound
+  - Lighting
 
-- Using Nodes together
-  - Area2D
-  - Camera2D
-  - Timer 
-  - ChgaracterBody
-  - CollisionShapes
-
-- Functions/Signals
+  - Common Patterns (Time permitting)
+    - Items 
+    - Enemies
+    - Checkpoints
+    - Respawns
+    - Killboxes
 
 - **DUE: Lab 2**
-- **DUE: 2D Concept**
-
-## Week 7 - Level and Environment Design
-
-- Area2D Review
-
-- Assets
-  - Tilemaps
-  - Sprite Sheets
-  - Paralax layers
-  - Where to find assets
-    - [Kraftpix](https://craftpix.net/freebies/?utm_campaign=Website&utm_source=gamedev.net&utm_medium=10-free-2d-game-asset-sites)
-    - [Kenny](https://kenney.nl/assets)
-    - [Noun Project](https://thenounproject.com/)
-    - [Dotown](https://dotown.maeda-design-room.net/)
-    - [Open Game Art](https://opengameart.org/)
-
-- Sound
-- Lighting
-
-- Git Collaboration and Branches
-
-- Common Patterns (Time permitting)
-  - Items 
-  - Enemies
-  - Checkpoints
-  - Respawns
-  - Killboxes
 - **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 
-## Week 8 - UI and Patterns
-- [2D Components](/Modules/2D/2D_Components/)
-- Control Nodes
-- Common Patterns
-  - Items 
-  - Enemies
-  - Checkpoints
-  - Respawns
-  - Killboxes
+### Week 5- Working in Genres/Physics 1
+  - Case Study: Platformer
+  - Case Study: Top-Down
+  - Static Bodies
+  - Rigid Bodies
+  - Character Bodies
+  - Transforms, Vectors, Velocity
+- [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
+- **DUE: Lab 3**
 
+### Week 6 - Polish
+  - UI
+  - JUICE
+  - Sound
 
-- Project Development
+### Week 7 - Playtest/Hello 3D
+  - Models
+  - Textures
+  - Lights
+  - Environments
+  - **DUE: 2D Game**
+  - **Homework:** [Walking Sim](Assignments/WalkingSim.md)
+  - **Homework:** [Capstone Game](/Assignments/Capstone/Capstone_Game)
 
-## Week 9 - Playtesting / Hello 3D
-- Playtesting
-- **DUE: 2D Game**
-- Hello 3D
+### Week 8 - Physics 2
+  - Joints
+  - Cloth
+  - Vehicles
 
----
+### Week 10 - Advanced Topics in 3D
+  - 3D Asset Pipeline
+  - Post-processing
 
-## Week 10 - 3D Environments
+### Week 11  Project Architecture
+  - Classes
+  - Resources
+  - **DUE: Walking Sim**
 
-- Capstone Brainstorming
+### Week 12 - PCs and NPCs
+  - Networking
+  - AI
+    - Pathfinding
+    - Pattern: [State Machines](https://gameprogrammingpatterns.com/state.html)
+    - [Utility AI](https://www.youtube.com/watch?v=9gf2MT-IOsg)
 
-- Hello 3D
-  - Introduction to 3D in Godot
-  - Lighting and Camera Techniques in 3D Games
+### Week 13 - Open Source Everything
+  - Compiling the Editor
+  - Changing Source Code
+  - Plugins and Extensions
 
-## Week 10 - 3D Environments
+### Week 14 - The Games Industry
 
-- [Capstone Brainstorm](/Modules/3D/CapstoneBrainstorm.md)
-
-- Introduction to 3D in Godot
-- Lighting and Camera Techniques in 3D Games
-- Materials, Models
-- Light, Sound
-
-- **Homework: [Lab 3](/Assignments/Labs/Lab_4.md)**
-- **Homework: [Capstone Game](/Assignments/Capstone/Capstone_Game)** 
-- **Homework: [Capstone Presentation](/Assignments/Capstone/Capstone_Concept)** 
-
-## Week 11 - Advanced 3D Topics
-- Materials, Models, Lights, Fog, Camera Attrributes
-
-- Animated Characters
-  - [Mixamo](https://www.mixamo.com)
-  - [Character Animation COmbiner](https://nilooy.github.io/character-animation-combiner/)
-
-- XR
-
-- Physics/Sandbox
-- **DUE: Lab 4**
-
-## Week 12 Review and Capstone Presentations
-
-
-- Review
-- Advanced Topics
-  - Exporting
-  - NPCs, Classes and Inheritance...
-
-- Capstone presentations 
-
-## Week 13 - Capstone Presentations
-
-- Capstone presentations 
-
-## Week 14 - Review
-
-- [Web Export Github Pages](https://bezark.github.io/FCLC-Video-Game-Design/Modules/WebExport/exports/v3/)
-
-- **DUE: Final project playtest**
-- Review 
-
-## Week 15 - Playtesting and Beyond
-
-- **DUE: Capstone Project**
-- Preparing for the Game Industry: Portfolio and Career Paths
-
+### Week 15 - Project Presentations
+  - **DUE: Capstone Game**
 
 
 # **Necessary Materials:**
@@ -275,6 +221,5 @@ Nowadays they like to use the Godot Game Engine to create one of a kind immersiv
 
 When not creating weird things, John also really likes to work in education and he’s passionate about teaching others how to design immersive spaces, how to make games and how to see the world through the lens of Systems Thinking.
 **Email: jbezark@fordham.edu**
-[Portfolio](https://johnbezark.info/)
 
 **Office Hours by appointment.**
