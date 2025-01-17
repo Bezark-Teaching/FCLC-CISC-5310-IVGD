@@ -22,10 +22,10 @@ The  work of the class consists of the following:
 | Assignment                                                                     | Description                                                                | Due Date                     | Points        |
 |:-------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:-----------------------------|---------------|
 | Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 10            |
-| [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    |                              | 12            |
-| [Labs 1-3](/Assignments/Labs/)                                                 | 3 short coding assignments designed to build proficiency. 6 points each.   |                              | 18            |
-| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          |                              | 20            |
-| [Walking Sim](/Assignments/WalkingSim.md)                                      | A playable walking simulator                                               |                              | 16            |
+| [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | 1/24                         | 12            |
+| [Labs 1-3](/Assignments/Labs/)                                                 | 3 short coding assignments designed to build proficiency. 6 points each.   | 1/31, 2/7, 2/14              | 18            |
+| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 2/28                         | 20            |
+| [Walking Sim](/Assignments/WalkingSim.md)                                      | A playable walking simulator                                               | 3/28                         | 16            |
 | [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | Final                        | 24            |
 | **Total Points Possible**                                                      |                                                                            |                              | **100**       |
 
@@ -67,7 +67,6 @@ The course is split into 4 distinct modules each with a unique project:
 - Systems, Loops and Balance
 - Sharing Final Playtests
 - Longer Design Processes
-- DUE: Tabletop Game
 
 - Introduction to the Godot Editor
   - Nodes
