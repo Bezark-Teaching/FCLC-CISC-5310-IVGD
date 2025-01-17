@@ -43,7 +43,7 @@ The course is split into 4 distinct modules each with a unique project:
 
 
 ## Weekly Outline
-### Week 1 - What is a Game?
+### Week 1 1/17 - What is a Game?
 - [Week 1 Slides](https://docs.google.com/presentation/d/1o1wn7qCIHvm6pyRf_S_lDHJCvFAZv06cnDHy8nc7OfY/edit?usp=sharing)
 - [FILL OUT THIS FORM](https://forms.gle/5X6TjT88Yg5m5XLs8) so you can tell me if I’m giving you too much homework!
 
@@ -56,7 +56,10 @@ The course is split into 4 distinct modules each with a unique project:
 
 - **Homework: [Tabletop Game](/Assignments/Tabletop.md)**
 
-### Week 2 - Closing the Loop, Spiraling Outward/ Hello Godot
+### Week 2 - 1/24 Closing the Loop, Spiraling Outward/ Hello Godot
+
+**THIS CLASS WILL END EARLY**
+
 - [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
 - Prototyping Tabletop Games: Balancing and Mechanics
 - Reading: MDA 
@@ -81,7 +84,7 @@ The course is split into 4 distinct modules each with a unique project:
 - **Homework: [Lab 1](/Assignments/Labs/Lab_1.md)**
 - **Homework: [2D Game](/Assignments/2D/2DGame.md)**
 
-### Week 3 - GDScript 101
+### Week 3 1/31 - GDScript 101
   - Getting Up to Speed with Scripting
   - Data types
   - Functions
@@ -100,7 +103,7 @@ The course is split into 4 distinct modules each with a unique project:
 - **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 
 
-### Week 4 - Nodes to Know, Making Connections
+### Week 4 2/7 - Nodes to Know, Making Connections
    - Signaling and Referencing nodes
    - Patterns: [Singleton](https://gameprogrammingpatterns.com/singleton.html),[Observer](https://gameprogrammingpatterns.com/observer.html)
 
@@ -129,7 +132,7 @@ The course is split into 4 distinct modules each with a unique project:
 - **DUE: Lab 2**
 - **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 
-### Week 5- Working in Genres/Physics 1
+### Week 5 2/14- Working in Genres/Physics 1
   - Case Study: Platformer
   - Case Study: Top-Down
   - Static Bodies
@@ -139,12 +142,12 @@ The course is split into 4 distinct modules each with a unique project:
 - [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
 - **DUE: Lab 3**
 
-### Week 6 - Polish
+### Week 6 2/21- Polish
   - UI
   - JUICE
   - Sound
 
-### Week 7 - Playtest/Hello 3D
+### Week 7 2/28- Playtest/Hello 3D
   - Models
   - Textures
   - Lights
@@ -153,35 +156,39 @@ The course is split into 4 distinct modules each with a unique project:
   - **Homework:** [Walking Sim](Assignments/WalkingSim.md)
   - **Homework:** [Capstone Game](/Assignments/Capstone/Capstone_Game)
 
-### Week 8 - Physics 2
+### Week 8 3/7 - Physics 2
   - Joints
   - Cloth
   - Vehicles
 
-### Week 10 - Advanced Topics in 3D
+### Week 10 3/14 - Advanced Topics in 3D
   - 3D Asset Pipeline
   - Post-processing
 
-### Week 11  Project Architecture
+**SPRING BREAK**
+
+### Week 11 3/28 Project Architecture
   - Classes
   - Resources
   - **DUE: Walking Sim**
 
-### Week 12 - PCs and NPCs
+### Week 12 4/4 - PCs and NPCs
   - Networking
   - AI
     - Pathfinding
     - Pattern: [State Machines](https://gameprogrammingpatterns.com/state.html)
     - [Utility AI](https://www.youtube.com/watch?v=9gf2MT-IOsg)
 
-### Week 13 - Open Source Everything
+**EASTER**
+
+### Week 13 4/11 - Open Source Everything
   - Compiling the Editor
   - Changing Source Code
   - Plugins and Extensions
 
-### Week 14 - The Games Industry
+### Week 14 4/25 - The Games Industry
 
-### Week 15 - Project Presentations
+### Week 15 5/2 - Project Presentations
   - **DUE: Capstone Game**
 
 
