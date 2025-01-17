@@ -1,9 +1,9 @@
 # Advanced Game Design and Development - Graduate Level
 
-**Course Code:** 5310
-**Schedule:** Friday Night :(
-**Instructor:** John Bezark
-**Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
+- **Course Code:** 5310
+- **Schedule:** Friday Night :(
+- **Instructor:** John Bezark
+- **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
 
 ## **Course Description:**
 This course offers a thorough introduction to the world of video game design and development. Using the Godot 4 game engine, students will learn everything from the fundamentals of how to create 2D and 3D video games for any platform, up through advanced game development concepts like systems architecture and programming patterns. Additional topics covered will include introductory  3D modeling, animation, UX/UI, AI agent design, multiplayer and networking and iterative design processes. This course is highly project focused as students will create several different games over the semester including paper prototypes, 2D games, and 3D games. Game design is an inherently collaborative art form, and as such group work will be a major component of the class.  No prior game design or development experience is necessary, but a fluency with at least one programming language is required. Even for students who are not ultimately interested in video game design, the skills of systems thinking and systems design, team collaboration and communication and iterative based design process are broadly applicable to many technical fields.
