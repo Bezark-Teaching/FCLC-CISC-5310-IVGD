@@ -55,6 +55,7 @@ The course is split into 4 distinct modules each with a unique project:
 - Group Work
 
 - **Homework: [Tabletop Game](/Assignments/Tabletop.md)**
+- **Homework: [MDA Framework Article](Readings/MDA.pdf)**
 
 ### Week 2 - 1/24 Closing the Loop, Spiraling Outward/ Hello Godot
 
