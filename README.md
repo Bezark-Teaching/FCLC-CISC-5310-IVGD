@@ -59,6 +59,7 @@ The course is split into 4 distinct modules each with a unique project:
 ### Week 2 - 1/24 Closing the Loop, Spiraling Outward/ Hello Godot
 
 **THIS CLASS WILL END EARLY**
+- [MDA Framework Article](Readings/MDA.pdf)
 
 - [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
 - Prototyping Tabletop Games: Balancing and Mechanics
@@ -68,15 +69,14 @@ The course is split into 4 distinct modules each with a unique project:
 - Sharing Final Playtests
 - Longer Design Processes
 
+- Playtesting
+
 - Introduction to the Godot Editor
   - Nodes
   - Scenes
   - Navigation
 
-- Playtesting
-- Getting started with Godot
-- [Git Init](/Modules/2D/Fundamentals/GitInit.md)
-- Nodes and Scenes
+
 - [Video Tutorial](https://www.youtube.com/watch?v=E1srposxZWo)
 
 - **DUE: Tabletop Game**
