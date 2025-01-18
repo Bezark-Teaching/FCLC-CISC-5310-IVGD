@@ -33,10 +33,10 @@ Any questions that came up during development
 
 Grading Criteria: (Total 6 Points)
 
-Scene Implementation (0-2): Does the project include a main scene with at least 2 different sprites and multiple instances of a subscene?
-Script Implementation (0-2): Does the project include a script with an exported variable and conditional logic?
-User Interaction (0-1): Does the project properly respond to user input?
-Project Structure (0-1): Is the project properly organized on GitHub with documentation?
+- Scene Implementation (0-2): Does the project include a main scene with at least 2 different sprites and multiple instances of a subscene?
+- Script Implementation (0-2): Does the project include a script with an exported variable and conditional logic?
+- User Interaction (0-1): Does the project properly respond to user input?
+- Project Structure (0-1): Is the project properly organized on GitHub with documentation?
 
 Submission:
 Submit your GitHub repository link containing the complete project on Blackboard.
