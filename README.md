@@ -60,25 +60,22 @@ The course is split into 4 distinct modules each with a unique project:
 ### Week 2 - 1/24 Closing the Loop, Spiraling Outward/ Hello Godot
 
 **THIS CLASS WILL END EARLY**
-- [MDA Framework Article](Readings/MDA.pdf)
-
-- [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
-- Prototyping Tabletop Games: Balancing and Mechanics
-- Reading: MDA 
-- MDA Framework
-- Systems, Loops and Balance
-- Sharing Final Playtests
-- Longer Design Processes
 
 - Playtesting
 
+- [MDA Framework Article](Readings/MDA.pdf)
+
+- [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
+  - Prototyping Tabletop Games: Balancing and Mechanics
+  - Reading: MDA 
+  - MDA Framework
+  - Systems, Loops and Balance
+
+- [Introduction to Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
 - Introduction to the Godot Editor
   - Nodes
   - Scenes
   - Navigation
-
-
-- [Video Tutorial](https://www.youtube.com/watch?v=E1srposxZWo)
 
 - **DUE: Tabletop Game**
 - **Homework: [Lab 1](/Assignments/Labs/Lab_1.md)**
@@ -92,8 +89,8 @@ The course is split into 4 distinct modules each with a unique project:
   - Arrays & Dicts
   - Properties and Methods
   - User Input
-- [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
-- [Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
+- [Coding Fundamentals Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
+- [Coding Fundamentals Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
 - [Coding Fundamentals](Resources/Coding_Fundamentals.md)
   - Scripts and properties
   - Variables
