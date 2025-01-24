@@ -10,8 +10,8 @@ Create a simple 2D scene that implements fundamental game systems for managing p
 
 #### Specific Deliverables:
 - **Core Systems:**
-  - Player health variable with getter/setter methods
-  - Method for taking damage with optional invincibility frames
+  - Player health variable
+  - Method for taking damage
   - At least one type of hazard that deals damage
   - Respawn point system or checkpoint saving
 - **Visual Feedback:**
