@@ -54,6 +54,7 @@ The course is split into 4 distinct modules each with a unique project:
 - Playtesting
 - Group Work
 
+#### Work
 - **Homework: [Tabletop Game](/Assignments/Tabletop.md)**
 - **Homework: [MDA Framework Article](Readings/MDA.pdf)**
 
@@ -89,7 +90,7 @@ The course is split into 4 distinct modules each with a unique project:
   - Properties and Methods
   - User Input
 
-**Resources:**
+#### Resources:
 - [Introduction to Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
 - [Coding Fundamentals](Resources/Coding_Fundamentals.md)
 - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
@@ -97,6 +98,7 @@ The course is split into 4 distinct modules each with a unique project:
 - [Coding Fundamentals Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
 
 
+#### Work
 - **DUE: Tabletop Game**
 - **Homework: [Lab 1](/Assignments/Labs/Lab_1.md)**
 - **Homework: [2D Game](/Assignments/2D/2DGame.md)**
@@ -128,7 +130,7 @@ The course is split into 4 distinct modules each with a unique project:
     - Checkpoints
     - Respawns
     - Killboxes
-
+#### Work
 - **DUE: Lab 1**
 - **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 
@@ -141,6 +143,7 @@ The course is split into 4 distinct modules each with a unique project:
   - Character Bodies
   - Transforms, Vectors, Velocity
 - [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
+#### Work
 - **DUE: Lab 2**
 - **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 
@@ -148,6 +151,7 @@ The course is split into 4 distinct modules each with a unique project:
   - UI
   - JUICE
   - Sound
+#### Work
 - **DUE: Lab 3**
 
 ### Week 7 2/28- Playtest/Hello 3D
@@ -155,6 +159,7 @@ The course is split into 4 distinct modules each with a unique project:
   - Textures
   - Lights
   - Environments
+#### Work
   - **DUE: 2D Game**
   - **Homework:** [Walking Sim](Assignments/WalkingSim.md)
   - **Homework:** [Capstone Game](/Assignments/Capstone/Capstone_Game)
@@ -173,6 +178,8 @@ The course is split into 4 distinct modules each with a unique project:
 ### Week 11 3/28 Project Architecture
   - Classes
   - Resources
+
+#### Work
   - **DUE: Walking Sim**
 
 ### Week 12 4/4 - PCs and NPCs
@@ -192,6 +199,8 @@ The course is split into 4 distinct modules each with a unique project:
 ### Week 14 4/25 - The Games Industry
 
 ### Week 15 5/2 - Project Presentations
+
+#### Work
   - **DUE: Capstone Game**
 
 
