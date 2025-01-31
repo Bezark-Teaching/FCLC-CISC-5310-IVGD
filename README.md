@@ -22,8 +22,8 @@ The  work of the class consists of the following:
 | Assignment                                                                     | Description                                                                | Due Date                     | Points        |
 |:-------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:-----------------------------|---------------|
 | Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 10            |
-| [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | 1/24                         | 12            |
-| [Labs 1-3](/Assignments/Labs/)                                                 | 3 short coding assignments designed to build proficiency. 6 points each.   | 1/31, 2/7, 2/14              | 18            |
+| [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | 1/31                         | 12            |
+| [Labs 1-3](/Assignments/Labs/)                                                 | 3 short coding assignments designed to build proficiency. 6 points each.   | 2/7, 2/14, 2/21              | 18            |
 | [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 2/28                         | 20            |
 | [Walking Sim](/Assignments/WalkingSim.md)                                      | A playable walking simulator                                               | 3/28                         | 16            |
 | [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | Final                        | 24            |
@@ -57,50 +57,53 @@ The course is split into 4 distinct modules each with a unique project:
 - **Homework: [Tabletop Game](/Assignments/Tabletop.md)**
 - **Homework: [MDA Framework Article](Readings/MDA.pdf)**
 
-### Week 2 - 1/24 Closing the Loop, Spiraling Outward/ Hello Godot
+### Week 2 - 1/24 Playtesting 
 
 **THIS CLASS WILL END EARLY**
 
 - Playtesting
 
-- [MDA Framework Article](Readings/MDA.pdf)
 
+
+### Week 3 1/31 -MDA/Hello Godot
+
+- [MDA Framework Article](Readings/MDA.pdf)
 - [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
   - Prototyping Tabletop Games: Balancing and Mechanics
   - Reading: MDA 
   - MDA Framework
   - Systems, Loops and Balance
 
-- [Introduction to Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
 - Introduction to the Godot Editor
   - Nodes
   - Scenes
   - Navigation
 
-- **DUE: Tabletop Game**
-- **Homework: [Lab 1](/Assignments/Labs/Lab_1.md)**
-- **Homework: [2D Game](/Assignments/2D/2DGame.md)**
-
-### Week 3 1/31 - GDScript 101
-  - Getting Up to Speed with Scripting
+- Scripting
+  - Scripts and properties
+  - Variables
   - Data types
   - Functions
   - Conditionals & Loops
   - Arrays & Dicts
   - Properties and Methods
   - User Input
+
+**Resources:**
+- [Introduction to Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
+- [Coding Fundamentals](Resources/Coding_Fundamentals.md)
+- [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
 - [Coding Fundamentals Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
 - [Coding Fundamentals Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
-- [Coding Fundamentals](Resources/Coding_Fundamentals.md)
-  - Scripts and properties
-  - Variables
-- [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
-
-- **DUE: Lab 1**
-- **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 
 
-### Week 4 2/7 - Nodes to Know, Making Connections
+- **DUE: Tabletop Game**
+- **Homework: [Lab 1](/Assignments/Labs/Lab_1.md)**
+- **Homework: [2D Game](/Assignments/2D/2DGame.md)**
+
+
+
+### Week 4 2/7 - Nodes to Know, Making Connections 
    - Signaling and Referencing nodes
    - Patterns: [Singleton](https://gameprogrammingpatterns.com/singleton.html),[Observer](https://gameprogrammingpatterns.com/observer.html)
 
@@ -126,8 +129,9 @@ The course is split into 4 distinct modules each with a unique project:
     - Respawns
     - Killboxes
 
-- **DUE: Lab 2**
-- **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
+- **DUE: Lab 1**
+- **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
+
 
 ### Week 5 2/14- Working in Genres/Physics 1
   - Case Study: Platformer
@@ -137,12 +141,14 @@ The course is split into 4 distinct modules each with a unique project:
   - Character Bodies
   - Transforms, Vectors, Velocity
 - [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
-- **DUE: Lab 3**
+- **DUE: Lab 2**
+- **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 
 ### Week 6 2/21- Polish
   - UI
   - JUICE
   - Sound
+- **DUE: Lab 3**
 
 ### Week 7 2/28- Playtest/Hello 3D
   - Models
