@@ -92,6 +92,7 @@ The course is split into 4 distinct modules each with a unique project:
 
 #### Resources:
 - [Introduction to Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
+- [Learn GDScript From Zero](https://gdquest.github.io/learn-gdscript/?ref=godot-docs)
 - [Coding Fundamentals](Resources/Coding_Fundamentals.md)
 - [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
 - [Coding Fundamentals Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
