@@ -1,0 +1,76 @@
+[gd_scene load_steps=6 format=3 uid="uid://ymftpx4pdscv"]
+
+[ext_resource type="Texture2D" uid="uid://dnsg31ddaijnk" path="res://images/icon.svg" id="1_gohcl"]
+[ext_resource type="Texture2D" uid="uid://cg5117cl5bf3l" path="res://images/dog.png" id="2_5ie5f"]
+[ext_resource type="Texture2D" uid="uid://cmsq554s287kf" path="res://images/sonic/ba0305e8e9994a6c92b41380dae42503eve0N4Bsq5pdqdo9-0.png" id="3_54a44"]
+[ext_resource type="Script" path="res://dog.gd" id="3_p3p1r"]
+[ext_resource type="PackedScene" uid="uid://rhghx2v1j8l2" path="res://tree.tscn" id="5_yt0lo"]
+
+[node name="Robot" type="Sprite2D"]
+position = Vector2(-2021, -1031)
+scale = Vector2(2, 2)
+texture = ExtResource("1_gohcl")
+
+[node name="sonic2" type="Sprite2D" parent="."]
+position = Vector2(1680.5, 645)
+scale = Vector2(0.232823, 0.21881)
+texture = ExtResource("3_54a44")
+
+[node name="sonic" type="Sprite2D" parent="sonic2"]
+position = Vector2(-827.599, -643.153)
+scale = Vector2(0.421597, 0.668371)
+texture = ExtResource("3_54a44")
+
+[node name="Dog" type="Sprite2D" parent="."]
+position = Vector2(1733, 106)
+scale = Vector2(0.0343696, 0.0347548)
+texture = ExtResource("2_5ie5f")
+script = ExtResource("3_p3p1r")
+
+[node name="Dog2" type="Sprite2D" parent="."]
+position = Vector2(1600.5, 104.5)
+scale = Vector2(0.0343696, 0.0347548)
+texture = ExtResource("2_5ie5f")
+script = ExtResource("3_p3p1r")
+title = "Doggiiie"
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="Tree" parent="." instance=ExtResource("5_yt0lo")]
+position = Vector2(1049.5, 531)
+
+[node name="Tree2" parent="." instance=ExtResource("5_yt0lo")]
+position = Vector2(1293.5, 525.5)
+
+[node name="Tree3" parent="." instance=ExtResource("5_yt0lo")]
+position = Vector2(1293.5, 525.5)
+
+[node name="Tree4" parent="." instance=ExtResource("5_yt0lo")]
+position = Vector2(1293.5, 525.5)
+
+[node name="Tree5" parent="." instance=ExtResource("5_yt0lo")]
+position = Vector2(1293.5, 525.5)
+
+[node name="Tree6" parent="." instance=ExtResource("5_yt0lo")]
+modulate = Color(0.372549, 0.513726, 0.117647, 1)
+position = Vector2(1324, 205.5)
+scale = Vector2(0.1, 1)
+
+[node name="Tree7" parent="." instance=ExtResource("5_yt0lo")]
+modulate = Color(0.568178, 0.610829, 0.702428, 1)
+position = Vector2(1134.5, 235)
+
+[node name="Tree8" parent="." instance=ExtResource("5_yt0lo")]
+position = Vector2(1449.5, 365.5)
+
+[node name="Tree9" parent="." instance=ExtResource("5_yt0lo")]
+position = Vector2(1551, 459)
+
+[node name="Tree10" parent="." instance=ExtResource("5_yt0lo")]
+position = Vector2(1388, 833.5)
+
+[node name="Tree11" parent="." instance=ExtResource("5_yt0lo")]
+position = Vector2(1136, 812)
+
+[node name="Tree12" parent="." instance=ExtResource("5_yt0lo")]
+position = Vector2(1551, 739)

@@ -1,0 +1,38 @@
+[gd_scene load_steps=6 format=3 uid="uid://cp1hfpcjiftws"]
+
+[ext_resource type="Texture2D" uid="uid://cmsq554s287kf" path="res://images/sonic/ba0305e8e9994a6c92b41380dae42503eve0N4Bsq5pdqdo9-0.png" id="1_vkbnw"]
+[ext_resource type="Texture2D" uid="uid://dsbsj3i0h8c2j" path="res://images/sonic/ba0305e8e9994a6c92b41380dae42503eve0N4Bsq5pdqdo9-1.png" id="2_c8d2j"]
+[ext_resource type="Texture2D" uid="uid://35uee3dtrx5v" path="res://images/sonic/ba0305e8e9994a6c92b41380dae42503eve0N4Bsq5pdqdo9-2.png" id="3_jhkxq"]
+[ext_resource type="Texture2D" uid="uid://m84mv77dy6s0" path="res://images/sonic/ba0305e8e9994a6c92b41380dae42503eve0N4Bsq5pdqdo9-3.png" id="4_4txb8"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_serli"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_vkbnw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_c8d2j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_jhkxq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_4txb8")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"left",
+"speed": 5.0
+}]
+
+[node name="OtherScene" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(264, 165)
+sprite_frames = SubResource("SpriteFrames_serli")
+animation = &"left"
