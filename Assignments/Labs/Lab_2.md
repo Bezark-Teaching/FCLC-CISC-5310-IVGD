@@ -3,6 +3,8 @@ Create a unique variation of Pong that subverts or reimagines one core element o
 
 https://pippinbarr.com/pongs/info/
 
+Feel free to use [Pong](../../Modules/2D/pong) as a reference.
+
 #### Requirements:
 - Must be recognizable as a variation of Pong
 - Must meaningfully change one core element (ball behavior, paddle function, scoring, screen space, time, etc.)

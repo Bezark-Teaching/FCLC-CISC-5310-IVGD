@@ -110,10 +110,13 @@ The course is split into 4 distinct modules each with a unique project:
 
 - Q&A
   - Is there Garbage collection in Godot?
+  [ChatGPT Says...](https://chatgpt.com/share/67a66b47-4cf0-8007-87b0-d614c2e2072c)
 > - Reference-counted objects (RefCounted): These are automatically freed when no references remain. The engine cleans them up without manual intervention.
 > - Manually managed objects (Object or Node): Nodes and Objects that do not inherit from RefCounted must be manually freed using queue_free() (for Nodes) or free() (for Objects).
 > - Resource Management: Resource objects (like Texture, Material, Mesh, etc.) are reference-counted, but they may persist in memory if cached (e.g., in the ResourceCache).
 
+  - Can you jump to definitions of built-in methods?
+    - No!
 
 - Scripting
   - Scripts and properties
@@ -124,8 +127,7 @@ The course is split into 4 distinct modules each with a unique project:
   - Arrays & Dicts
   - Properties and Methods
 
-- Lab 1 Review
-
+- [Lab 1 Review](Modules/2D/lab1/)
 
 - Essential Nodes
   - Area2D 
@@ -158,10 +160,11 @@ The course is split into 4 distinct modules each with a unique project:
     - Checkpoints
     - Respawns
     - Killboxes
+
 #### Work
 - **DUE: Lab 1**
 - **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
-
+- **Homework: [2D Game](/Assignments/2D/2DGame.md)**
 
 ### Week 5 2/14- Working in Genres/Physics 1
   - Case Study: Platformer
