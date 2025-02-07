@@ -110,9 +110,9 @@ The course is split into 4 distinct modules each with a unique project:
 
 - Q&A
   - Is there Garbage collection in Godot?
-> Reference-counted objects (RefCounted): These are automatically freed when no references remain. The engine cleans them up without manual intervention.
-> Manually managed objects (Object or Node): Nodes and Objects that do not inherit from RefCounted must be manually freed using queue_free() (for Nodes) or free() (for Objects).
-> Resource Management: Resource objects (like Texture, Material, Mesh, etc.) are reference-counted, but they may persist in memory if cached (e.g., in the ResourceCache).
+> - Reference-counted objects (RefCounted): These are automatically freed when no references remain. The engine cleans them up without manual intervention.
+> - Manually managed objects (Object or Node): Nodes and Objects that do not inherit from RefCounted must be manually freed using queue_free() (for Nodes) or free() (for Objects).
+> - Resource Management: Resource objects (like Texture, Material, Mesh, etc.) are reference-counted, but they may persist in memory if cached (e.g., in the ResourceCache).
 
 
 - Scripting
