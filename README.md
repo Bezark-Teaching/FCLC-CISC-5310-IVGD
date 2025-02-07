@@ -107,6 +107,17 @@ The course is split into 4 distinct modules each with a unique project:
 
 
 ### Week 4 2/7 - Nodes to Know, Making Connections 
+
+- Scripting
+  - Scripts and properties
+  - Variables
+  - Data types
+  - Functions
+  - Conditionals & Loops
+  - Arrays & Dicts
+  - Properties and Methods
+
+- User Input
    - Signaling and Referencing nodes
    - Patterns: [Singleton](https://gameprogrammingpatterns.com/singleton.html),[Observer](https://gameprogrammingpatterns.com/observer.html)
 
