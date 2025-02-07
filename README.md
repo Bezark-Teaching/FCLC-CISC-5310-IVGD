@@ -135,31 +135,36 @@ The course is split into 4 distinct modules each with a unique project:
   - Camera2D
   - RigidBody2D
   - AnimatedSprites
-
- - Assets
   - Tilemaps
+
+ **Break**
+
+
+- Assets
   - Sprite Sheets
   - Paralax layers
   - Where to find assets
+    - [itch.io](https://itch.io/game-assets)
     - [Kraftpix](https://craftpix.net/freebies/?utm_campaign=Website&utm_source=gamedev.net&utm_medium=10-free-2d-game-asset-sites)
     - [Kenny](https://kenney.nl/assets)
     - [Noun Project](https://thenounproject.com/)
     - [Dotown](https://dotown.maeda-design-room.net/)
     - [Open Game Art](https://opengameart.org/)
 
+
 - User Input
 - Signals and Referencing nodes
    - Patterns: [Singleton](https://gameprogrammingpatterns.com/singleton.html),[Observer](https://gameprogrammingpatterns.com/observer.html)
 
 
-  
-
-  - Common Patterns (Time permitting)
-    - Items 
-    - Enemies
-    - Checkpoints
-    - Respawns
-    - Killboxes
+  - Composition
+    - Pong
+    - Common Patterns (Time permitting)
+      - Items 
+      - Enemies
+      - Checkpoints
+      - Respawns
+      - Killboxes
 
 #### Work
 - **DUE: Lab 1**
