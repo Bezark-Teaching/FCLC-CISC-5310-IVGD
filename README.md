@@ -108,6 +108,13 @@ The course is split into 4 distinct modules each with a unique project:
 
 ### Week 4 2/7 - Nodes to Know, Making Connections 
 
+- Q&A
+  - Is there Garbage collection in Godot?
+> Reference-counted objects (RefCounted): These are automatically freed when no references remain. The engine cleans them up without manual intervention.
+> Manually managed objects (Object or Node): Nodes and Objects that do not inherit from RefCounted must be manually freed using queue_free() (for Nodes) or free() (for Objects).
+> Resource Management: Resource objects (like Texture, Material, Mesh, etc.) are reference-counted, but they may persist in memory if cached (e.g., in the ResourceCache).
+
+
 - Scripting
   - Scripts and properties
   - Variables
@@ -117,24 +124,33 @@ The course is split into 4 distinct modules each with a unique project:
   - Arrays & Dicts
   - Properties and Methods
 
+- Lab 1 Review
+
+
+- Essential Nodes
+  - Area2D 
+  - CharacterBody2D
+  - Camera2D
+  - RigidBody2D
+  - AnimatedSprites
+
+ - Assets
+  - Tilemaps
+  - Sprite Sheets
+  - Paralax layers
+  - Where to find assets
+    - [Kraftpix](https://craftpix.net/freebies/?utm_campaign=Website&utm_source=gamedev.net&utm_medium=10-free-2d-game-asset-sites)
+    - [Kenny](https://kenney.nl/assets)
+    - [Noun Project](https://thenounproject.com/)
+    - [Dotown](https://dotown.maeda-design-room.net/)
+    - [Open Game Art](https://opengameart.org/)
+
 - User Input
-   - Signaling and Referencing nodes
+- Signals and Referencing nodes
    - Patterns: [Singleton](https://gameprogrammingpatterns.com/singleton.html),[Observer](https://gameprogrammingpatterns.com/observer.html)
 
-  - Area2D Review
-  - Assets
-    - Tilemaps
-    - Sprite Sheets
-    - Paralax layers
-    - Where to find assets
-      - [Kraftpix](https://craftpix.net/freebies/?utm_campaign=Website&utm_source=gamedev.net&utm_medium=10-free-2d-game-asset-sites)
-      - [Kenny](https://kenney.nl/assets)
-      - [Noun Project](https://thenounproject.com/)
-      - [Dotown](https://dotown.maeda-design-room.net/)
-      - [Open Game Art](https://opengameart.org/)
 
-  - Sound
-  - Lighting
+  
 
   - Common Patterns (Time permitting)
     - Items 
@@ -155,6 +171,7 @@ The course is split into 4 distinct modules each with a unique project:
   - Character Bodies
   - Transforms, Vectors, Velocity
 - [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
+
 #### Work
 - **DUE: Lab 2**
 - **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
@@ -163,6 +180,8 @@ The course is split into 4 distinct modules each with a unique project:
   - UI
   - JUICE
   - Sound
+  - Lighting
+
 #### Work
 - **DUE: Lab 3**
 
