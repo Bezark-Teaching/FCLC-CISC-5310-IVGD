@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=3 uid="uid://4k54pl8cupnp"]
+
+[ext_resource type="PackedScene" uid="uid://dsigyjthiwkc6" path="res://character_body_2d.tscn" id="2_3fkgk"]
+[ext_resource type="PackedScene" uid="uid://db58xls5ga4ct" path="res://coin_block.tscn" id="2_86uwt"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0jlrd"]
+size = Vector2(1094, 89)
+
+[node name="Level" type="Node2D"]
+position = Vector2(438, 240)
+
+[node name="Floor" type="ColorRect" parent="."]
+offset_left = -406.0
+offset_top = 345.0
+offset_right = 708.0
+offset_bottom = 385.0
+color = Color(1, 0.403922, 0.403922, 1)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Floor"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor/StaticBody2D"]
+position = Vector2(549, 44)
+shape = SubResource("RectangleShape2D_0jlrd")
+
+[node name="Coins" type="Node2D" parent="."]
+
+[node name="CoinBlock" parent="Coins" instance=ExtResource("2_86uwt")]
+position = Vector2(72, -92)
+
+[node name="CoinBlock2" parent="Coins" instance=ExtResource("2_86uwt")]
+position = Vector2(-228, -105)
+
+[node name="CoinBlock3" parent="Coins" instance=ExtResource("2_86uwt")]
+position = Vector2(364, -97)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_3fkgk")]
+position = Vector2(-82, -338)

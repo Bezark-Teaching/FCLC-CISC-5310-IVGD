@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://db58xls5ga4ct"]
+
+[ext_resource type="Texture2D" uid="uid://b0eg3kf0ly5yc" path="res://coin_block.png" id="1_l2ftb"]
+[ext_resource type="Script" path="res://coin_block.gd" id="2_k58s5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mxjtt"]
+size = Vector2(200, 200)
+
+[node name="RigidBody2D" type="RigidBody2D"]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(4, -8)
+shape = SubResource("RectangleShape2D_mxjtt")
+
+[node name="CoinBlock" type="Sprite2D" parent="."]
+modulate = Color(0.807843, 0.462745, 0.419608, 0.431373)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("1_l2ftb")
+region_enabled = true
+region_rect = Rect2(44.625, 115.75, 799.875, 806.625)
+script = ExtResource("2_k58s5")
+
+[node name="Area2D" type="Area2D" parent="CoinBlock"]
+position = Vector2(4, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CoinBlock/Area2D"]
+position = Vector2(0, -8)
+shape = SubResource("RectangleShape2D_mxjtt")
+
+[connection signal="area_entered" from="CoinBlock/Area2D" to="CoinBlock" method="_on_area_2d_area_entered"]
+[connection signal="area_exited" from="CoinBlock/Area2D" to="CoinBlock" method="_on_area_2d_area_exited"]

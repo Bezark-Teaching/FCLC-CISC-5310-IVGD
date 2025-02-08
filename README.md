@@ -134,12 +134,15 @@ The course is split into 4 distinct modules each with a unique project:
   - CharacterBody2D
   - Camera2D
   - RigidBody2D
-  - AnimatedSprites
-  - Tilemaps
 
  **Break**
 
+- User Input
+- Signals and Referencing nodes
+   - Patterns: [Singleton](https://gameprogrammingpatterns.com/singleton.html),[Observer](https://gameprogrammingpatterns.com/observer.html)
 
+- AnimatedSprites
+- Tilemaps
 - Assets
   - Sprite Sheets
   - Paralax layers
@@ -150,12 +153,6 @@ The course is split into 4 distinct modules each with a unique project:
     - [Noun Project](https://thenounproject.com/)
     - [Dotown](https://dotown.maeda-design-room.net/)
     - [Open Game Art](https://opengameart.org/)
-
-
-- User Input
-- Signals and Referencing nodes
-   - Patterns: [Singleton](https://gameprogrammingpatterns.com/singleton.html),[Observer](https://gameprogrammingpatterns.com/observer.html)
-
 
   - Composition
     - Pong

@@ -1,0 +1,32 @@
+[gd_scene load_steps=6 format=3 uid="uid://bsl2e6t4dxtek"]
+
+[ext_resource type="Texture2D" uid="uid://bxrtw8sph8331" path="res://icon.svg" id="1_kn711"]
+[ext_resource type="Script" path="res://player.gd" id="2_thklo"]
+[ext_resource type="Script" path="res://area_2d.gd" id="3_fqy1h"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_wayx5"]
+radius = 95.021
+
+[sub_resource type="LabelSettings" id="LabelSettings_jydq6"]
+font_size = 64
+
+[node name="Player" type="Sprite2D"]
+position = Vector2(16, 3)
+texture = ExtResource("1_kn711")
+script = ExtResource("2_thklo")
+
+[node name="Area2D" type="Area2D" parent="."]
+script = ExtResource("3_fqy1h")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_wayx5")
+
+[node name="Score" type="Label" parent="."]
+offset_left = -1075.0
+offset_top = -569.0
+offset_right = -759.0
+offset_bottom = -454.0
+text = "100		"
+label_settings = SubResource("LabelSettings_jydq6")
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
