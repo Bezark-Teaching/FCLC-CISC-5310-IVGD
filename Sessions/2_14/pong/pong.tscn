@@ -1,0 +1,46 @@
+[gd_scene load_steps=5 format=3 uid="uid://dlvne3vmys0s5"]
+
+[ext_resource type="PackedScene" uid="uid://cjp5ya225w70f" path="res://paddle.tscn" id="1_68m41"]
+[ext_resource type="PackedScene" uid="uid://dv1kldpiwk83v" path="res://ball.tscn" id="2_10kuk"]
+[ext_resource type="PackedScene" uid="uid://cxtukvsnt5j47" path="res://score_zone.tscn" id="3_b0bki"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_cblqq"]
+font_size = 64
+
+[node name="Pong" type="Node2D"]
+
+[node name="Paddle" parent="." instance=ExtResource("1_68m41")]
+position = Vector2(64, 320)
+
+[node name="Paddle2" parent="." instance=ExtResource("1_68m41")]
+position = Vector2(1088, 320)
+up = 4194320
+down = 4194322
+
+[node name="Ball" parent="." instance=ExtResource("2_10kuk")]
+velocity = Vector2(500, 200)
+
+[node name="ScoreZone" parent="." instance=ExtResource("3_b0bki")]
+
+[node name="Label" type="Label" parent="ScoreZone"]
+offset_left = 1024.0
+offset_right = 1088.0
+offset_bottom = 88.0
+text = "0"
+label_settings = SubResource("LabelSettings_cblqq")
+horizontal_alignment = 1
+
+[node name="ScoreZone2" parent="." instance=ExtResource("3_b0bki")]
+position = Vector2(1216, 0)
+
+[node name="Label" type="Label" parent="ScoreZone2"]
+offset_left = -1152.0
+offset_right = -1088.0
+offset_bottom = 88.0
+text = "0"
+label_settings = SubResource("LabelSettings_cblqq")
+horizontal_alignment = 1
+
+[node name="Line2D" type="Line2D" parent="."]
+position = Vector2(576, 0)
+points = PackedVector2Array(0, 640, 0, 0)

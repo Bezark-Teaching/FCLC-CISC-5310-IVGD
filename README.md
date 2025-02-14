@@ -143,15 +143,15 @@ The course is split into 4 distinct modules each with a unique project:
 - **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 - **Homework: [2D Game](/Assignments/2D/2DGame.md)**
 
-### Week 5 2/14- Working in Genres/Physics 1
+### Week 5 2/14- Assets, Patterns and Envirnoments
 
+[Slides](Sessions/2_14/Slides.md)
 
 #### Review
 - Questions:
   - having nodes follow at different speeds
   - animations for node movement
   - scene transitions in-game- Signals and Referencing nodes
-  - what is "sprite from a foreign scene"?
   - How can I make the character jump (vertically)?
   - How can I add collisions so the character doesn’t move off-screen?
 - pong review

@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://cxtukvsnt5j47"]
+
+[ext_resource type="Script" path="res://score_zone.gd" id="1_vv543"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rt4sr"]
+size = Vector2(64, 658)
+
+[node name="ScoreZone" type="Area2D"]
+script = ExtResource("1_vv543")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-32, 319)
+shape = SubResource("RectangleShape2D_rt4sr")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
