@@ -171,9 +171,6 @@ Questions:
     - [Dotown](https://dotown.maeda-design-room.net/)
     - [Open Game Art](https://opengameart.org/)
 
-- Case Study: Platformer
-- Case Study: Top-Down
-
 - Composition
   - Common Patterns
     - Items 
@@ -183,6 +180,8 @@ Questions:
     - Killboxes
   - **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 
+- Case Study: Platformer
+- Case Study: Top-Down
 
 - [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
 
