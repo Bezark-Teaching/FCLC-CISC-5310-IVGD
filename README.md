@@ -138,8 +138,25 @@ The course is split into 4 distinct modules each with a unique project:
  **Break**
 
 - User Input
-- Signals and Referencing nodes
-   - Patterns: [Singleton](https://gameprogrammingpatterns.com/singleton.html),[Observer](https://gameprogrammingpatterns.com/observer.html)
+#### Work
+- **DUE: Lab 1**
+- **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
+- **Homework: [2D Game](/Assignments/2D/2DGame.md)**
+
+### Week 5 2/14- Working in Genres/Physics 1
+
+Questions:
+- having nodes follow at different speeds
+- animations for node movement
+- scene transitions in-game- Signals and Referencing nodes
+- what is "sprite from a foreign scene"?
+- How can I make the character jump (vertically)?
+- How can I add collisions so the character doesn’t move off-screen?
+
+ - Patterns: [Singleton](https://gameprogrammingpatterns.com/singleton.html),[Observer](https://gameprogrammingpatterns.com/observer.html)
+
+- Pong
+
 
 - AnimatedSprites
 - Tilemaps
@@ -154,27 +171,19 @@ The course is split into 4 distinct modules each with a unique project:
     - [Dotown](https://dotown.maeda-design-room.net/)
     - [Open Game Art](https://opengameart.org/)
 
-  - Composition
-    - Pong
-    - Common Patterns (Time permitting)
-      - Items 
-      - Enemies
-      - Checkpoints
-      - Respawns
-      - Killboxes
+- Case Study: Platformer
+- Case Study: Top-Down
 
-#### Work
-- **DUE: Lab 1**
-- **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
-- **Homework: [2D Game](/Assignments/2D/2DGame.md)**
+- Composition
+  - Common Patterns
+    - Items 
+    - Enemies
+    - Checkpoints
+    - Respawns
+    - Killboxes
+  - **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 
-### Week 5 2/14- Working in Genres/Physics 1
-  - Case Study: Platformer
-  - Case Study: Top-Down
-  - Static Bodies
-  - Rigid Bodies
-  - Character Bodies
-  - Transforms, Vectors, Velocity
+
 - [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
 
 #### Work
@@ -201,6 +210,7 @@ The course is split into 4 distinct modules each with a unique project:
   - **Homework:** [Capstone Game](/Assignments/Capstone/Capstone_Game)
 
 ### Week 8 3/7 - Physics 2
+  - Transforms, Vectors, Velocity
   - Joints
   - Cloth
   - Vehicles

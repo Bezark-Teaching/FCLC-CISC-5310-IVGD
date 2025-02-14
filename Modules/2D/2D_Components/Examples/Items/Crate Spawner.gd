@@ -12,6 +12,6 @@ func  _ready():
 
 
 func _on_timer_timeout():
-	var new_box = RIGIDBODY_BOX.instantiate()
-	$Boxes.add_child(new_box)
-
+	for x in 100:
+		var new_box = RIGIDBODY_BOX.instantiate()
+		$Boxes.add_child(new_box)
