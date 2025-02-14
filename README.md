@@ -145,19 +145,21 @@ The course is split into 4 distinct modules each with a unique project:
 
 ### Week 5 2/14- Working in Genres/Physics 1
 
-Questions:
-- having nodes follow at different speeds
-- animations for node movement
-- scene transitions in-game- Signals and Referencing nodes
-- what is "sprite from a foreign scene"?
-- How can I make the character jump (vertically)?
-- How can I add collisions so the character doesn’t move off-screen?
 
- - Patterns: [Singleton](https://gameprogrammingpatterns.com/singleton.html),[Observer](https://gameprogrammingpatterns.com/observer.html)
+#### Review
+- Questions:
+  - having nodes follow at different speeds
+  - animations for node movement
+  - scene transitions in-game- Signals and Referencing nodes
+  - what is "sprite from a foreign scene"?
+  - How can I make the character jump (vertically)?
+  - How can I add collisions so the character doesn’t move off-screen?
+- pong review
+- git revew
 
-- Pong
 
 
+#### Assets
 - AnimatedSprites
 - Tilemaps
 - Assets
@@ -171,6 +173,12 @@ Questions:
     - [Dotown](https://dotown.maeda-design-room.net/)
     - [Open Game Art](https://opengameart.org/)
 
+#### Patterns
+- [Patterns](https://docs.google.com/presentation/d/1Hk9H7u_YFsuF3ZEwK9-Qux65CLM2lkOdccihLV83lz4/edit?usp=drivesdk) 
+  - [A Pattern Language](Readings/Alexander_A_Pattern_Language.pdf)
+  - [The Timeless Way of Building](Readings/The_Timeless_Way_of_Building_Complete.pdf)
+- [Game Programming Patterns](https://gameprogrammingpatterns.com)
+  - [Singleton](https://gameprogrammingpatterns.com/singleton.html),[Observer](https://gameprogrammingpatterns.com/observer.html)
 - Composition
   - Common Patterns
     - Items 
@@ -178,12 +186,13 @@ Questions:
     - Checkpoints
     - Respawns
     - Killboxes
-  - **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 
 - Case Study: Platformer
 - Case Study: Top-Down
 
+#### Brainstorming
 - [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
+- [Activity](Modules/3D/CapstoneBrainstorm.md)
 
 #### Work
 - **DUE: Lab 2**
