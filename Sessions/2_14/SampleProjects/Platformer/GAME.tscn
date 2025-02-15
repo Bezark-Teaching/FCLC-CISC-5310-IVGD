@@ -260,7 +260,7 @@ tile_set = SubResource("TileSet_2acny")
 [node name="Checkpoints" type="Node2D" parent="TileMap"]
 
 [node name="Spawn1" type="Marker2D" parent="TileMap/Checkpoints"]
-position = Vector2(40, -88)
+position = Vector2(176, -122)
 
 [node name="Checkpoint" parent="TileMap/Checkpoints" instance=ExtResource("3_vfxb7")]
 position = Vector2(1656, 0)

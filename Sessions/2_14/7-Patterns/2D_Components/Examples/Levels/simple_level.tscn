@@ -59,3 +59,11 @@ metadata/_edit_use_anchors_ = true
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Floor"]
 position = Vector2(430, 20.5)
 shape = SubResource("RectangleShape2D_t40yc")
+
+[node name="Floor2" type="StaticBody2D" parent="."]
+position = Vector2(-3, -682)
+rotation = 1.57079
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor2"]
+position = Vector2(430, 20.5)
+shape = SubResource("RectangleShape2D_t40yc")
