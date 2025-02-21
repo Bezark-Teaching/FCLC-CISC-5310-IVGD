@@ -199,31 +199,48 @@ The course is split into 4 distinct modules each with a unique project:
 - **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 
 ### Week 6 2/21- Polish
-  - UI
+
+- Show and Tell
+
+
+- UI
+
+- Effects
   - JUICE
   - Sound
   - Lighting
+  - Particles
+
+- Project Developoment
+
+
 
 #### Work
 - **DUE: Lab 3**
 
-### Week 7 2/28- Playtest/Hello 3D
+### Week 7 2/28- Playtest
+
+
+- **Playtesting 2D Games**
+
+### Week 8 3/7 - Hello 3D
   - Models
   - Textures
   - Lights
   - Environments
+
 #### Work
   - **DUE: 2D Game**
   - **Homework:** [Walking Sim](Assignments/WalkingSim.md)
   - **Homework:** [Capstone Game](/Assignments/Capstone/Capstone_Game)
 
-### Week 8 3/7 - Physics 2
+
+### Week 10 3/14 - Advanced Topics in 3D
+### Physics 2
   - Transforms, Vectors, Velocity
   - Joints
   - Cloth
   - Vehicles
-
-### Week 10 3/14 - Advanced Topics in 3D
   - 3D Asset Pipeline
   - Post-processing
 
