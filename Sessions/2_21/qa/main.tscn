@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://cx7v8pslo6ffv"]
+
+[ext_resource type="PackedScene" uid="uid://dqbj1lw7akf0" path="res://bullet.tscn" id="1_0veal"]
+[ext_resource type="PackedScene" uid="uid://bvgb73iqscvy8" path="res://character_body_2d.tscn" id="2_auvhs"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Icon" parent="." instance=ExtResource("1_0veal")]
+position = Vector2(114, 42)
+
+[node name="Icon2" parent="." instance=ExtResource("1_0veal")]
+position = Vector2(-487, 44)
+
+[node name="Icon3" parent="." instance=ExtResource("1_0veal")]
+position = Vector2(-285, 42)
+
+[node name="Icon4" parent="." instance=ExtResource("1_0veal")]
+position = Vector2(-94, 44)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_auvhs")]
+position = Vector2(320, -1)
+
+[connection signal="player_died" from="CharacterBody2D" to="." method="_on_character_body_2d_player_died"]

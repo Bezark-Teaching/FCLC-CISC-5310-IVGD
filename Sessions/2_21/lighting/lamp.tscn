@@ -14,6 +14,7 @@ repeat = 2
 [node name="Lamp" type="Node2D"]
 
 [node name="PointLight2D" type="PointLight2D" parent="."]
+visible = false
 position = Vector2(-1, 4)
 scale = Vector2(0.359375, 1.3125)
 texture = SubResource("GradientTexture2D_en0ba")

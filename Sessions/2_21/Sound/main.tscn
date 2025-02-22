@@ -68,5 +68,16 @@ scale = Vector2(3.71875, 3.71875)
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("4_jrgdm")
-volume_db = -15.898
+volume_db = -24.289
+pitch_scale = 2.07
 autoplay = true
+stream_paused = true
+
+[node name="AudioStreamPlayer2" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(1515, 182)
+stream = ExtResource("4_jrgdm")
+volume_db = -24.289
+pitch_scale = 2.07
+autoplay = true
+attenuation = 3.36358
+panning_strength = 2.38

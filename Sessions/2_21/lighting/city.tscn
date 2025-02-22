@@ -1,9 +1,28 @@
-[gd_scene load_steps=5 format=3 uid="uid://brfntlgwxh21x"]
+[gd_scene load_steps=8 format=3 uid="uid://brfntlgwxh21x"]
 
 [ext_resource type="Texture2D" uid="uid://de3d7jte55ucn" path="res://assets/City/Sprites/BackGround.png" id="1_0ko3o"]
 [ext_resource type="PackedScene" uid="uid://cgt31nrdus3pc" path="res://vending_machine.tscn" id="2_mp76s"]
 [ext_resource type="PackedScene" uid="uid://ysl0qnkh72jj" path="res://lamp.tscn" id="2_wx1d0"]
 [ext_resource type="PackedScene" uid="uid://dfcgqbwgq0j8r" path="res://building.tscn" id="3_3cbf0"]
+
+[sub_resource type="Gradient" id="Gradient_f318t"]
+offsets = PackedFloat32Array(0, 0.457666, 1)
+colors = PackedColorArray(0.909804, 0, 0, 1, 0.434728, 0.575225, 0.657675, 1, 1, 0.490196, 1, 1)
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_lrd33"]
+noise_type = 5
+seed = 12
+frequency = 0.0001
+offset = Vector3(1839.4, 1620, 110)
+fractal_type = 3
+fractal_octaves = 8
+fractal_lacunarity = 5.0
+fractal_weighted_strength = 1.0
+cellular_jitter = 12.0
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_vgpv6"]
+color_ramp = SubResource("Gradient_f318t")
+noise = SubResource("FastNoiseLite_lrd33")
 
 [node name="Node2D" type="Node2D"]
 
@@ -27,6 +46,11 @@ position = Vector2(-65, 57)
 zoom = Vector2(4.5, 4.5)
 
 [node name="DirectionalLight2D" type="DirectionalLight2D" parent="."]
-color = Color(0.0342159, 0.0395308, 0.00912019, 1)
-energy = 0.75
+color = Color(0.214703, 0.214703, 0.214703, 1)
+energy = 0.59
 blend_mode = 2
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+position = Vector2(122, 30)
+scale = Vector2(1.46973, 1.61914)
+texture = SubResource("NoiseTexture2D_vgpv6")

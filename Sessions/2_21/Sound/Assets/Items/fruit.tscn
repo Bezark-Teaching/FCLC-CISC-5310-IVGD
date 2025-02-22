@@ -1,9 +1,9 @@
-[gd_scene load_steps=30 format=3 uid="uid://bbrc4r5uir85h"]
+[gd_scene load_steps=31 format=3 uid="uid://bbrc4r5uir85h"]
 
-[ext_resource type="Texture2D" uid="uid://bsm47b7tvd37e" path="res://Assets/Items/Fruits/Strawberry.png" id="1_ssclh"]
-[ext_resource type="Texture2D" uid="uid://dul6vxb8ptiib" path="res://Assets/Items/Fruits/Collected.png" id="2_k4snk"]
+[ext_resource type="Texture2D" uid="uid://xn4llh0uyw5f" path="res://Assets/Items/Fruits/Strawberry.png" id="1_ssclh"]
+[ext_resource type="Texture2D" uid="uid://by1o24d2j0bhq" path="res://Assets/Items/Fruits/Collected.png" id="2_k4snk"]
 [ext_resource type="Script" path="res://Assets/Items/fruit.gd" id="3_o64dh"]
-[ext_resource type="AudioStream" uid="uid://blw5wb77u8iah" path="res://Assets/coin.mp3" id="4_p1ac6"]
+[ext_resource type="AudioStream" uid="uid://dvan06tk6dgo8" path="res://Assets/pop.mp3" id="4_qoo58"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wvhk0"]
 atlas = ExtResource("1_ssclh")
@@ -181,6 +181,10 @@ animations = [{
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ovibn"]
 
+[sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_gjtny"]
+streams_count = 1
+stream_0/stream = ExtResource("4_qoo58")
+
 [node name="Fruit" type="AnimatedSprite2D"]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_mrx4y")
@@ -194,7 +198,8 @@ script = ExtResource("3_o64dh")
 shape = SubResource("CircleShape2D_ovibn")
 
 [node name="collect" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("4_p1ac6")
+stream = SubResource("AudioStreamRandomizer_gjtny")
+bus = &"Cave Bus"
 
 [connection signal="animation_finished" from="." to="." method="_on_animation_finished"]
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
