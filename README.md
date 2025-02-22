@@ -219,7 +219,8 @@ The course is split into 4 distinct modules each with a unique project:
 - **DUE: Lab 3**
 
 ### Week 7 2/28- Playtest
-
+- Saving and Loading
+- Localization
 
 - **Playtesting 2D Games**
 
