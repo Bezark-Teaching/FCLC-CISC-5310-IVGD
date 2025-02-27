@@ -1,0 +1,167 @@
+[gd_scene format=3 uid="uid://dvajujjam0tnj"]
+
+[node name="UI Nodes" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 100
+theme_override_constants/margin_top = 100
+theme_override_constants/margin_right = 100
+theme_override_constants/margin_bottom = 100
+
+[node name="ColorRect" type="ColorRect" parent="MarginContainer"]
+layout_mode = 2
+color = Color(0.0313726, 0.568627, 0.431373, 1)
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/ColorRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/ColorRect/MarginContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 6
+text = "TEXT"
+
+[node name="Button" type="Button" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 6
+text = "Cool Button"
+
+[node name="HSlider" type="HSlider" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 6
+
+[node name="ScrollContainer" type="ScrollContainer" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TextEdit" type="TextEdit" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+size_flags_vertical = 3
+placeholder_text = "HELLO THIS IS THE TEXST EDIT"
+
+[node name="OptionButton" type="OptionButton" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+item_count = 2
+popup/item_0/text = "option 1"
+popup/item_1/text = "Options 2"
+popup/item_1/id = 1
+
+[node name="CheckButton" type="CheckButton" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Button? Option?"
+
+[node name="CheckButton2" type="CheckButton" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Button? Option?"
+
+[node name="CheckButton3" type="CheckButton" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Button? Option?"
+
+[node name="CheckButton4" type="CheckButton" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Button? Option?"
+
+[node name="CheckButton5" type="CheckButton" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Button? Option?"
+
+[node name="CheckButton6" type="CheckButton" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Button? Option?"
+
+[node name="CheckButton7" type="CheckButton" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Button? Option?"
+
+[node name="CheckButton8" type="CheckButton" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Button? Option?"
+
+[node name="CheckButton9" type="CheckButton" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Button? Option?"
+
+[node name="CheckButton10" type="CheckButton" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Button? Option?"
+
+[node name="CheckButton11" type="CheckButton" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Button? Option?"
+
+[node name="CheckButton12" type="CheckButton" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Button? Option?"
+
+[node name="CheckButton13" type="CheckButton" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Button? Option?"
+
+[node name="CheckButton14" type="CheckButton" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Button? Option?"
+
+[node name="CheckButton15" type="CheckButton" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Button? Option?"
+
+[node name="CheckButton16" type="CheckButton" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Button? Option?"
+
+[node name="CheckButton17" type="CheckButton" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Button? Option?"
+
+[node name="CheckButton18" type="CheckButton" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Button? Option?"
+
+[node name="CheckButton19" type="CheckButton" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Button? Option?"
+
+[node name="CheckButton20" type="CheckButton" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Button? Option?"
+
+[node name="CheckButton21" type="CheckButton" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Button? Option?"
+
+[node name="CheckButton22" type="CheckButton" parent="MarginContainer/ColorRect/MarginContainer/HBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Button? Option?"

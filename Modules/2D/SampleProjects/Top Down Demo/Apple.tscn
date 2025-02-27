@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Apple.gd" id="1_jyyng"]
 [ext_resource type="Texture2D" uid="uid://dul6vxb8ptiib" path="res://Assets/Items/Fruits/Collected.png" id="2_k6hl2"]
-[ext_resource type="Texture2D" uid="uid://dx3hufc6sag2h" path="res://Assets/Items/Fruits/Apple.png" id="3_syuwn"]
+[ext_resource type="Texture2D" uid="uid://dx3hufc6sag2h" path="res://Assets/Items/Apple.png" id="3_syuwn"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_j3ub1"]
 atlas = ExtResource("2_k6hl2")

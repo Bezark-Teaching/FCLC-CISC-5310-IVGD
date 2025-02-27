@@ -1,0 +1,41 @@
+[gd_scene load_steps=7 format=3 uid="uid://cv0lwml1sqw0v"]
+
+[ext_resource type="Texture2D" uid="uid://dpdp7ybk8f0wa" path="res://Smoke Particles/PNG/Black smoke/blackSmoke00.png" id="2_wbn3w"]
+
+[sub_resource type="Curve" id="Curve_qwiou"]
+_data = [Vector2(0.00448431, 0), 0.0, 0.0, 0, 0, Vector2(0.470852, 1), 0.0, 0.0, 0, 0, Vector2(0.910314, 0), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_fq6nd"]
+curve = SubResource("Curve_qwiou")
+
+[sub_resource type="Curve" id="Curve_6ho5r"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_36r8u"]
+curve = SubResource("Curve_6ho5r")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_jsi8b"]
+particle_flag_disable_z = true
+emission_shape = 1
+emission_sphere_radius = 128.0
+spread = 75.789
+initial_velocity_max = 620.07
+gravity = Vector3(0, 98, 0)
+scale_curve = SubResource("CurveTexture_36r8u")
+alpha_curve = SubResource("CurveTexture_fq6nd")
+hue_variation_min = -0.1
+hue_variation_max = 0.21
+anim_speed_max = 4.42
+anim_offset_max = 0.2294
+turbulence_enabled = true
+
+[node name="Node2D" type="Node2D"]
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="."]
+position = Vector2(140, 52)
+emitting = false
+process_material = SubResource("ParticleProcessMaterial_jsi8b")
+texture = ExtResource("2_wbn3w")
+one_shot = true

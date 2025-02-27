@@ -4,6 +4,11 @@ const SPEED = 100.0
 
 func _physics_process(delta):
 	
+	if Input.is_key_pressed(KEY_0):
+		Engine.time_scale= 0.1
+	else:
+		Engine.time_scale = 1.
+	
 	if Input.is_action_pressed("ui_right"):
 		velocity.x = SPEED
 		$AnimatedSprite2D.play("walk_right")

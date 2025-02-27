@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://btjtpep4ifya8"]
+
+[node name="ButtonToPress" type="Label"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "A"

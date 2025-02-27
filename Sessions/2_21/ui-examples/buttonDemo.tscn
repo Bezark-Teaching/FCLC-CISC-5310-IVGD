@@ -1,0 +1,40 @@
+[gd_scene load_steps=4 format=3 uid="uid://cof3ylfp6jbim"]
+
+[ext_resource type="Script" path="res://control.gd" id="1_auldd"]
+[ext_resource type="FontFile" uid="uid://bue0htexd2oyv" path="res://BlockBlueprint.ttf" id="2_apamq"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_p24s5"]
+font = ExtResource("2_apamq")
+font_size = 128
+font_color = Color(1, 0.415686, 1, 1)
+outline_size = 20
+shadow_size = 24
+shadow_color = Color(0.14902, 0.14902, 0.14902, 0.929412)
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_auldd")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 132.0
+offset_top = 83.0
+offset_right = 857.0
+offset_bottom = 361.0
+text = "MY TEXT!"
+label_settings = SubResource("LabelSettings_p24s5")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 211.0
+offset_top = 9.0
+offset_right = 565.0
+offset_bottom = 102.0
+text = "TEXT!!!"
+
+[connection signal="button_down" from="Button" to="." method="_on_button_button_down"]
