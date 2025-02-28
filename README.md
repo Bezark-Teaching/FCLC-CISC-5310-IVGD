@@ -1,3 +1,7 @@
+# Top Of Mind
+ - Please complete the [Midsemester Reflection](https://forms.gle/ccHQcbaAVeD3gQKx7)
+- **Please work towards completing your [2D Game](/Assignments/2D/2DGame.md)**
+
 # Advanced Game Design and Development - Graduate Level
 
 - **Course Code:** 5310
