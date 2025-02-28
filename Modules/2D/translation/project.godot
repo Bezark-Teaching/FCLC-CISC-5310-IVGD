@@ -1,0 +1,46 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Translation Demo"
+config/description="A demo showing how Godot seamlessly enables
+the use of localized resources and texts."
+config/tags=PackedStringArray("demo", "internationalization", "official")
+run/main_scene="res://translation_demo.tscn"
+config/features=PackedStringArray("4.3")
+config/icon="res://icon.webp"
+
+[display]
+
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[internationalization]
+
+locale/translation_remaps={
+"res://flag_uk.png": PackedStringArray("res://flag_spain.png:es", "res://flag_japan.png:ja"),
+"res://hello_en.wav": PackedStringArray("res://hello_es.wav:es", "res://hello_jp.wav:ja")
+}
+locale/translations=PackedStringArray("res://text.en.translation", "res://text.es.translation", "res://text.ja.translation")
+locale/locale_filter_mode=0
+
+[locale]
+
+translation_remaps={
+"res://flag_uk.png": ["res://flag_spain.png:es", "res://flag_japan.png:ja"],
+"res://hello_en.wav": PackedStringArray("res://hello_es.wav:es", "res://hello_jp.wav:ja")
+}
+translations=PackedStringArray("res://text.en.translation", "res://text.es.translation", "res://text.ja.translation")
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
