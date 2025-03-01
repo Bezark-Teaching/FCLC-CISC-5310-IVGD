@@ -42,5 +42,5 @@ func load_game():
 
 	# Get the data from the JSON object.
 	var node_data = json.data
-	position.x = node_data.position.x
-	position.y = node_data.position.y
+	$CharacterBody2D.position.x = node_data.position.x
+	$CharacterBody2D.position.y = node_data.position.y

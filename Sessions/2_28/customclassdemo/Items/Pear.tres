@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://dfwhcq8jamysx"]
+
+[ext_resource type="Script" path="res://item_resource.gd" id="1_m4vj0"]
+[ext_resource type="Texture2D" uid="uid://c40rnq8d3xvvh" path="res://Items/pineapple.tres" id="2_uyeak"]
+
+[resource]
+script = ExtResource("1_m4vj0")
+title = "Pineapple"
+sprite = ExtResource("2_uyeak")
+price = 1000
+weight = 500.0

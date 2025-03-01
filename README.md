@@ -230,7 +230,11 @@ The course is split into 4 distinct modules each with a unique project:
   - Resources
   - Saving and Loading
   - Exporting
+  - Globals
   - Localization
+  - Migrating Code
+
+  Whats the deal with `class` vs `class_name`???
 
 - **Playtesting 2D Games**
 

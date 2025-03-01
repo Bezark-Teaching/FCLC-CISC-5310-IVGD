@@ -1,0 +1,19 @@
+[gd_scene load_steps=7 format=3 uid="uid://ddk7dc0v4g4l7"]
+
+[ext_resource type="Script" path="res://shop.gd" id="1_fe8pk"]
+[ext_resource type="Script" path="res://item_resource.gd" id="2_r1fdc"]
+[ext_resource type="Resource" uid="uid://c0xilc0c2h0is" path="res://Items/Apple.tres" id="3_4hvh4"]
+[ext_resource type="Resource" uid="uid://dfwhcq8jamysx" path="res://Items/Pear.tres" id="4_pxmtt"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_dgehx"]
+
+[sub_resource type="Resource" id="Resource_oe4we"]
+script = ExtResource("2_r1fdc")
+title = "Grapes"
+sprite = SubResource("PlaceholderTexture2D_dgehx")
+price = 1
+weight = 2.0
+
+[node name="Shop" type="Node2D"]
+script = ExtResource("1_fe8pk")
+fruit_for_sale = Array[ExtResource("2_r1fdc")]([ExtResource("3_4hvh4"), ExtResource("4_pxmtt"), SubResource("Resource_oe4we")])

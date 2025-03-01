@@ -19,9 +19,10 @@ func quit():
 func save_game():
 	var saveData = SaveData.new()
 	saveData.position = $CharacterBody2D.position
-	ResourceSaver.save(saveData, "res://Resource/savedata.tres") #change to user:// when exporting
+	ResourceSaver.save(saveData, "user://savedata.tres") #change to user:// when exporting
 
 
 func load_game():
-	var data = load("res://Resource/savedata.tres") #change to user:// when exporting
-	$CharacterBody2D.position = data.position
+	var data = load("user://savedata.tres") #change to user:// when exporting
+	if FileAccess.file_exists("user://savedata.tres"):
+		$CharacterBody2D.position = data.position

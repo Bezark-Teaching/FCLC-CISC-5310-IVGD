@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Item" load_steps=5 format=3 uid="uid://c0xilc0c2h0is"]
+
+[ext_resource type="PackedScene" uid="uid://btt1fnxdrn0si" path="res://RobotScene.tscn" id="1_ujily"]
+[ext_resource type="Script" path="res://item_resource.gd" id="1_xgxtm"]
+[ext_resource type="Texture2D" uid="uid://c3tv7wag2vfcl" path="res://Fruits/Bananas.png" id="2_d2t03"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b62v5"]
+atlas = ExtResource("2_d2t03")
+region = Rect2(0, 0, 28.6667, 32)
+
+[resource]
+script = ExtResource("1_xgxtm")
+title = "Tasty Apple"
+sprite = SubResource("AtlasTexture_b62v5")
+price = 5
+weight = 1.5
+item_to_load = ExtResource("1_ujily")

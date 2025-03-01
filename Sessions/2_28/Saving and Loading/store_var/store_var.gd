@@ -17,14 +17,15 @@ func quit():
 
 
 func save_game():
-	var save_file = FileAccess.open("res://store_var/save.data", FileAccess.WRITE)
-	save_file.store_var($CharacterBody2D.position.x)
-	save_file.store_var($CharacterBody2D.position.y)
+	if FileAccess.file_exists("user://store_var/save.data"):
+		var save_file = FileAccess.open("user://store_var/save.data", FileAccess.WRITE)
+		save_file.store_var($CharacterBody2D.position.x)
+		save_file.store_var($CharacterBody2D.position.y)
 	#save_file.store_var($CharacterBody2D.position, true)
 
 func load_game():
-	if FileAccess.file_exists("res://store_var/save.data"):
-		var save_file = FileAccess.open("res://store_var/save.data", FileAccess.READ)
+	if FileAccess.file_exists("user://store_var/save.data"):
+		var save_file = FileAccess.open("user://store_var/save.data", FileAccess.READ)
 		$CharacterBody2D.position.x = save_file.get_var()
 		$CharacterBody2D.position.y = save_file.get_var()
 		
