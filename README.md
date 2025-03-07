@@ -229,16 +229,32 @@ The course is split into 4 distinct modules each with a unique project:
   - Classes
   - Resources
   - Saving and Loading
-  - Exporting
   - Globals
   - Localization
   - Migrating Code
 
-  Whats the deal with `class` vs `class_name`???
 
 - **Playtesting 2D Games**
 
-### Week 8 3/7 - TBD 
+### Week 8 3/7 - Extend, Expand, Enhance
+- Q&A 
+  - Whats the deal with `class` vs `class_name`???
+    - `class` refers to an [inner class](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html#inner-classes)! Wow!
+
+
+- [Exporting](https://docs.godotengine.org/en/stable/tutorials/export/index.html)
+
+- [Tool Scripts](https://docs.godotengine.org/en/stable/tutorials/plugins/running_code_in_the_editor.html)
+- [Plugins](https://docs.godotengine.org/en/stable/tutorials/plugins/editor/making_plugins.html)
+
+- Advanced AI:
+  - [FSM](https://www.youtube.com/watch?v=ow_Lum-Agbs)
+  - [Behaviour Trees](https://www.youtube.com/watch?v=KeShMInMjro)
+    - [Unity Tutorial](https://www.youtube.com/watch?v=lusROFJ3_t8)
+  - [Utility AI/ How the Sims Think](https://www.youtube.com/watch?v=9gf2MT-IOsg)
+
+- One Button Challenge???
+
 ### Week 10 3/14 - Hello 3D
   - Models
   - Textures
@@ -246,7 +262,6 @@ The course is split into 4 distinct modules each with a unique project:
   - Environments
 
 #### Work
-
   - **DUE: 2D Game**
   - **Homework:** [Walking Sim](Assignments/WalkingSim.md)
   - **Homework:** [Capstone Game](/Assignments/Capstone/Capstone_Game)

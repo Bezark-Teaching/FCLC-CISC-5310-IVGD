@@ -79,7 +79,7 @@ Resources
 
 ## GMTK
 - [Balance](https://youtu.be/WXQzdXPTb2A)
-- [Utility AI/ HOw the Sims Think](https://www.youtube.com/watch?v=9gf2MT-IOsg)
+- [Utility AI/ How the Sims Think](https://www.youtube.com/watch?v=9gf2MT-IOsg)
 
 
 
