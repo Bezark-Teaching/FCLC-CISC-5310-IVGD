@@ -1,0 +1,57 @@
+[gd_scene load_steps=8 format=3 uid="uid://cu1q8orbdxf35"]
+
+[ext_resource type="Texture2D" uid="uid://bcybugddmk77p" path="res://VERYSIMPLEFRUITDEMO/Assets/Food.png" id="1_3h3qd"]
+[ext_resource type="Script" path="res://bananna.gd" id="1_y2rca"]
+[ext_resource type="Texture2D" uid="uid://bui6io234s78v" path="res://VERYSIMPLEFRUITDEMO/Assets/banana.png" id="2_dugnu"]
+[ext_resource type="Script" path="res://actor.gd" id="4_lpgb1"]
+[ext_resource type="Script" path="res://eating_fallback.gd" id="4_xe2sq"]
+[ext_resource type="Script" path="res://eat_simple.gd" id="5_nfn8j"]
+[ext_resource type="Script" path="res://bananna_sequence.gd" id="6_fn7c8"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Food" type="Node" parent="."]
+
+[node name="Apple" type="Sprite2D" parent="Food"]
+position = Vector2(536, 319)
+scale = Vector2(9.56667, 9.56667)
+texture = ExtResource("1_3h3qd")
+region_enabled = true
+region_rect = Rect2(64.8883, 16.0671, 14.1706, 15.5022)
+
+[node name="Pretzel" type="Sprite2D" parent="Food"]
+position = Vector2(242, 320)
+scale = Vector2(10.4375, 10.4375)
+texture = ExtResource("1_3h3qd")
+region_enabled = true
+region_rect = Rect2(0, 80.6926, 16.0211, 15.6471)
+
+[node name="Bananna" type="Sprite2D" parent="Food"]
+position = Vector2(756, 301)
+scale = Vector2(0.414062, 0.414062)
+texture = ExtResource("2_dugnu")
+
+[node name="Actor" type="Node2D" parent="."]
+script = ExtResource("4_lpgb1")
+
+[node name="EatingFallback" type="Node" parent="Actor"]
+script = ExtResource("4_xe2sq")
+
+[node name="EatPretzel" type="Node" parent="Actor/EatingFallback" node_paths=PackedStringArray("food_sprite")]
+script = ExtResource("5_nfn8j")
+food_sprite = NodePath("../../../Food/Pretzel")
+
+[node name="EatApple" type="Node" parent="Actor/EatingFallback" node_paths=PackedStringArray("food_sprite")]
+script = ExtResource("5_nfn8j")
+food_sprite = NodePath("../../../Food/Apple")
+
+[node name="BanannaSequence" type="Node" parent="Actor/EatingFallback"]
+script = ExtResource("6_fn7c8")
+
+[node name="PeelBananna" type="Node" parent="Actor/EatingFallback/BanannaSequence" node_paths=PackedStringArray("food_sprite")]
+script = ExtResource("1_y2rca")
+food_sprite = NodePath("../../../../Food/Bananna")
+
+[node name="EatBananna" type="Node" parent="Actor/EatingFallback/BanannaSequence" node_paths=PackedStringArray("food_sprite")]
+script = ExtResource("5_nfn8j")
+food_sprite = NodePath("../../../../Food/Bananna")
