@@ -17,7 +17,7 @@ config/icon="res://addons/dancingeditor/icon.svg"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/dancingeditor/plugin.cfg")
+enabled=PackedStringArray("res://addons/thingy/plugin.cfg")
 
 [rendering]
 

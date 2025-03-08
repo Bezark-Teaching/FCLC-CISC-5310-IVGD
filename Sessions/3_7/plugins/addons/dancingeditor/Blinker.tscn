@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://haja434me4d8" path="res://addons/dancingeditor/icon.svg" id="2_4ynta"]
 
 [node name="Blinker" type="Node2D"]
-modulate = Color(1, 1, 1, 0.2626)
+modulate = Color(1, 1, 1, 0.396874)
 script = ExtResource("1_jy6d2")
 
 [node name="Icon" type="Sprite2D" parent="."]
