@@ -29,8 +29,9 @@ The  work of the class consists of the following:
 | [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | 1/31                         | 12            |
 | [Labs 1-3](/Assignments/Labs/)                                                 | 3 short coding assignments designed to build proficiency. 6 points each.   | 2/7, 2/14, 2/21              | 18            |
 | [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 3/14                         | 20            |
-| [Walking Sim](/Assignments/WalkingSim.md)                                      | A playable walking simulator                                               | 4/1?                         | 16            |
-| [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | Final                        | 24            |
+| [Walking Sim](/Assignments/WalkingSim_EC.md)                                   | A playable walking simulator                                               | 4/11                         | 8 Extra Credit|
+| [Capstone Presentation](/Assignments/Capstone/Capstone_Concept.md)             | A brief Presentation describing your concept for the Capstone Game         | 4/4                          | 10            |
+| [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | Final                        | 30            |
 | **Total Points Possible**                                                      |                                                                            |                              | **100**       |
 
 All assignments will be graded on the due date. Students are always allowed to revise and resubmit work **up until the class before the final.**
@@ -256,6 +257,10 @@ The course is split into 4 distinct modules each with a unique project:
 - One Button Challenge???
 
 ### Week 10 3/14 - Hello 3D
+
+- PLAYING YOUR GAMES! WOW!
+
+- Hello 3D
   - Models
   - Textures
   - Lights
@@ -263,10 +268,15 @@ The course is split into 4 distinct modules each with a unique project:
 
 #### Work
   - **DUE: 2D Game**
-  - **Homework:** [Walking Sim](Assignments/WalkingSim.md)
+  - **Homework:** [Extra Credit walking Sim](Assignments/WalkingSim.md)
+  - **Homework:** [Capstone Presentation](/Assignments/Capstone/Capstone_Concept)
   - **Homework:** [Capstone Game](/Assignments/Capstone/Capstone_Game)
 
-### Physics 2/Advanced Topics in 3D
+
+**SPRING BREAK**
+
+### Week 11 3/28 Advanced Topics in 3D
+
   - Transforms, Vectors, Velocity
   - Joints
   - Cloth
@@ -274,32 +284,23 @@ The course is split into 4 distinct modules each with a unique project:
   - 3D Asset Pipeline
   - Post-processing
 
-**SPRING BREAK**
 
-### Week 11 3/28 Project Architecture
-  - Classes
-  - Resources
+### Week 12 4/4 - Capstone Presentations / Networking
 
-#### Work
-  - **DUE: Walking Sim**
-
-### Week 12 4/4 - PCs and NPCs
   - Networking
-  - AI
-    - Pathfinding
-    - Pattern: [State Machines](https://gameprogrammingpatterns.com/state.html)
-    - [Utility AI](https://www.youtube.com/watch?v=9gf2MT-IOsg)
-
-**EASTER**
+- **DUE: Capstone Project Presentations**
 
 ### Week 13 4/11 - Open Source Everything
   - Compiling the Editor
   - Changing Source Code
   - Plugins and Extensions
 
+  - **DUE: Walking Sim**
+
+**EASTER**
 ### Week 14 4/25 - The Games Industry
 
-### Week 15 5/2 - Project Presentations
+### Week 15 5/2 - Final Projects
 
 #### Work
   - **DUE: Capstone Game**
