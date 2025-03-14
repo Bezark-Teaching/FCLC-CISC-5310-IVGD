@@ -1,7 +1,7 @@
-extends Node2D
+extends Area2D
 
 @export var scene_to_load : PackedScene
-
+@export var startingPos : Vector2
 
 
 # Called when the node enters the scene tree for the first time.
@@ -14,11 +14,10 @@ func _process(delta):
 	pass
 
 
-func _on_area_2d_body_entered(body):
-	print(body)
-	print("thing was triggered")
-	#get_tree().change_scene_to_file("res://home_base.tscn")
-	get_tree().change_scene_to_packed(scene_to_load)
-	#get_tree().change_scene_to_file("res://level_1.tscn")
 	
+	
+
+
+func _on_body_entered(body):
+	SceneSwitcher.switch_scenes(scene_to_load, startingPos)
 	

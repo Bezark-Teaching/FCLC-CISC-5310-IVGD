@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://d3lcw6etgdpav"]
 
 [ext_resource type="PackedScene" uid="uid://ishqo8c65him" path="res://player.tscn" id="1_ggj0w"]
-[ext_resource type="PackedScene" uid="uid://dlqgqjqlyw827" path="res://checkpoint.tscn" id="2_pmujw"]
+[ext_resource type="PackedScene" uid="uid://dlqgqjqlyw827" path="res://door.tscn" id="2_pmujw"]
 [ext_resource type="PackedScene" uid="uid://b3mmjx82j13kk" path="res://level_1.tscn" id="3_g1vi2"]
 [ext_resource type="PackedScene" uid="uid://p7r48peodi2k" path="res://level_2.tscn" id="4_6lnj7"]
 
@@ -14,6 +14,7 @@ position = Vector2(124, 225)
 [node name="Door" parent="." instance=ExtResource("2_pmujw")]
 position = Vector2(784, 138)
 scene_to_load = ExtResource("3_g1vi2")
+startingPos = Vector2(10, 400)
 
 [node name="Door2" parent="." instance=ExtResource("2_pmujw")]
 position = Vector2(751, 591)
