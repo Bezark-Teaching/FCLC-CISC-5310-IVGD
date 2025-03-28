@@ -289,6 +289,8 @@ The course is split into 4 distinct modules each with a unique project:
 - [Walking Sim Excercise](https://github.com/Bezark-Teaching/Walking-Sim-Template)
 
 - 3rd Person Controllers and Characters
+  - [Mixamo](https://www.mixamo.com)
+  - [Character Animation Combiner](https://nilooy.github.io/character-animation-combiner/)
 
 
 ### Week 12 4/4 - Capstone Presentations / Networking
