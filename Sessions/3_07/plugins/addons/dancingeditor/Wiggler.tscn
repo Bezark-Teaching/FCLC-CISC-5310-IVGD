@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bho2rjahmmppl"]
+
+[ext_resource type="Script" path="res://addons/dancingeditor/Wiggler.gd" id="1_7pq4k"]
+
+[node name="Wiggler" type="Node2D"]
+position = Vector2(-42.4756, 0)
+script = ExtResource("1_7pq4k")

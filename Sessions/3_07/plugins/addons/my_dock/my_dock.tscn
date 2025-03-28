@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://cg2o5nebfxc8g"]
+
+[ext_resource type="Script" path="res://addons/dancingeditor/Wiggler.gd" id="1_63usa"]
+
+[node name="MyDock" type="Control"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Wiggler" type="Node2D" parent="."]
+position = Vector2(-69.3339, 0)
+script = ExtResource("1_63usa")
+
+[node name="Button" type="Button" parent="Wiggler"]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Can You Click me???"

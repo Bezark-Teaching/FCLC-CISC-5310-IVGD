@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://owp2gyd0ig2w"]
+
+[ext_resource type="Texture2D" uid="uid://dnyb44cuwe8ni" path="res://icon.svg" id="1_1483u"]
+[ext_resource type="PackedScene" uid="uid://cj317uaaymaq0" path="res://moving_camera_2d.tscn" id="2_p2rd2"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(682, 260.5)
+scale = Vector2(10.3594, 4.38281)
+texture = ExtResource("1_1483u")
+
+[node name="Camera2D" parent="." instance=ExtResource("2_p2rd2")]

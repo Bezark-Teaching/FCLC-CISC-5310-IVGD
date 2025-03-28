@@ -1,6 +1,6 @@
 # Top Of Mind
- - Please complete the [Midsemester Reflection](https://forms.gle/ccHQcbaAVeD3gQKx7)
-- **Please work towards completing your [2D Game](/Assignments/2D/2DGame.md)**
+- [Walking Sim Excercise](https://github.com/Bezark-Teaching/Walking-Sim-Template)
+- The [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept) will take place next week
 
 # Advanced Game Design and Development - Graduate Level
 
@@ -276,13 +276,19 @@ The course is split into 4 distinct modules each with a unique project:
 **SPRING BREAK**
 
 ### Week 11 3/28 Advanced Topics in 3D
+- 3D Review
 
-  - Transforms, Vectors, Velocity
-  - Joints
-  - Cloth
-  - Vehicles
-  - 3D Asset Pipeline
-  - Post-processing
+- Building out Environments
+  - Models
+    - Textures
+    - Materials
+  - Lights
+  - Sounds
+  - Environments
+
+- [Walking Sim Excercise](https://github.com/Bezark-Teaching/Walking-Sim-Template)
+
+- 3rd Person Controllers and Characters
 
 
 ### Week 12 4/4 - Capstone Presentations / Networking
