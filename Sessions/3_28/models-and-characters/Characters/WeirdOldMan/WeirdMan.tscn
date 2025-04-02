@@ -3359,8 +3359,8 @@ tracks/52/keys = PackedFloat32Array(0, 1, 0.460537, 0.0199051, -0.0563294, 0.885
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_upbam"]
 _data = {
-"CrouchToStand": SubResource("Animation_qybp8"),
-"Idle": SubResource("Animation_ehu8f")
+&"CrouchToStand": SubResource("Animation_qybp8"),
+&"Idle": SubResource("Animation_ehu8f")
 }
 
 [node name="Node3D" type="Node3D"]

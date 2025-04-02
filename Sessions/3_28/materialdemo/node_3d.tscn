@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://cjsj36c0hg33j"]
+
+[ext_resource type="Material" uid="uid://slhkuirfxp8w" path="res://rocks.tres" id="1_a202f"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="."]
+radius = 1.30526
+rings = 19
+material = ExtResource("1_a202f")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.84979)
+material = ExtResource("1_a202f")
