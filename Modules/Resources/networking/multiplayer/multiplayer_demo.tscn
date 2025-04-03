@@ -1,6 +1,20 @@
-[gd_scene load_steps=2 format=3 uid="uid://cq3ado67dve15"]
+[gd_scene load_steps=2 format=3 uid="uid://cla40p5dk4i7l"]
 
-[ext_resource type="Script" uid="uid://mgu2let4r358" path="res://multiplayer/multiplayer_demo.gd" id="1_21fgq"]
+[sub_resource type="GDScript" id="GDScript_ff25l"]
+script/source = "extends Node2D
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	var peer = ENetMultiplayerPeer.new()
+	#peer.create_server(PORT, MAX_CLIENTS)
+	multiplayer.multiplayer_peer = peer
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	pass
+"
 
 [node name="MultiplayerDemo" type="Node2D"]
-script = ExtResource("1_21fgq")
+script = SubResource("GDScript_ff25l")
