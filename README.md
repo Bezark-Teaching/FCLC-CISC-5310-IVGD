@@ -293,20 +293,26 @@ The course is split into 4 distinct modules each with a unique project:
   - [Character Animation Combiner](https://nilooy.github.io/character-animation-combiner/)
 
 
-### Week 12 4/4 - Capstone Presentations / Networking
+### Week 12 4/4 - Capstone Presentations  
 
   - Networking
 - **DUE: Capstone Project Presentations**
 
-### Week 13 4/11 - Open Source Everything
-  - Compiling the Editor
-  - Changing Source Code
-  - Plugins and Extensions
+### Week 13 4/11 - Networking and Networking
+- Networking in Godot
+- [Working in the Games Industry](https://docs.google.com/presentation/d/1i-RZGlzN65DgH-2sKYvK31pYVswlGjqj9AYbDTiazo0/edit?usp=sharing)
+
+
+
 
   - **DUE: Walking Sim**
 
 **EASTER**
-### Week 14 4/25 - The Games Industry
+### Week 14 4/25 - Open Source Everything
+
+  - Compiling the Editor
+  - Changing Source Code
+  - Plugins and Extensions
 
 ### Week 15 5/2 - Final Projects
 

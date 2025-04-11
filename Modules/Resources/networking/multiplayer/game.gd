@@ -20,7 +20,7 @@ func _on_client_button_down() -> void:
 
 func peer_joined(id):
 	prints(id, "joined!")
-	print(multiplayer.get_peers())
+	#print(multiplayer.get_peers())
 	load_player(id)
 	
 
@@ -34,7 +34,8 @@ const PLAYER = preload("res://multiplayer/player.tscn")
 
 func load_player(id):
 	var new_player = PLAYER.instantiate()
+	new_player.id = id
 	add_child(new_player)
-	prints(id, multiplayer.get_unique_id())
-	print(id == multiplayer.get_unique_id())
-	new_player.local_control = id == multiplayer.get_unique_id()
+	#prints(id, multiplayer.get_unique_id())
+	#print(id == multiplayer.get_unique_id())
+	#new_player.local_control = id == multiplayer.get_unique_id()

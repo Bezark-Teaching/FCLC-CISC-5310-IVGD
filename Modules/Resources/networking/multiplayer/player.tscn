@@ -1,10 +1,12 @@
-[gd_scene load_steps=4 format=3 uid="uid://chumbad60g7we"]
+[gd_scene load_steps=5 format=3 uid="uid://chumbad60g7we"]
 
 [ext_resource type="Script" uid="uid://crktudfaa81bf" path="res://multiplayer/player.gd" id="1_ucnte"]
 [ext_resource type="Texture2D" uid="uid://byirx1fp1o7x0" path="res://icon.svg" id="2_g8q0s"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wpb53"]
 size = Vector2(124, 128)
+
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_ucnte"]
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_ucnte")
@@ -15,3 +17,6 @@ texture = ExtResource("2_g8q0s")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 1)
 shape = SubResource("RectangleShape2D_wpb53")
+
+[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
+replication_config = SubResource("SceneReplicationConfig_ucnte")
