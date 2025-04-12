@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cispi0jk6jnbv"]
+
+[ext_resource type="Script" uid="uid://by37nrlpoieuq" path="res://http_requests/http_request.gd" id="1_lwa6f"]
+[ext_resource type="Script" uid="uid://cxsd6jp4v0mxb" path="res://http_requests/http_post_request.gd" id="2_fgeb7"]
+
+[node name="Node" type="Node"]
+
+[node name="HTTPGetRequest" type="HTTPRequest" parent="."]
+script = ExtResource("1_lwa6f")
+
+[node name="HTTPPostRequest" type="HTTPRequest" parent="."]
+script = ExtResource("2_fgeb7")
+
+[connection signal="request_completed" from="HTTPGetRequest" to="HTTPGetRequest" method="_on_request_completed"]
