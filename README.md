@@ -309,11 +309,10 @@ The course is split into 4 distinct modules each with a unique project:
   - **DUE: Walking Sim**
 
 **EASTER**
-### Week 14 4/25 - Open Source Everything
-
-  - Compiling the Editor
-  - Changing Source Code
-  - Plugins and Extensions
+### Week 14 4/25 - Advanced Topics
+- XR
+- Shaders
+- Playtesting
 
 ### Week 15 5/2 - Final Projects
 
