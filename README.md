@@ -1,4 +1,5 @@
 # Top Of Mind
+- [KEEP MAKING GAMES!](https://docs.google.com/presentation/d/1i-RZGlzN65DgH-2sKYvK31pYVswlGjqj9AYbDTiazo0/edit?usp=sharing)
 - [Game Jam](https://itch.io/jam/fclc-grad-game-jam)
 - [Walking Sim Excercise](https://github.com/Bezark-Teaching/Walking-Sim-Template)
 - The [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept) will take place next week
