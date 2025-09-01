@@ -18,18 +18,21 @@ This course offers a thorough introduction to the world of video game design and
 
 # **Assessment**
 
-The  work of the class consists of the following:
+This advanced graduate course uses **theory as a lens** for game development practice. Each assignment builds on theoretical frameworks while maintaining focus on creating sophisticated games in Godot.
 
-| Assignment                                                                     | Description                                                                | Due Date                     | Points        |
-|:-------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:-----------------------------|---------------|
-| Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 20            |
-| [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game with systems analysis              | 9/16                         | 15            |
-| [Labs 1-4](/Assignments/Labs/)                                                 | 4 progressive coding assignments. 5 points each.                           | 9/23, 9/30, 10/14, 10/28     | 20            |
-| [2D Game](/Assignments/2D/2DGame.md)                                           | A 2D game demonstrating design patterns and architecture                   | 11/4                         | 30            |
-| [Walking Sim](/Assignments/WalkingSim.md)                                      | An environmental storytelling experience using advanced 3D techniques      | 11/18                        | 20            |
-| [Capstone Presentation](/Assignments/Capstone/Capstone_Concept.md)             | A technical presentation of your capstone architecture and systems         | 11/25                        | 10            |
-| [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A sophisticated game showcasing advanced development concepts              | 12/9                         | 35            |
-| **Total Points Possible**                                                      |                                                                            |                              | **150**       |
+| Assignment                                     | Description                                               | Due Date   | Points |
+|:-----------------------------------------------|:----------------------------------------------------------|:-----------|:-------|
+| **Class Participation**                       | Active engagement, peer feedback, code reviews           | Ongoing    | 20     |
+| [Tabletop Game](/Assignments/Tabletop/Tabletop.md)        | Systems-focused analog game with playtesting analysis    | 9/9        | 15     |
+| [Lab 1: MDA Implementation](/Assignments/Labs/Lab_1.md)   | Mechanics-to-aesthetics prototype with documentation     | 9/30       | 5      |
+| [Lab 2: Emergence](/Assignments/Labs/Lab_2.md)            | Simple agents producing complex group behavior           | 10/7       | 5      |
+| [Lab 3: Pattern Documentation](/Assignments/Labs/Lab_3.md)| Identify and document design patterns while building     | 10/14      | 5      |
+| [2D Game](/Assignments/2D/2DGame.md)                      | Complete 2D game demonstrating clean architecture        | 10/28      | 35     |
+| [Lab 4: 3D Interactive Scene](/Assignments/Labs/Lab_4.md) | 3D environment with intelligent NPCs and interactions    | 11/18      | 10     |
+| [Walking Sim](/Assignments/WalkingSim.md)                 | Environmental storytelling experience using 3D techniques| 11/18      | 15     |
+| [Capstone Presentation](/Assignments/Capstone/Capstone_Concept.md) | Technical presentation of final project architecture | 11/25 | 10     |
+| [Capstone Game](/Assignments/Capstone/Capstone_Game.md)   | Sophisticated game showcasing advanced concepts          | 12/9       | 35     |
+| **Total Points Possible**                     |                                                           |            | **155**|
 
 All assignments will be graded on the due date. Students are always allowed to revise and resubmit work **up until the class before the final.**
 
@@ -37,252 +40,94 @@ All assignments will be graded on the due date. Students are always allowed to r
 
 # **Course Outline**
 
-This advanced course is structured around four theoretical frameworks applied to game development:
-- **Weeks 1-3: Systems Thinking** - Game design fundamentals and tabletop analysis
-- **Weeks 4-8: Pattern Languages** - 2D development through architectural design patterns  
-- **Weeks 9-12: Spatial Computing** - 3D environments and advanced engine concepts
-- **Weeks 13-14: Industry Architecture** - Professional development and systems at scale
+This advanced course uses **theory as a lens** for game development practice, structured around four theoretical frameworks:
+- **Weeks 1-3: Systems Thinking** - Understanding games as complex adaptive systems (analog focus)
+- **Weeks 4-8: Design Patterns** - Building reusable, maintainable game architectures (2D development)
+- **Weeks 9-12: 3D Environments & Interaction** - Creating immersive, interactive spaces (3D development)  
+- **Weeks 13-15: Professional Practice** - Industry context and professional development
+
+### Course Philosophy
+- **Theory Informs Practice**: Readings provide frameworks for approaching Godot development
+- **Background Projects**: Major assignments span multiple weeks like professional development
+- **Graduate Depth**: Sophisticated concepts without overwhelming separate academic work
+- **Professional Preparation**: Industry-relevant skills and presentation practice throughout
 
 
 ## Weekly Outline
-### Week 1 9/2 - Systems Thinking: What is a Game?
-- [Week 1 Slides](https://docs.google.com/presentation/d/1o1wn7qCIHvm6pyRf_S_lDHJCvFAZv06cnDHy8nc7OfY/edit?usp=sharing)
-- [FILL OUT THIS FORM](https://forms.gle/5X6TjT88Yg5m5XLs8) so you can tell me if I’m giving you too much homework!
 
-- Who are you/Syllabus Review
-- Game Design Fundamentals
-- The Iterative Game Design Process
-- Prototyping
-- Playtesting
-- Group Work
+*Each 2-hour class is structured as four 30-minute segments: Reading Discussion, Lecture, Workshop, Q&A*
 
-#### Work
-- **Homework: [Tabletop Game](/Assignments/Tabletop.md)**
-- **Homework: [MDA Framework Article](Readings/MDA.pdf)**
+### Week 1 9/2 - Introduction & Systems Design
+- **Assigned Reading**: Salen & Zimmerman "Rules of Play" Ch.1-4 (20 pages)
+- Welcome & introductions, systems thinking fundamentals
+- Tabletop game analysis workshop
+- **Assigned**: [Tabletop Game](/Assignments/Tabletop/Tabletop.md)
 
-### Week 2 9/9 - Complex Adaptive Systems 
-- Playtesting
+### Week 2 9/9 - MDA Framework & Playtesting  
+- **Assigned Reading**: Hunicke, LeBlanc, Zubek "MDA Framework" (5 pages)
+- Discuss systems in games, MDA framework lecture
+- Tabletop playtesting using MDA analysis
+- **Due**: [Tabletop Game](/Assignments/Tabletop/Tabletop.md)
 
+### Week 3 9/16 - Complex Adaptive Systems & Digital Transition
+- **Assigned Reading**: Johnson "Emergence" Ch.1 (15 pages)  
+- Discuss MDA application, emergence theory
+- Analyze emergence in tabletop games, Godot overview (demo only)
 
+### Week 4 9/23 - Introduction to Godot & Patterns
+- **Assigned Reading**: Alexander "A Pattern Language" Introduction + 3 patterns (15 pages)
+- First hands-on with Godot: basic scenes, nodes, movement
+- **Assigned**: [Lab 1: MDA Implementation](/Assignments/Labs/Lab_1.md)
 
-### Week 3 9/16 - MDA Framework & Digital Systems
+### Week 5 9/30 - Patterns & Component Architecture
+- **Assigned Reading**: Nystrom "Game Programming Patterns" - Observer + State (10 pages)
+- Signals, node composition, component-based design
+- **Due**: [Lab 1: MDA Implementation](/Assignments/Labs/Lab_1.md)
+- **Assigned**: [Lab 2: Emergence](/Assignments/Labs/Lab_2.md) & [2D Game](/Assignments/2D/2DGame.md) (background project)
 
-- [MDA Framework Article](Readings/MDA.pdf)
-- [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
-  - Prototyping Tabletop Games: Balancing and Mechanics
-  - Reading: MDA 
-  - MDA Framework
-  - Systems, Loops and Balance
+### Week 6 10/7 - Software Patterns in Practice  
+- **Assigned Reading**: Martin "Clean Code" Ch.1 (8 pages)
+- State machines, strategy pattern, code organization
+- **Due**: [Lab 2: Emergence](/Assignments/Labs/Lab_2.md)
+- **Assigned**: [Lab 3: Pattern Documentation](/Assignments/Labs/Lab_3.md)
 
-- Introduction to the Godot Editor
-  - Nodes
-  - Scenes
-  - Navigation
+### Week 7 10/14 - Clean Architecture & 2D Development
+- **Assigned Reading**: Fowler "Refactoring" Ch.1 (12 pages) 
+- 2D game architecture, project organization
+- **Due**: [Lab 3: Pattern Documentation](/Assignments/Labs/Lab_3.md)
 
-- Scripting
-  - Scripts and properties
-  - Variables
-  - Data types
-  - Functions
-  - Conditionals & Loops
-  - Arrays & Dicts
-  - Properties and Methods
-  - User Input
+### Week 8 10/21 - Integration & Polish Techniques
+- **Assigned Reading**: McConnell "Code Complete" Ch.22 (15 pages)
+- Game polish, juice, testing strategies
 
-#### Resources:
-- [Introduction to Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
-- [Learn GDScript From Zero](https://gdquest.github.io/learn-gdscript/?ref=godot-docs)
-- [Coding Fundamentals](Resources/Coding_Fundamentals.md)
-- [Conditionals, Input](https://www.youtube.com/watch?v=PyADIUsLobs)
-- [Coding Fundamentals Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
-- [Coding Fundamentals Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
+### Week 9 10/28 - 2D Presentations & 3D Introduction
+- **Assigned Reading**: Norman "Design of Everyday Things" Ch.1 (12 pages)
+- **Due**: [2D Game](/Assignments/2D/2DGame.md)
+- Introduction to 3D in Godot
+- **Assigned**: [Lab 4: 3D Interactive Scene](/Assignments/Labs/Lab_4.md), [Walking Sim](/Assignments/WalkingSim.md), [Capstone Game](/Assignments/Capstone/Capstone_Game.md)
 
+### Week 10 11/4 - 3D Physics & Spatial Design
+- **Assigned Reading**: Reynolds "Steering Behaviors" article (8 pages)
+- 3D physics systems, environmental design
 
-#### Work
-- **DUE: Tabletop Game**
-- **Homework: [Lab 1](/Assignments/Labs/Lab_1.md)**
-- **Homework: [2D Game](/Assignments/2D/2DGame.md)**
+### Week 11 11/11 - Environmental Storytelling & AI Agents  
+- **Assigned Reading**: Jenkins "Game Design as Narrative Architecture" (15 pages)
+- AI agents, navigation, behavior trees
 
-
-
-### Week 4 9/23 - Pattern Languages: Nodes & Connections 
-
-
-- Scripting
-  - Scripts and properties
-  - Variables
-  - Data types
-  - Functions
-  - Conditionals & Loops
-  - Arrays & Dicts
-  - Properties and Methods
-
-
-- Essential Nodes
-  - Area2D 
-  - CharacterBody2D
-  - Camera2D
-  - RigidBody2D
-
- **Break**
-
-- User Input
-#### Work
-- **DUE: Lab 1**
-- **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
-- **Homework: [2D Game](/Assignments/2D/2DGame.md)**
-
-### Week 5 9/30 - Christopher Alexander's Patterns in Code
-
-[Slides](Sessions/2_14/Slides.md)
-
-
-#### Assets
-- AnimatedSprites
-- Tilemaps
-- Assets
-  - Sprite Sheets
-  - Paralax layers
-  - Where to find assets
-    - [itch.io](https://itch.io/game-assets)
-    - [Kraftpix](https://craftpix.net/freebies/?utm_campaign=Website&utm_source=gamedev.net&utm_medium=10-free-2d-game-asset-sites)
-    - [Kenny](https://kenney.nl/assets)
-    - [Noun Project](https://thenounproject.com/)
-    - [Dotown](https://dotown.maeda-design-room.net/)
-    - [Open Game Art](https://opengameart.org/)
-
-#### Patterns
-- [Patterns](https://docs.google.com/presentation/d/1Hk9H7u_YFsuF3ZEwK9-Qux65CLM2lkOdccihLV83lz4/edit?usp=drivesdk) 
-  - [A Pattern Language](Readings/Alexander_A_Pattern_Language.pdf)
-  - [The Timeless Way of Building](Readings/The_Timeless_Way_of_Building_Complete.pdf)
-- [Game Programming Patterns](https://gameprogrammingpatterns.com)
-  - [Singleton](https://gameprogrammingpatterns.com/singleton.html),[Observer](https://gameprogrammingpatterns.com/observer.html)
-- Composition
-  - Common Patterns
-    - Items 
-    - Enemies
-    - Checkpoints
-    - Respawns
-    - Killboxes
-
-- Case Study: Platformer
-- Case Study: Top-Down
-
-#### Brainstorming
-- [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
-- [Activity](Modules/3D/CapstoneBrainstorm.md)
-
-#### Work
-- **DUE: Lab 2**
-- **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
-
-### Week 6 10/7 - Compositional Patterns & Polish
-- UI
-- Effects
-  - JUICE
-  - Sound
-  - Lighting
-  - Particles
-
-- Project Developoment
-
-
-
-#### Work
-- **DUE: Lab 3**
-
-### Week 7 10/14 - Game Programming Patterns
-- [Midsemester Reflection](https://forms.gle/ccHQcbaAVeD3gQKx7)
-
-- [Lecture](Sessions/2_28/Slides.md)
-  - Classes
-  - Resources
-  - Saving and Loading
-  - Globals
-  - Localization
-  - Migrating Code
-
-
-- **Playtesting 2D Games**
-
-### Week 8 10/21 - Advanced Architecture & Systems
-- Q&A 
-  - Whats the deal with `class` vs `class_name`???
-    - `class` refers to an [inner class](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html#inner-classes)! Wow!
-
-
-- [Exporting](https://docs.godotengine.org/en/stable/tutorials/export/index.html)
-
-- [Tool Scripts](https://docs.godotengine.org/en/stable/tutorials/plugins/running_code_in_the_editor.html)
-- [Plugins](https://docs.godotengine.org/en/stable/tutorials/plugins/editor/making_plugins.html)
-
-- Advanced AI:
-  - [FSM](https://www.youtube.com/watch?v=ow_Lum-Agbs)
-  - [Behaviour Trees](https://www.youtube.com/watch?v=KeShMInMjro)
-    - [Unity Tutorial](https://www.youtube.com/watch?v=lusROFJ3_t8)
-  - [Utility AI/ How the Sims Think](https://www.youtube.com/watch?v=9gf2MT-IOsg)
-
-- One Button Challenge???
-
-### Week 9 10/28 - Spatial Computing: Hello 3D
-
-- Hello 3D
-  - Models
-  - Textures
-  - Lights
-  - Environments
-
-#### Work
-  - **DUE: 2D Game**
-  - **Homework:** [Extra Credit walking Sim](Assignments/WalkingSim.md)
-  - **Homework:** [Capstone Presentation](/Assignments/Capstone/Capstone_Concept)
-  - **Homework:** [Capstone Game](/Assignments/Capstone/Capstone_Game)
-
-
-
-### Week 10 11/4 - Physics Systems & Simulation
-- 3D Review
-
-- Building out Environments
-  - Models
-    - Textures
-    - Materials
-  - Lights
-  - Sounds
-  - Environments
-
-- [Walking Sim Excercise](https://github.com/Bezark-Teaching/Walking-Sim-Template)
-
-- 3rd Person Controllers and Characters
-  - [Mixamo](https://www.mixamo.com)
-  - [Character Animation Combiner](https://nilooy.github.io/character-animation-combiner/)
-
-
-### Week 11 11/11 - Environmental Storytelling  
-
-  - Networking
-- **DUE: Capstone Project Presentations**
-
-### Week 12 11/18 - AI Systems & Agents
+### Week 12 11/18 - Advanced AI & Interactive Systems
+- **Assigned Reading**: Isla "Halo 2 AI" excerpts (10 pages)
+- **Due**: [Lab 4: 3D Interactive Scene](/Assignments/Labs/Lab_4.md) & [Walking Sim](/Assignments/WalkingSim.md)
 
 ### Week 13 11/25 - Capstone Presentations (Thanksgiving Week)
-- Networking in Godot
-- [Working in the Games Industry](https://docs.google.com/presentation/d/1i-RZGlzN65DgH-2sKYvK31pYVswlGjqj9AYbDTiazo0/edit?usp=sharing)
+- **Assigned Reading**: Raymond "Cathedral and Bazaar" excerpts (10 pages)
+- **Due**: [Capstone Presentation](/Assignments/Capstone/Capstone_Concept.md)
 
+### Week 14 12/2 - Production & Polish Practices  
+- **Assigned Reading**: Schell "Art of Game Design" Ch.27 (8 pages)
+- Production practices, optimization, professional workflows
 
-
-
-  - **DUE: Walking Sim**
-
-### Week 14 12/2 - Industry Architecture: Open Source Systems
-- XR
-- Shaders
-- Playtesting
-
-### Week 15 12/9 - Professional Development & Final Projects
-
-#### Work
-  - **DUE: Capstone Game**
+### Week 15 12/9 - Final Presentations & Professional Growth
+- **Due**: [Capstone Game](/Assignments/Capstone/Capstone_Game.md)
 
 
 # **Necessary Materials:**

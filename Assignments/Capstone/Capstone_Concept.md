@@ -1,69 +1,105 @@
-### Assignment: Capstone Game Concept Presentation
+# Capstone Technical Presentation
+**Professional Practice**: Industry-Style Technical Architecture Presentation  
+**Due**: Week 13 (11/25) - Thanksgiving Week  
+**Points**: 10
 
-#### Objective:
-Present your game concept to the class in a 10-minute group presentation. This presentation will serve as an opportunity to articulate your design ideas, inspirations, chosen mechanics, and plan for execution. Focus on communicating your vision clearly and demonstrating your approach to creating a minimum viable product (MVP).
+## Overview
+Present your capstone project's technical architecture and design philosophy to the class in a professional-style presentation. This simulates industry practice where developers present technical decisions to stakeholders and peers for feedback before final implementation.
 
-#### Presentation Structure (10 minutes total):
+## Learning Objectives
+- Practice professional technical communication skills
+- Receive peer feedback on architectural and design decisions before final development
+- Demonstrate mastery of course theoretical frameworks in project context
+- Build confidence presenting complex technical concepts to audiences
 
-1. **Game Concept Overview (2 minutes)**
-   - Briefly introduce your game idea
-   - Describe the core gameplay and key mechanics
-   - Explain your primary design goals
+## Presentation Requirements
 
-2. **Inspirations and Influences (2 minutes)**
-   - Discuss 2-3 games that serve as inspiration
-   - Explain how these inspirations inform your design choices
+### Duration & Format
+- **10-minute Presentation**: Strict time limit (industry standard for technical reviews)
+- **Professional Delivery**: Use industry-standard presentation practices
+- **Technical Focus**: Emphasize architecture, patterns, and theoretical framework application
+- **Visual Support**: Slides, diagrams, code examples, or prototype demonstrations
 
-3. **Mechanics and Gameplay Demo (3 minutes)**
-   - Present a visual representation of your core mechanics (e.g., sketches, diagrams, or simple prototypes)
-   - Explain how these mechanics will create the intended player experience
+### Required Content Areas
 
-4. **Development Plan (2 minutes)**
-   - Outline your process for creating the MVP within the given timeframe
-   - Describe how you're dividing tasks among team members
-   - Identify key milestones in your development timeline
+#### 1. Project Technical Architecture (3 minutes)
+- **Design Pattern Implementation**: Which patterns are you using and why?
+- **System Architecture**: How is your project organized and structured?
+- **Technology Decisions**: Key Godot features, tools, and technical approaches
+- **Code Organization**: How you're maintaining clean, professional code structure
 
-5. **Challenges and Learning Objectives (1 minute)**
-   - Discuss anticipated challenges and how you plan to address them
-   - Identify skills or knowledge the team needs to acquire to create the prototype
+#### 2. Theoretical Framework Integration (4 minutes)
+- **Systems Thinking Application**: How does your project demonstrate systems design?
+- **Design Pattern Usage**: Specific examples of pattern implementation in your code
+- **Spatial Design Considerations**: If applicable, how space serves your design goals
+- **Professional Practice Elements**: Development process, documentation, testing approaches
 
-#### Submission Requirements:
-- **Presentation Time:** 10 minutes (strict limit)
-- **Format:** Live presentation with visual aids (e.g., slides, sketches, diagrams)
-- **Team Participation:** All team members should have a speaking role
+#### 3. Development Process & Risk Management (2 minutes)
+- **Current Development Status**: What's complete, in progress, and planned
+- **Technical Challenges**: Problems encountered and solutions implemented or planned
+- **Timeline & Scope Management**: How you're managing remaining development time
+- **Contingency Planning**: Backup plans if technical challenges arise
 
-#### Grading Rubric: (Total 10 Points)
+#### 4. Seeking Feedback (1 minute)
+- **Specific Questions**: What technical/design decisions would you like feedback on?
+- **Areas of Concern**: Where would peer input be most valuable?
+- **Implementation Alternatives**: Are you considering different approaches to key problems?
 
-1. **Game Concept Clarity (2 points)**
-   - Clearly communicates the game idea and core gameplay
-   - Design goals are well-defined and achievable
+## Grading Criteria (10 Points Total)
 
-2. **Inspiration and Originality (2 points)**
-   - Effectively references inspirations and explains their influence
-   - Demonstrates how the concept builds upon or diverges from inspirations
+**Technical Communication (4 points)**
+- 4: Excellent technical communication with clear explanations suitable for technical audience
+- 3: Good technical communication with mostly clear explanations
+- 2: Adequate technical communication with some unclear areas
+- 1: Poor technical communication or confusing explanations
+- 0: Inadequate or missing technical content
 
-3. **Mechanics Presentation (2 points)**
-   - Clearly explains core mechanics and how they create the intended experience
-   - Visual aids effectively illustrate the gameplay concepts
+**Course Framework Integration (3 points)**
+- 3: Clear, sophisticated application of multiple course frameworks with specific examples
+- 2: Good application of course frameworks with adequate examples
+- 1: Basic application of some course frameworks
+- 0: Little or no evidence of course framework integration
 
-4. **Development Planning (2 points)**
-   - Presents a realistic and well-thought-out development plan
-   - Demonstrates effective task division among team members
+**Professional Presentation Skills (2 points)**
+- 2: Professional presentation delivery, effective use of time, engaging visual aids
+- 1: Good presentation skills with minor areas for improvement
+- 0: Poor presentation skills or ineffective delivery
 
-5. **Challenge Awareness and Learning Goals (1 point)**
-   - Shows awareness of potential obstacles and has strategies to address them
-   - Identifies relevant learning objectives for creating the MVP
+**Constructive Engagement (1 point)**
+- 1: Thoughtful questions for audience, receptive to feedback, facilitates productive discussion
+- 0.5: Some engagement but could be more thoughtful or receptive
+- 0: Poor engagement or defensive response to feedback
 
-6. **Presentation Quality (1 point)**
-   - Well-organized and engaging presentation
-   - Effective use of the allotted time
-   - All team members contribute meaningfully
+## Presentation Tips
 
-#### Tips for Success:
-- **Focus on Clarity:** Ensure your concept is easy to understand within the time limit.
-- **Be Realistic:** Your plans should be achievable given your current skills and the time available.
-- **Show, Don't Just Tell:** Use visual aids to illustrate your concepts and mechanics.
-- **Practice:** Rehearse your presentation to ensure smooth delivery within the time limit.
-- **Be Prepared for Questions:** The class or instructor may have a brief Q&A after your presentation.
+### Technical Communication Best Practices
+- **Lead with the Big Picture**: Start with overall architecture before diving into details
+- **Use Visual Aids Effectively**: Code snippets, diagrams, and architectural drawings
+- **Explain the "Why"**: Don't just describe what you're doing, explain your reasoning
+- **Connect to Theory**: Explicitly link technical decisions to course concepts
 
-Remember, the goal is to articulate your ideas clearly and demonstrate your approach to creating an MVP, not to present a fully polished game concept.
+### Professional Development Focus
+- **Industry Simulation**: Treat this as practice for technical reviews in professional settings
+- **Peer Learning**: Learn from others' technical approaches and decisions
+- **Feedback Integration**: Use feedback to improve your final implementation
+- **Portfolio Building**: Practice articulating technical decisions for future job interviews
+
+### Content Strategy
+- **Be Specific**: Use concrete examples rather than general descriptions
+- **Show Code**: Brief, relevant code examples are more valuable than abstract explanations
+- **Acknowledge Uncertainty**: It's professional to identify areas where you're still making decisions
+- **Focus on Impact**: How do your technical decisions affect the player experience?
+
+## Submission Requirements
+- Professional presentation delivered in class
+- Presentation materials (slides, diagrams, etc.) submitted digitally
+- Thoughtful participation in peer Q&A sessions
+- Brief reflection on feedback received and how it will influence final development
+
+## Follow-up Expectations
+After presentations, you should:
+- Incorporate valuable feedback into your final development phase
+- Document how peer input influenced your final technical decisions
+- Reference this presentation in your final project documentation
+
+*This presentation prepares you for professional technical communication while providing valuable peer feedback for your capstone project's final development phase.*

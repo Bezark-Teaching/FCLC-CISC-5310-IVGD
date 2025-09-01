@@ -8,8 +8,8 @@
 |----------------------------------|-----------------------------------------------------------|---------|-------------------|
 | **Class Participation**          | Active engagement, peer feedback, code reviews            |    20   | Ongoing           |
 | **Tabletop Game**                | Systems-focused analog game with playtesting analysis     |    15   | Week 2 (9/9)      |
-| **Lab 1: Emergence**             | Simple agents producing complex group behavior            |     5   | Week 5 (9/30)     |
-| **Lab 2: MDA Implementation**    | Mechanics-to-aesthetics prototype with documentation      |     5   | Week 6 (10/7)     |
+| **Lab 1: MDA Implementation**    | Mechanics-to-aesthetics prototype with documentation      |     5   | Week 5 (9/30)     |
+| **Lab 2: Emergence**             | Simple agents producing complex group behavior            |     5   | Week 6 (10/7)     |
 | **Lab 3: Pattern Documentation** | Identify and document design patterns while building      |     5   | Week 7 (10/14)    |
 | **2D Game**                      | Complete 2D game demonstrating clean architecture         |    35   | Week 9 (10/28)    |
 | **Lab 4: 3D Interactive Scene**  | 3D environment with intelligent NPCs and interactions     |    10   | Week 12 (11/18)   |

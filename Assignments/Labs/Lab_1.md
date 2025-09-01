@@ -1,38 +1,69 @@
-# Lab: Scenes and Scripts in Godot
-Create a 2D Godot project that demonstrates basic scene composition and scripting fundamentals.
+# Lab 1: MDA Implementation
+**Theory Lens**: Mechanics → Dynamics → Aesthetics Framework  
+**Due**: Week 5 (9/30)  
+**Points**: 5
 
-# Requirements:
-- A main scene with multiple scene instances
-- Basic scripting implementation with user interaction
-- Project hosted on GitHub with documentation
+## Overview
+Create a digital prototype in Godot that intentionally demonstrates the MDA framework - where specific mechanics create intended dynamics that produce a targeted aesthetic experience.
 
-# Specific Deliverables:
+## Learning Objectives
+- Apply MDA framework to digital game design
+- Understand how code choices affect player experience  
+- Document the connection between technical implementation and aesthetic goals
+- Practice fundamental Godot concepts through theoretical lens
 
-## Scene Structure:
-- Main scene as the project entry point
-- At least 2 different sprites/images
-- Multiple instances of a subscene (like trees in a forest)
+## Requirements
 
-## Scripting Elements:
-- At least one node with an attached script
-- Script must include an exported variable
-- Implementation of conditional logic
-- Response to user input (keyboard/mouse)
+### Core Implementation
+- **One Core Mechanic**: Choose a single, clear game mechanic (movement, collection, timing, etc.)
+- **Intentional Dynamics**: Design how this mechanic creates interesting player behavior
+- **Clear Aesthetic Goal**: Target specific player emotions or experiences (tension, flow, discovery, etc.)
 
-## Documentation:
-- README.md describing your project
-- Notes on what you learned
-- Any questions that came up during development
+### Technical Requirements (Godot)
+- Main scene with player-controlled element
+- At least one script demonstrating the core mechanic
+- Basic user input and feedback systems
+- Clean, organized project structure
 
+### Documentation Requirements
+- **MDA Analysis Document** (500-750 words):
+  - **Mechanics**: Describe your implemented mechanic precisely
+  - **Dynamics**: Explain what player behaviors/interactions emerge 
+  - **Aesthetics**: Define the emotional experience you're targeting
+  - **Implementation Reflection**: How do your code choices support the aesthetic goal?
+  - **Iteration Notes**: What did you change based on testing?
 
+## Grading Criteria (5 Points Total)
 
-# Grading Criteria: (Total 6 Points)
+**Mechanic Implementation (2 points)**
+- 2: Mechanic is clearly implemented and functions as intended
+- 1: Mechanic functions but has minor issues or unclear implementation
+- 0: Mechanic is not functional or poorly implemented
 
-- Scene Implementation (0-2): Does the project include a main scene with at least 2 different sprites and multiple instances of a subscene?
-- Script Implementation (0-2): Does the project include a script with an exported variable and conditional logic?
-- User Interaction (0-1): Does the project properly respond to user input?
-- Project Structure (0-1): Is the project properly organized on GitHub with documentation?
+**MDA Framework Application (2 points)**
+- 2: Clear, thoughtful connection between mechanics, dynamics, and aesthetics with evidence of iteration
+- 1: Basic understanding of MDA with some connections made
+- 0: Little evidence of MDA framework understanding or application
 
-# Submission:
-Submit your GitHub repository link containing the complete project on Blackboard.
-This combines both labs' core concepts while maintaining a total of 6 points, streamlining the requirements while preserving the key learning objectives from both original assignments.
+**Documentation Quality (1 point)**
+- 1: Complete, well-written analysis that demonstrates understanding
+- 0.5: Adequate documentation with some missing elements
+- 0: Incomplete or poorly written documentation
+
+## Example Concepts
+- **Precision Platforming**: Tight controls (mechanic) → careful movement planning (dynamics) → satisfaction of mastery (aesthetic)
+- **Resource Collection**: Limited inventory (mechanic) → strategic decision-making (dynamics) → tension and planning (aesthetic)
+- **Rhythm Interaction**: Timed input (mechanic) → pattern recognition (dynamics) → flow state (aesthetic)
+
+## Submission Requirements
+- GitHub repository with complete Godot project
+- MDA Analysis document in repository README or separate file
+- Repository link submitted via course management system
+
+## Tips for Success
+- Start simple - focus on one mechanic done well
+- Playtest with others and observe their behavior
+- Don't just describe what you built - analyze how it affects players
+- Consider how small code changes (speed, timing, feedback) impact the experience
+
+*This assignment applies the MDA framework reading to hands-on digital prototyping, establishing the theoretical foundation for all subsequent game development work.*

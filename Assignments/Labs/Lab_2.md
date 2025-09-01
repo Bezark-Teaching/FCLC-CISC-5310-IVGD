@@ -1,38 +1,87 @@
-### Lab: Experimental Pong - Inspired by Pippin Barr's PONGS
-Create a unique variation of Pong that subverts or reimagines one core element of the classic game. Your version should make players think differently about an aspect of Pong that they take for granted.
+# Lab 2: Emergent Pong  
+**Theory Lens**: Complex Adaptive Systems through Game Variation  
+**Due**: Week 6 (10/7)  
+**Points**: 5
 
-https://pippinbarr.com/pongs/info/
+## Overview
+Create a variation of Pong that demonstrates emergent behavior - where simple rule changes create complex, unexpected gameplay patterns. This lab synthesizes emergence theory with practical game design, inspired by Pippin Barr's PONGS.
 
-Feel free to use [Pong](../../Modules/2D/pong) as a reference.
+Reference: https://pippinbarr.com/pongs/info/  
+Base Code: [Pong Module](../../Modules/2D/pong)
 
-#### Requirements:
-- Must be recognizable as a variation of Pong
-- Must meaningfully change one core element (ball behavior, paddle function, scoring, screen space, time, etc.)
-- Must remain playable (even if deliberately frustrating)
+## Learning Objectives  
+- Apply emergence theory to game design
+- Understand how simple rule changes create complex behavioral patterns
+- Implement systems where local interactions produce global gameplay effects
+- Analyze player behavior emergence vs. designed mechanics
 
-#### Specific Deliverables:
-- **Core Mechanics:**
-  - Basic Pong elements (ball, paddle(s), play space)
-  - One significant twist on traditional Pong mechanics
-  - Clear way to start/restart the game
-- **Documentation:**
-  - README.md explaining your concept
-  - Brief artist statement about your design choices
-  - Description of how your version subverts expectations
+## Requirements
 
-#### Grading Criteria: (Total 6 Points)
-- **Concept (0-2):** Does your variation offer an interesting perspective on Pong? Is the twist meaningful rather than random?
-- **Implementation (0-2):** Are the basic Pong mechanics functional? Does your twist work as intended?
-- **Playability (0-1):** Can players understand and engage with your variation, even if it's intentionally challenging?
-- **Documentation (0-1):** Is your concept clearly explained? Does your README articulate the artistic intent?
+### Core Implementation
+- **Recognizable Pong Base**: Ball, paddle(s), play space, basic collision
+- **Emergent Rule Modification**: One significant change that creates emergent behavior patterns
+- **Local Rule Changes**: Modifications should affect individual elements but create system-wide effects
+- **Playable Result**: Must remain engaging even if deliberately challenging
 
-#### Examples of Possible Variations:
-- Time manipulation (slow motion, rewind, freeze)
-- Spatial distortion (curved space, wrapping, rotating play field)
-- Rule changes (multiple balls, changing paddle functions, scoring inversions)
-- Emotional elements (narrative, sound design, visual metaphor)
+### Emergent Behavior Focus
+Choose ONE approach that creates emergence:
+- **Multiple Agents**: Multiple balls/paddles with simple individual rules creating complex interactions
+- **Environmental Response**: Play space that adapts based on local game events  
+- **Rule Evolution**: Game rules that change based on player behavior patterns
+- **Collective Dynamics**: Individual elements that respond to nearby elements, creating group behaviors
 
-#### Submission:
-Submit your GitHub repository link containing the complete project on Blackboard.
+### Documentation Requirements
+- **Emergent Pong Analysis** (500-750 words):
+  - **Original Pong Elements**: What core Pong mechanics did you preserve?
+  - **Rule Modification**: What simple rule did you change and why?
+  - **Emergent Behaviors**: What complex patterns emerged from your rule change?
+  - **Player Experience**: How does emergence affect the player experience differently than traditional Pong?
+  - **Unexpected Results**: What behaviors surprised you during development/testing?
 
-Remember: The goal isn't just to make Pong "different" - it's to use your variation to comment on or explore an aspect of the original game in a thoughtful way.
+## Grading Criteria (5 Points Total)
+
+**Pong Foundation (1 point)**
+- 1: Functional Pong base with recognizable elements (ball, paddle, collision)
+- 0.5: Basic Pong elements present but with significant functionality issues
+- 0: Missing core Pong elements or non-functional
+
+**Emergent Rule Implementation (2 points)**
+- 2: Clear rule modification that creates genuine emergent behavior patterns
+- 1: Rule change implemented but limited emergent effects
+- 0: Rule change is cosmetic or doesn't create emergent behavior
+
+**System Complexity (1 point)**
+- 1: Simple rule change creates genuinely complex, unpredictable gameplay patterns
+- 0.5: Some complexity emerges but patterns are mostly predictable
+- 0: No clear complexity emerges from rule changes
+
+**Analysis & Documentation (1 point)**
+- 1: Thoughtful analysis connecting emergence theory to your specific Pong variation
+- 0.5: Basic documentation with some emergence concepts addressed
+- 0: Poor analysis or missing connection to emergence theory
+
+## Example Concepts
+- **Flocking Pong**: Multiple balls that attract/repel each other → complex trajectory patterns
+- **Adaptive Pong**: Paddle speed changes based on ball history → evolving difficulty patterns
+- **Territorial Pong**: Screen areas that "remember" ball impacts → environmental behavioral zones  
+- **Social Pong**: Multiple paddles with simple AI rules → emergent cooperation/competition patterns
+
+## Inspiration & References
+- Craig Reynolds' "Boids" flocking simulation
+- Conway's Game of Life  
+- Ant colony optimization behaviors
+- Fish schooling and bird flocking patterns
+
+## Submission Requirements  
+- GitHub repository with complete Godot project
+- Emergence Analysis document in repository  
+- Repository link submitted via course management system
+
+## Tips for Success
+- Start with the simplest possible agent rules
+- Resist the urge to directly control global behavior  
+- Run many iterations and observe what patterns emerge naturally
+- Document unexpected behaviors as they occur
+- Consider how small rule changes create dramatically different patterns
+
+*This assignment bridges the theoretical understanding of emergence from your reading with hands-on implementation, preparing you for more complex pattern-based thinking in game design.*
