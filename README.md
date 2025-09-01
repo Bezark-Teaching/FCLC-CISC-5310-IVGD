@@ -28,7 +28,7 @@ The  work of the class consists of the following:
 | [2D Game](/Assignments/2D/2DGame.md)                                           | A 2D game demonstrating design patterns and architecture                   | 11/4                         | 30            |
 | [Walking Sim](/Assignments/WalkingSim.md)                                      | An environmental storytelling experience using advanced 3D techniques      | 11/18                        | 20            |
 | [Capstone Presentation](/Assignments/Capstone/Capstone_Concept.md)             | A technical presentation of your capstone architecture and systems         | 11/25                        | 10            |
-| [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A sophisticated game showcasing advanced development concepts               | 12/9                         | 35            |
+| [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A sophisticated game showcasing advanced development concepts              | 12/9                         | 35            |
 | **Total Points Possible**                                                      |                                                                            |                              | **150**       |
 
 All assignments will be graded on the due date. Students are always allowed to revise and resubmit work **up until the class before the final.**
@@ -61,9 +61,6 @@ This advanced course is structured around four theoretical frameworks applied to
 - **Homework: [MDA Framework Article](Readings/MDA.pdf)**
 
 ### Week 2 9/9 - Complex Adaptive Systems 
-
-**THIS CLASS WILL END EARLY**
-
 - Playtesting
 
 
@@ -110,15 +107,6 @@ This advanced course is structured around four theoretical frameworks applied to
 
 ### Week 4 9/23 - Pattern Languages: Nodes & Connections 
 
-- Q&A
-  - Is there Garbage collection in Godot?
-  [ChatGPT Says...](https://chatgpt.com/share/67a66b47-4cf0-8007-87b0-d614c2e2072c)
-> - Reference-counted objects (RefCounted): These are automatically freed when no references remain. The engine cleans them up without manual intervention.
-> - Manually managed objects (Object or Node): Nodes and Objects that do not inherit from RefCounted must be manually freed using queue_free() (for Nodes) or free() (for Objects).
-> - Resource Management: Resource objects (like Texture, Material, Mesh, etc.) are reference-counted, but they may persist in memory if cached (e.g., in the ResourceCache).
-
-  - Can you jump to definitions of built-in methods?
-    - No!
 
 - Scripting
   - Scripts and properties
@@ -129,7 +117,6 @@ This advanced course is structured around four theoretical frameworks applied to
   - Arrays & Dicts
   - Properties and Methods
 
-- [Lab 1 Review](Modules/2D/lab1/)
 
 - Essential Nodes
   - Area2D 
@@ -148,17 +135,6 @@ This advanced course is structured around four theoretical frameworks applied to
 ### Week 5 9/30 - Christopher Alexander's Patterns in Code
 
 [Slides](Sessions/2_14/Slides.md)
-
-#### Review
-- Questions:
-  - having nodes follow at different speeds
-  - animations for node movement
-  - scene transitions in-game- Signals and Referencing nodes
-  - How can I make the character jump (vertically)?
-  - How can I add collisions so the character doesn’t move off-screen?
-- pong review
-- git revew
-
 
 
 #### Assets
@@ -201,12 +177,7 @@ This advanced course is structured around four theoretical frameworks applied to
 - **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 
 ### Week 6 10/7 - Compositional Patterns & Polish
-
-- Show and Tell
-
-
 - UI
-
 - Effects
   - JUICE
   - Sound
@@ -254,8 +225,6 @@ This advanced course is structured around four theoretical frameworks applied to
 - One Button Challenge???
 
 ### Week 9 10/28 - Spatial Computing: Hello 3D
-
-- PLAYING YOUR GAMES! WOW!
 
 - Hello 3D
   - Models
@@ -354,3 +323,4 @@ When not creating weird things, John also really likes to work in education and 
 **Email: jbezark@fordham.edu**
 
 **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
+
