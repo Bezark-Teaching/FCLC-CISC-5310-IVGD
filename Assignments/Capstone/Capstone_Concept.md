@@ -1,6 +1,6 @@
 # Capstone Technical Presentation
 **Professional Practice**: Industry-Style Technical Architecture Presentation  
-**Due**: Week 13 (11/25) - Thanksgiving Week  
+**Due**: Week 12 (11/18)  
 **Points**: 10
 
 ## Overview

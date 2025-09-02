@@ -28,7 +28,7 @@ This advanced graduate course uses **theory as a lens** for game development pra
 | [Lab 3: Pattern Documentation](/Assignments/Labs/Lab_3.md)         | Identify and document design patterns while building     | 10/14      |     5  |
 | [2D Game](/Assignments/2D/2DGame.md)                               | Complete 2D game demonstrating clean architecture        | 10/28      |    34  |
 | [Lab 4: Walking Sim](/Assignments/Labs/Lab_4.md)                   | 3D environmental storytelling experience                 | 11/18      |    24  |
-| [Capstone Presentation](/Assignments/Capstone/Capstone_Concept.md) | Technical presentation of final project architecture     | 11/25      |    10  |
+| [Capstone Presentation](/Assignments/Capstone/Capstone_Concept.md) | Technical presentation of final project architecture     | 11/18      |    10  |
 | [Capstone Game](/Assignments/Capstone/Capstone_Game.md)            | Sophisticated game showcasing advanced concepts          | 12/9       |    33  |
 | **Total Points Possible**                                          |                                                          |            | **150**|
 
@@ -203,33 +203,32 @@ This advanced course uses **theory as a lens** for game development practice, st
 3. **Workshop:** Implement basic AI agents with navigation and simple behaviors
 4. **Progress Review:** Show Lab 4 & Walking Sim development, get feedback on spatial design
 
-### Week 12 11/18 - Advanced AI & Interactive Systems
-**Assigned Reading:** [Isla "Handling Complexity in the Halo 2 AI"](https://www.gamedeveloper.com/programming/gdc-2005-proceeding-handling-complexity-in-the-i-halo-2-i-ai)(excerpts) - 10 pages *(discuss next week)*
+### Week 12 11/18 - Capstone Presentations & Professional Development
+**Assigned Reading:** Raymond ["The Cathedral and the Bazaar"](Readings/Professional-Practice/Raymond_Eric_S_The_Cathedral_and_the_Bazaar_rev_ed.pdf) (excerpts) - 10 pages *(discuss next week)*
 
 **Class Structure:**
 1. **Discussion:** Jenkins reading - how does space tell stories in games?
-2. **Lecture:** Advanced AI techniques, perception systems, believable behavior
-3. **Workshop:** Polish Lab 4 & Walking Sim - integrate AI agents with environmental storytelling
-4. **Presentations:** Lab 4 & Walking Sim final presentations and critique
+2. **Presentations:** Capstone project technical presentations
+3. **Lecture:** Open source development, Godot's community model, contributing to projects  
+4. **Workshop:** Final capstone development sprint planning based on presentation feedback
 
 **Due:** Lab 4 - 3D Interactive Scene
 **Due:** Walking Sim
+**Due:** Capstone Presentation
 
 ---
 
 ## PART IV: PROFESSIONAL PRACTICE (Weeks 13-15)
 *Industry context and professional development*
 
-### Week 13 11/25 - Capstone Presentations & Open Source (Thanksgiving Week)
-**Assigned Reading:** Raymond ["The Cathedral and the Bazaar"](Readings/Professional-Practice/Raymond_Eric_S_The_Cathedral_and_the_Bazaar_rev_ed.pdf) (excerpts) - 10 pages *(discuss next week)*
+### Week 13 11/25 - Advanced AI & Interactive Systems (Thanksgiving Week)
+**Assigned Reading:** [Isla "Handling Complexity in the Halo 2 AI"](https://www.gamedeveloper.com/programming/gdc-2005-proceeding-handling-complexity-in-the-i-halo-2-i-ai)(excerpts) - 10 pages *(discuss next week)*
 
 **Class Structure:**
-1. **Discussion:** Halo AI reading - what makes AI feel intelligent vs. actually intelligent?
-2. **Presentations:** Capstone project technical presentations (shortened format due to holiday)
-3. **Lecture:** Open source development, Godot's community model, contributing to projects  
-4. **Workshop:** Final capstone development sprint planning based on presentation feedback
-
-**Due:** Capstone Presentation
+1. **Discussion:** Cathedral & Bazaar reading - how does open source affect game development?
+2. **Lecture:** Advanced AI techniques, perception systems, believable behavior (shortened format due to holiday)
+3. **Workshop:** Polish capstone projects - integrate AI agents with environmental storytelling
+4. **Individual Check-ins:** Brief meetings on capstone progress and final scope
 
 ### Week 14 12/2 - Production & Polish Practices
 **Assigned Reading:** Schell ["The Art of Game Design"](Readings/Systems-Thinking/Jesse Schell - The Art of Game Design A Book of Lenses .pdf) Ch.27 (Playtesting) - 8 pages *(discuss next week)*
