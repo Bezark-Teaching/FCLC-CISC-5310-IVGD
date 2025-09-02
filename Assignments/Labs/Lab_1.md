@@ -1,69 +1,77 @@
-# Lab 1: MDA Implementation
-**Theory Lens**: Mechanics → Dynamics → Aesthetics Framework  
+# Lab 1: Godot Foundations
+**Technical Focus**: Essential 2D Godot Skills & Project Structure  
 **Due**: Week 5 (9/30)  
 **Points**: 5
 
 ## Overview
-Create a digital prototype in Godot that intentionally demonstrates the MDA framework - where specific mechanics create intended dynamics that produce a targeted aesthetic experience.
+Build a solid foundation in Godot 2D development by creating a simple interactive project that demonstrates core game development concepts including player control, scene management, and basic game mechanics.
 
 ## Learning Objectives
-- Apply MDA framework to digital game design
-- Understand how code choices affect player experience  
-- Document the connection between technical implementation and aesthetic goals
-- Practice fundamental Godot concepts through theoretical lens
+- Master fundamental Godot 2D concepts (scenes, nodes, scripts)
+- Implement proper player character control using CharacterBody2D
+- Understand signal-based communication between game objects
+- Practice clean code organization and project structure
+- Build technical foundation for more complex projects
 
 ## Requirements
 
-### Core Implementation
-- **One Core Mechanic**: Choose a single, clear game mechanic (movement, collection, timing, etc.)
-- **Intentional Dynamics**: Design how this mechanic creates interesting player behavior
-- **Clear Aesthetic Goal**: Target specific player emotions or experiences (tension, flow, discovery, etc.)
+### Player Character
+- **CharacterBody2D**: Properly implemented player character with smooth movement
+- **Input Handling**: Responsive controls using Input singleton
+- **Basic Physics**: Collision detection and response
 
-### Technical Requirements (Godot)
-- Main scene with player-controlled element
-- At least one script demonstrating the core mechanic
-- Basic user input and feedback systems
-- Clean, organized project structure
+### Scene Management
+- **Main Scene**: Well-organized main scene with proper node hierarchy
+- **Scene Instances**: At least 2 different scene instances (e.g., collectibles, obstacles, NPCs)
+- **Scene Organization**: Logical scene structure with appropriate node names
 
-### Documentation Requirements
-- **MDA Analysis Document** (500-750 words):
-  - **Mechanics**: Describe your implemented mechanic precisely
-  - **Dynamics**: Explain what player behaviors/interactions emerge 
-  - **Aesthetics**: Define the emotional experience you're targeting
-  - **Implementation Reflection**: How do your code choices support the aesthetic goal?
-  - **Iteration Notes**: What did you change based on testing?
+### Game Mechanics
+- **Interactive Elements**: At least one type of interactive object (collectible, switch, door, etc.)
+- **Signal Communication**: Use signals to communicate between objects (not direct node references)
+- **Basic Feedback**: Visual or audio feedback for player actions
+
+### Code Quality
+- **Clean Scripts**: Well-organized, commented code
+- **Project Structure**: Logical file organization and naming conventions
+- **Version Control**: Proper Git repository with meaningful commits
+
+### Submission Requirements
+- GitHub repository with complete Godot project
+- Repository link submitted via course management system
 
 ## Grading Criteria (5 Points Total)
 
-**Mechanic Implementation (2 points)**
-- 2: Mechanic is clearly implemented and functions as intended
-- 1: Mechanic functions but has minor issues or unclear implementation
-- 0: Mechanic is not functional or poorly implemented
+**Player Character Implementation (2 points)**
+- 2: CharacterBody2D with smooth, responsive movement and proper collision
+- 1: Basic player character with minor movement or collision issues
+- 0: Player character is non-functional or poorly implemented
 
-**MDA Framework Application (2 points)**
-- 2: Clear, thoughtful connection between mechanics, dynamics, and aesthetics with evidence of iteration
-- 1: Basic understanding of MDA with some connections made
-- 0: Little evidence of MDA framework understanding or application
+**Scene Management & Signals (2 points)**
+- 2: Proper scene organization with effective use of signals for communication
+- 1: Basic scene structure with some signal usage
+- 0: Poor scene organization or no signal implementation
 
-**Documentation Quality (1 point)**
-- 1: Complete, well-written analysis that demonstrates understanding
-- 0.5: Adequate documentation with some missing elements
-- 0: Incomplete or poorly written documentation
+**Code Quality & Project Structure (1 point)**
+- 1: Clean, well-commented code with logical project organization
+- 0.5: Functional code with basic organization
+- 0: Poor code quality or disorganized project structure
 
-## Example Concepts
-- **Precision Platforming**: Tight controls (mechanic) → careful movement planning (dynamics) → satisfaction of mastery (aesthetic)
-- **Resource Collection**: Limited inventory (mechanic) → strategic decision-making (dynamics) → tension and planning (aesthetic)
-- **Rhythm Interaction**: Timed input (mechanic) → pattern recognition (dynamics) → flow state (aesthetic)
+## Example Projects
+- **Simple Collector**: Player moves around collecting items with particle effects and sound feedback
+- **Basic Platformer**: Player character with jump mechanics, platforms, and interactive elements
+- **Top-Down Explorer**: Overhead view with player navigation, doors, switches, or NPCs
+- **Interaction Demo**: Player can activate objects, open doors, or trigger events using signals
 
 ## Submission Requirements
 - GitHub repository with complete Godot project
-- MDA Analysis document in repository README or separate file
 - Repository link submitted via course management system
 
 ## Tips for Success
-- Start simple - focus on one mechanic done well
-- Playtest with others and observe their behavior
-- Don't just describe what you built - analyze how it affects players
-- Consider how small code changes (speed, timing, feedback) impact the experience
+- **Start with Movement**: Get player character working first, then add interactions
+- **Use Signals**: Practice signal-based communication instead of direct node references
+- **Test Frequently**: Run your project often to catch issues early
+- **Organize Early**: Set up clean project structure from the beginning
+- **Comment Your Code**: Explain what your scripts do for future reference
+- **Reference Documentation**: Use Godot's excellent documentation when stuck
 
-*This assignment applies the MDA framework reading to hands-on digital prototyping, establishing the theoretical foundation for all subsequent game development work.*
+*This assignment establishes essential Godot skills that will be foundation for all subsequent projects, from emergence simulations to environmental storytelling.*

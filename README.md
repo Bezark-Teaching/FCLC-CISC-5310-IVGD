@@ -24,12 +24,11 @@ This advanced graduate course uses **theory as a lens** for game development pra
 |:-------------------------------------------------------------------|:---------------------------------------------------------|:-----------|:-------|
 | **Class Participation**                                            | Active engagement, peer feedback, code reviews           | Ongoing    |    20  |
 | [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                 | Systems-focused analog game with playtesting analysis    | 9/9        |    14  |
-| [Lab 1: MDA Implementation](/Assignments/Labs/Lab_1.md)            | Mechanics-to-aesthetics prototype with documentation     | 9/30       |     5  |
+| [Lab 1: Godot Foundations](/Assignments/Labs/Lab_1.md)             | Essential 2D Godot skills and project structure          | 9/30       |     5  |
 | [Lab 2: Emergence](/Assignments/Labs/Lab_2.md)                     | Simple agents producing complex group behavior           | 10/7       |     5  |
 | [Lab 3: Pattern Documentation](/Assignments/Labs/Lab_3.md)         | Identify and document design patterns while building     | 10/14      |     5  |
 | [2D Game](/Assignments/2D/2DGame.md)                               | Complete 2D game demonstrating clean architecture        | 10/28      |    34  |
-| [Lab 4: 3D Interactive Scene](/Assignments/Labs/Lab_4.md)          | 3D environment with intelligent NPCs and interactions    | 11/18      |    10  |
-| [Walking Sim](/Assignments/WalkingSim.md)                          | Environmental storytelling experience using 3D techniques| 11/18      |    14  |
+| [Lab 4: Walking Sim](/Assignments/Labs/Lab_4.md)                   | 3D environmental storytelling experience                 | 11/18      |    24  |
 | [Capstone Presentation](/Assignments/Capstone/Capstone_Concept.md) | Technical presentation of final project architecture     | 11/25      |    10  |
 | [Capstone Game](/Assignments/Capstone/Capstone_Game.md)            | Sophisticated game showcasing advanced concepts          | 12/9       |    33  |
 | **Total Points Possible**                                          |                                                          |            | **150**|

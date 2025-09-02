@@ -1,90 +1,90 @@
-# Lab 4: 3D Interactive Scene
-**Theory Lens**: Spatial Affordances & AI Agent Behavior  
+# Lab 4: Walking Sim
+**Theory Lens**: Environmental Storytelling & Spatial Affordances  
 **Due**: Week 12 (11/18)  
-**Points**: 10
+**Points**: 24
 
 ## Overview
-Create a 3D interactive environment that demonstrates both spatial affordances (how space suggests interaction) and intelligent agent behavior. This lab synthesizes spatial design theory with AI implementation in a 3D context.
+Create a 3D walking simulator that tells a story purely through environmental design, spatial composition, and atmospheric elements. This project combines spatial affordances with environmental storytelling to create meaningful 3D experiences.
 
 ## Learning Objectives
-- Apply affordance theory to 3D environment design
-- Implement believable AI agents with navigation and behavior
-- Understand spatial composition and environmental storytelling
-- Create immersive 3D interactions using advanced Godot systems
+- Apply affordance theory to communicate narrative without explicit text/UI
+- Master 3D atmosphere creation through lighting, audio, and composition
+- Create immersive experiences through spatial design alone
+- Understand environmental storytelling as game design practice
 
 ## Requirements
 
-### 3D Environment Foundation
-- **3D Scene Setup**: Camera, lighting, organized spatial composition  
-- **CSG or Mesh-based Level**: Environment built for meaningful navigation
-- **Player Character**: Controllable CharacterBody3D with smooth movement
-- **Spatial Affordances**: Environment elements that clearly suggest their use without UI instruction
+### Environmental Storytelling Focus
+- **No Text/Dialogue**: Story must be told entirely through environmental design
+- **Spatial Narrative**: Use architectural composition, object placement, and environmental cues
+- **Emotional Journey**: Design a clear emotional arc through spatial experience
+- **Player Discovery**: Allow players to piece together narrative through exploration
 
-### AI Agent Implementation
-- **Intelligent NPCs**: At least 2 AI agents with distinct behaviors
-- **Navigation System**: Proper use of NavigationMesh for pathfinding
-- **Believable Behavior**: Agents should feel alive, not just mechanically functional  
-- **Player Interaction**: NPCs respond appropriately to player presence/actions
+### Technical Requirements (Godot 4)
+- **First-Person Movement**: Smooth, intuitive CharacterBody3D controller
+- **3D Environment**: Carefully composed spaces using meshes, CSG, or imported models  
+- **Atmospheric Systems**: Lighting design, particle effects, spatial audio implementation
+- **Performance Optimization**: Proper LOD, occlusion culling, or scene organization
 
-### Advanced Technical Requirements
-- **Lighting Design**: Lighting that guides player attention and creates atmosphere
-- **Audio Implementation**: Spatial audio that enhances the environment
-- **Performance Optimization**: Scene runs smoothly with multiple moving agents
+### Duration & Scope
+- **15-20 minute experience**: Focused, complete narrative arc
+- **Single path recommended**: Guide player through intentional spatial sequence
+- **Environmental interaction**: Minimal but meaningful (doors, lights, simple triggers)
 
-## Grading Criteria (10 Points Total)
+## Grading Criteria (24 Points Total)
 
-**3D Environment Design (3 points)**
-- 3: Well-composed 3D space with clear affordances, effective lighting, and purposeful layout
-- 2: Functional 3D environment with basic affordances and adequate lighting
-- 1: Basic 3D scene with some environmental elements
-- 0: Poorly constructed or minimal 3D environment
+**Environmental Storytelling (10 points)**
+- 10: Sophisticated narrative told entirely through spatial design with clear emotional impact
+- 8: Strong environmental narrative with mostly effective spatial storytelling
+- 6: Good use of environmental elements to suggest narrative
+- 4: Basic environmental storytelling with some effective moments
+- 2: Attempted environmental narrative but unclear or weak
+- 0: No clear environmental narrative
 
-**AI Agent Implementation (4 points)**
-- 4: Multiple agents with sophisticated, believable behavior using navigation and state management
-- 3: AI agents with good navigation and basic behavioral variety  
-- 2: Functional AI with navigation but limited behavioral complexity
-- 1: Basic AI movement without proper navigation or behavior systems
-- 0: Non-functional or missing AI agents
+**Spatial Design & Affordances (8 points)**
+- 8: Excellent spatial composition where form clearly suggests function and guides player movement
+- 6: Good spatial design with clear affordances and effective player guidance
+- 4: Adequate spatial design with some effective affordances
+- 2: Basic spatial design with minimal clear affordances
+- 0: Poor spatial design that confuses player movement or interaction
 
-**Player Interaction & System Integration (2 points)**
-- 2: Smooth player control with meaningful interactions between player, environment, and AI agents
-- 1: Basic player control with some interaction elements
-- 0: Poor player control or minimal interaction systems
+**Atmospheric Implementation (4 points)**
+- 4: Professional-quality atmosphere through lighting, audio, and environmental effects
+- 3: Good atmospheric elements that enhance the experience
+- 2: Basic atmospheric elements present but could be stronger
+- 1: Minimal atmospheric design
+- 0: Ineffective atmospheric design
 
-**Technical Polish & Performance (1 point)**
-- 1: Well-optimized scene with good audio implementation and smooth performance
-- 0.5: Adequate technical implementation with minor issues
-- 0: Technical problems that interfere with experience
-
-## Documentation Requirements
-**3D Design Analysis** (500-750 words):
-- **Spatial Affordances**: How does your environment communicate interaction possibilities?
-- **AI Behavior Design**: What makes your agents feel believable vs. mechanical?
-- **Player Experience**: How do space, AI, and player interaction work together?
-- **Technical Challenges**: What 3D development challenges did you encounter and solve?
-
-## Example Concepts
-- **Social Gathering Space**: NPCs with conversation behaviors in a designed social environment
-- **Ecosystem Simulation**: Animal-like agents with territorial, feeding, or flocking behaviors
-- **Interactive Workshop**: NPCs demonstrating crafts or activities that player can observe/join
-- **Architectural Exploration**: Building with NPCs as guides or inhabitants showing space usage
-
-## Technical Focus Areas
-- **Navigation Mesh Setup**: Proper nav mesh baking and agent configuration
-- **State Machine AI**: NPCs with multiple behavioral states (idle, patrol, interact, etc.)
-- **Spatial Audio**: 3D positioned sound effects that enhance immersion
-- **Camera Systems**: Effective camera positioning and movement for 3D exploration
+**Technical Implementation (2 points)**
+- 2: Smooth performance, intuitive controls, well-optimized 3D environment
+- 1: Functional implementation with minor technical issues
+- 0: Significant technical problems that interfere with experience
 
 ## Submission Requirements
 - GitHub repository with complete Godot 3D project
-- 3D Design Analysis document in repository
+- Repository link submitted via course management system
+
+## Example Approaches
+- **Memory/Nostalgia**: Childhood home that reveals family history through spatial changes
+- **Isolation/Connection**: Journey from confined to open spaces reflecting emotional state
+- **Time/Decay**: Environment showing passage of time through visual environmental cues
+- **Mystery/Discovery**: Spaces that gradually reveal their purpose through exploration
+
+## Technical Focus Areas
+- **Lighting Design**: Use of light to guide attention and create mood
+- **Spatial Audio**: 3D positioned sound that enhances environmental storytelling
+- **Environmental Details**: Small elements that add narrative depth without explicit explanation
+- **Player Movement Flow**: Designing spaces that naturally guide exploration
+
+## Submission Requirements
+- GitHub repository with complete Godot 3D project
 - Repository link submitted via course management system
 
 ## Tips for Success
-- Start with simple AI behaviors and build complexity gradually
-- Test navigation mesh thoroughly - agent pathfinding issues are hard to debug
-- Design your space first, then place AI agents where they make spatial sense
-- Use lighting and audio to guide player attention and create atmosphere
-- Consider performance early - 3D scenes can become resource-intensive quickly
+- **Study Real Architecture**: How do real spaces make you feel and guide your movement?
+- **Start with Emotion**: What feeling do you want players to experience?
+- **Prototype Early**: Test movement and spatial flow before adding narrative details
+- **Show, Don't Tell**: Resist the urge to explain - let the environment speak
+- **Playtesting is Key**: Watch others play without guidance to see if your spatial story works
 
-*This assignment bridges spatial design theory with advanced 3D game development, preparing you for sophisticated environmental storytelling in your final projects.*
+*This assignment explores environmental storytelling as sophisticated design practice, combining spatial theory with 3D development skills.*

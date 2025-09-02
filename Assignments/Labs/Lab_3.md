@@ -57,13 +57,9 @@ Document **3 Design Patterns** you discover/implement using Alexander's format:
 - 0.5: Code is functional but could be better organized or more reusable
 - 0: Code is hard to follow or highly coupled to specific implementation
 
-## Documentation Requirements
-**Pattern Language Document** (750-1000 words):
-- **Pattern 1**: Context, Problem, Solution, Code Example
-- **Pattern 2**: Context, Problem, Solution, Code Example  
-- **Pattern 3**: Context, Problem, Solution, Code Example
-- **Implementation Reflection**: How did identifying patterns change your coding approach?
-- **Reusability Analysis**: Which patterns would be most useful in future projects?
+## Submission Requirements
+- GitHub repository with complete Godot project showing 3 documented patterns in code comments
+- Repository link submitted via course management system
 
 ## Alexander's Pattern Format Example
 **Pattern**: Health Component

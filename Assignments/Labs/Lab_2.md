@@ -27,13 +27,9 @@ Choose ONE emergent system to implement:
 - **Resource Gathering**: Agents that seek resources and create trail systems
 - **Territory Formation**: Agents that claim and defend areas, creating spatial organization
 
-### Documentation Requirements
-- **Emergent Behavior Analysis** (500-750 words):
-  - **Agent Rules**: What simple rules govern each individual agent?
-  - **Local Interactions**: How do agents detect and respond to neighbors?
-  - **Emergent Patterns**: What complex group behaviors emerged from simple individual rules?
-  - **System Properties**: What system-level properties emerged that no individual agent possesses?
-  - **Unexpected Results**: What behaviors surprised you during development/testing?
+### Submission Requirements
+- GitHub repository with complete Godot project
+- Repository link submitted via course management system
 
 ## Grading Criteria (5 Points Total)
 
@@ -47,15 +43,10 @@ Choose ONE emergent system to implement:
 - 1: Some emergent behavior visible but limited in complexity
 - 0: No clear emergent behavior, agents act independently
 
-**System Complexity (1 point)**
-- 1: Simple rule change creates genuinely complex, unpredictable gameplay patterns
-- 0.5: Some complexity emerges but patterns are mostly predictable
-- 0: No clear complexity emerges from rule changes
-
-**Analysis & Documentation (1 point)**
-- 1: Thoughtful analysis connecting emergence theory to your specific Pong variation
-- 0.5: Basic documentation with some emergence concepts addressed
-- 0: Poor analysis or missing connection to emergence theory
+**System Complexity (2 points)**
+- 2: Simple agent rules create genuinely complex, unpredictable group patterns
+- 1: Some complexity emerges but patterns are mostly predictable
+- 0: No clear complexity emerges from agent interactions
 
 ## Example Concepts
 - **Boid Flocking**: Agents following separation, alignment, and cohesion rules → complex group movement

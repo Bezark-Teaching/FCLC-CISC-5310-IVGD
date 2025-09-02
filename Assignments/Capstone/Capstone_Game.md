@@ -61,21 +61,14 @@ Create a sophisticated game that demonstrates mastery of all course theoretical 
 - 1: Poor presentation or minimal documentation
 - 0: Inadequate presentation or missing documentation
 
-## Professional Deliverables
+## Submission Requirements
 
-### Technical Documentation
-- **Architecture Overview**: System design decisions and pattern implementations
-- **Development Process**: How you managed the 6+ week development cycle
-- **Technical Challenges**: Problems encountered and solutions implemented
-- **Post-Mortem Analysis**: What worked, what didn't, lessons learned
+- GitHub repository with complete Godot project
+- Well-commented code demonstrating architecture and design patterns
+- Repository link submitted via course management system
 
-### Design Documentation  
-- **Design Philosophy**: How your game applies course theoretical frameworks
-- **Player Experience Design**: Intended emotional journey and how systems support it
-- **Iteration History**: How playtesting and feedback shaped your final design
-
-### Presentation Requirements (Week 15)
-- **10-minute Presentation**: Live gameplay demonstration with design/technical discussion
+### Final Presentation (Week 15)
+- **10-minute Presentation**: Live gameplay demonstration with technical discussion
 - **Q&A Session**: Defend design and technical decisions
 - **Peer Review**: Provide constructive feedback on classmates' projects
 

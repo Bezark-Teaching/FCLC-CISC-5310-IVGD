@@ -66,13 +66,10 @@ Create a complete 2D game over 4+ weeks that demonstrates clean architecture, de
 - 1: Minimal evidence of good development practices
 - 0: Poor development process and weak presentation
 
-## Documentation Requirements
-**Architecture Document** (1000-1500 words):
-- **Design Pattern Implementation**: Detailed explanation of each pattern used and why
-- **Architectural Decisions**: Key structural choices and their benefits
-- **Development Process Reflection**: How did the 4+ week timeline affect your design approach?
-- **Code Organization**: How did you structure your project for maintainability?
-- **Post-Mortem**: What would you do differently in future projects?
+## Submission Requirements
+- GitHub repository with complete Godot 2D project
+- Well-commented code explaining architectural decisions
+- Repository link submitted via course management system
 
 ## Professional Development Focus
 - **Background Project Management**: Experience developing a project over multiple weeks while learning new concepts
