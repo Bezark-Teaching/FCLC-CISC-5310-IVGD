@@ -60,38 +60,42 @@ This advanced course uses **theory as a lens** for game development practice, st
 ## PART I: SYSTEMS THINKING (Weeks 1-3)
 *Understanding games as complex adaptive systems - No digital tools yet*
 
-### Week 1 9/2 - Introduction & Systems Design
-**Assigned Reading:** Sellers ["Advanced Game Design"](Readings/Systems-Thinking/advancedgamedesign.pdf) Ch.1 (Foundations of Systems) + Salen & Zimmerman ["Rules of Play"](Readings/Systems-Thinking/Rules-of-Play.pdf) Ch.1-2 (Systems, Design) - 20 pages *(discuss next week)*
+### Week 1 9/2 - Introduction & MDA Framework
+**Assigned Reading:** Hunicke, LeBlanc, Zubek ["MDA Framework"](Readings/Systems-Thinking/MDA.pdf) + Sellers ["Advanced Game Design"](Readings/Systems-Thinking/advancedgamedesign.pdf) Ch.1 (Foundations of Systems) - 15 pages *(discuss next week)*
 
 **Class Structure:**
 1. **Welcome/Introductions** - Who are you? Why game design?
-2. **Lecture:** What is a Game? Systems thinking fundamentals
-3. **Workshop:** Tabletop game analysis - break down existing games into systems
+2. **Lecture:** What is a Game? MDA Framework - Mechanics, Dynamics, Aesthetics
+3. **Workshop:** Tabletop game analysis using MDA - break down existing games
 4. **Q&A:** Course expectations, assignment clarification
 
 **Project:** Tabletop Game **(ASSIGNED)**
-- Design analog game with explicit system diagram (inputs, processes, outputs, feedback)
+- Design analog game demonstrating clear MDA structure
 - No digital tools - focus purely on game logic and player interaction
 
-### Week 2 9/9 - MDA Framework & Playtesting
-**Assigned Reading:** Hunicke, LeBlanc, Zubek ["MDA Framework"](Readings/Systems-Thinking/MDA.pdf) - 5 pages *(discuss next week)*
+### Week 2 9/9 - Systems Design & Playtesting  
+**Assigned Reading:** Sellers ["Advanced Game Design"](Readings/Systems-Thinking/advancedgamedesign.pdf) Ch.7 (Creating Game Loops) - 12 pages *(discuss next week)*
 
 **Class Structure:**
-1. **Discussion:** Salen & Zimmerman reading - systems in games
-2. **Lecture:** MDA Framework - Mechanics, Dynamics, Aesthetics, playtesting methodology
+1. **Discussion:** MDA Framework reading - applying theory to your tabletop designs
+2. **Lecture:** Systems thinking fundamentals, playtesting methodology
 3. **Workshop:** Tabletop playtesting - use MDA to analyze and iterate your designs
-4. **Presentations:** Present tabletop games with systems analysis
+4. **Assignment:** System diagram creation for your tabletop game
 
-**Due:** Tabletop Game
+**Project:** System Diagram **(ASSIGNED)**
+- Create explicit system diagram (inputs, processes, outputs, feedback loops) for your tabletop game
+- Document how mechanics create dynamics create aesthetics
 
-### Week 3 9/16 - Complex Adaptive Systems & Transition to Digital  
+### Week 3 9/16 - Emergence & Complex Systems  
 **Assigned Reading:** Johnson "Emergence" Ch.1 (The Myth of the Ant Queen) - 15 pages *(discuss next week)*
 
 **Class Structure:**
-1. **Discussion:** MDA Framework reading - how does this apply to your tabletop games?
-2. **Lecture:** Emergence, complexity from simple rules, bottom-up vs top-down design
-3. **Workshop:** Analyze emergence in your tabletop games - where did unexpected behavior arise?
+1. **Discussion:** Advanced Game Design reading - game loops and system architecture
+2. **Presentations:** Present tabletop games with system diagrams and MDA analysis
+3. **Lecture:** Emergence, complexity from simple rules, bottom-up vs top-down design
 4. **Introduction:** Overview of Godot editor (demo only, no hands-on yet)
+
+**Due:** Tabletop Game + System Diagram
 
 ---
 
@@ -102,7 +106,7 @@ This advanced course uses **theory as a lens** for game development practice, st
 **Assigned Reading:** Alexander ["A Pattern Language"](Readings/Design-Patterns/Alexander_A_Pattern_Language.pdf) Introduction + 3 selected patterns - 15 pages *(discuss next week)*
 
 **Class Structure:**
-1. **Discussion:** MDA Framework reading - how does this apply to digital games?
+1. **Discussion:** Johnson Emergence reading - complexity from simple rules in games
 2. **Lecture:** Introduction to Godot editor, nodes, scenes, basic scripting
 3. **Workshop:** Hands-on Godot basics - create your first scene with movement
 4. **Q&A:** Godot installation issues, basic troubleshooting
@@ -110,6 +114,9 @@ This advanced course uses **theory as a lens** for game development practice, st
 **Project:** Lab 1 - MDA Implementation **(ASSIGNED)**
 - Analyze existing game using MDA Framework
 - Create simple Godot prototype demonstrating clear Mechanics→Dynamics→Aesthetics chain
+**Project:** Lab 2 - Emergent Behavior **(ASSIGNED)**
+- Create simple agents in Godot that produce complex group behavior from simple rules
+- Demonstrate emergence principles discussed in Week 3
 
 ### Week 5 9/30 - Patterns & Component Architecture  
 **Assigned Reading:** Nystrom "Game Programming Patterns" - [Observer](https://gameprogrammingpatterns.com/observer.html) + [State](https://gameprogrammingpatterns.com/state.html) patterns - 10 pages *(discuss next week)*
@@ -121,9 +128,9 @@ This advanced course uses **theory as a lens** for game development practice, st
 4. **Code Review:** Share Lab 1 solutions, discuss different approaches to MDA implementation
 
 **Due:** Lab 1 - MDA Implementation
-**Project:** Lab 2 - Emergent Behavior **(ASSIGNED)**
-- Create simple agents in Godot that produce complex group behavior from simple rules
-- Document how code choices affect player experience
+**Project:** Lab 3 - Pattern Documentation **(ASSIGNED)**
+- Document 3 design patterns you discover while building
+- Use Alexander format: Context, Problem, Solution
 **Project:** 2D Game **(ASSIGNED)** - Begin planning and early development
 - 4+ weeks to develop complete 2D game demonstrating clean architecture
 - Focus on maintainable, well-organized code using design patterns
@@ -137,13 +144,10 @@ This advanced course uses **theory as a lens** for game development practice, st
 3. **Workshop:** Implement state machine for AI or player behavior
 4. **Peer Review:** Lab 2 presentations - critique emergence implementations
 
-**Due:** Lab 2 - Emergent Behavior  
-**Project:** Lab 3 - Pattern Documentation **(ASSIGNED)**
-- Document 3 design patterns you discover while building
-- Use Alexander format: Context, Problem, Solution
+**Due:** Lab 2 - Emergent Behavior
 
 ### Week 7 10/14 - Clean Architecture & 2D Game Development
-**Assigned Reading:** Sellers ["Advanced Game Design"](Readings/Design-Patterns/advancedgamedesign.pdf) Ch.7 (Creating Game Loops) + Fowler "Refactoring" Ch.1 (Refactoring, First Example) - 20 pages *(discuss next week)*
+**Assigned Reading:** McConnell ["Code Complete"](Readings/Professional-Practice/Code Complete - Edition 2.pdf) Ch.22 (Testing) - 15 pages *(discuss next week)*
 
 **Class Structure:**
 1. **Discussion:** Clean Code reading - how does this apply to game development?
@@ -154,10 +158,10 @@ This advanced course uses **theory as a lens** for game development practice, st
 **Due:** Lab 3 - Pattern Documentation
 
 ### Week 8 10/21 - Integration & Polish Techniques
-**Assigned Reading:** McConnell ["Code Complete"](Readings/Professional-Practice/Code Complete - Edition 2.pdf) Ch.22 (Testing) - 15 pages *(discuss next week)*
+**Assigned Reading:** Norman ["The Design of Everyday Things"](Readings/3D-Environments/The-Design-of-Everyday-Things-Revised-and-Expanded-Edition.pdf) Ch.1 (Psychopathology of Everyday Things) - 12 pages *(discuss next week)*
 
 **Class Structure:**
-1. **Discussion:** Refactoring reading - when and how to improve existing code
+1. **Discussion:** Code Complete testing reading - how do you test games?
 2. **Lecture:** Game polish, juice, feedback systems, testing strategies for games
 3. **Workshop:** 2D game development session - focus on feel and polish
 4. **Progress Review:** Show current 2D game state, get feedback on architecture
