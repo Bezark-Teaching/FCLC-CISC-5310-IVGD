@@ -5,11 +5,10 @@
 **Points**: 33
 
 ## Overview
-Create a sophisticated game that demonstrates mastery of all course theoretical frameworks: systems thinking, design patterns, spatial design, and professional development practices. This capstone project showcases your growth as a graduate-level game developer.
+Create a sophisticated game that demonstrates mastery of course concepts through gameplay and technical implementation. This can be an evolution/expansion of any previous assignment (Tabletop, 2D Game, or Walking Sim) or an entirely new project. **If building on a previous assignment, the capstone grade can replace the original assignment's grade if higher.**
 
 ## Learning Objectives
 - Synthesize systems thinking, design patterns, and spatial design in a single project
-- Demonstrate professional development practices and industry-level documentation
 - Create a complete, polished game experience that reflects graduate-level sophistication
 - Present and defend your design and technical decisions to peers and instructor
 
@@ -22,9 +21,9 @@ Create a sophisticated game that demonstrates mastery of all course theoretical 
 - **Distribution Ready**: Exported and published on itch.io for public access
 
 ### Graduate-Level Expectations
-- **Theoretical Framework Integration**: Demonstrate systems thinking, design patterns, spatial considerations, and professional practices
+- **Theoretical Framework Integration**: Demonstrate systems thinking, design patterns, spatial considerations through gameplay
 - **Advanced Technical Implementation**: Go beyond basic Godot usage to show sophisticated understanding
-- **Professional Documentation**: Industry-standard project documentation, code organization, and presentation
+- **Clean Code Organization**: Professional code structure and commenting
 - **Innovation & Risk-Taking**: Show creative application of course concepts in original ways
 
 ## Grading Criteria (33 Points Total)
@@ -53,19 +52,19 @@ Create a sophisticated game that demonstrates mastery of all course theoretical 
 - 2: Limited game design or confusing player experience
 - 0: Poor game design or unclear player experience
 
-**Professional Presentation & Documentation (5 points)**
-- 5: Professional-quality presentation, documentation, and project organization suitable for portfolio
-- 4: Good presentation and documentation with minor areas for improvement
-- 3: Adequate presentation and documentation meeting requirements
-- 2: Basic presentation or documentation with significant gaps
-- 1: Poor presentation or minimal documentation
-- 0: Inadequate presentation or missing documentation
+**Professional Presentation & Code Quality (5 points)**
+- 5: Professional-quality presentation and code organization suitable for portfolio
+- 4: Good presentation and code quality with minor areas for improvement
+- 3: Adequate presentation and code quality meeting requirements
+- 2: Basic presentation or code quality with significant gaps
+- 1: Poor presentation or minimal code organization
+- 0: Inadequate presentation or poor code quality
 
 ## Submission Requirements
 
 - GitHub repository with complete Godot project
 - Well-commented code demonstrating architecture and design patterns
-- Repository link submitted via course management system
+- Published game on itch.io for public access
 
 ### Final Presentation (Week 15)
 - **10-minute Presentation**: Live gameplay demonstration with technical discussion
@@ -74,25 +73,18 @@ Create a sophisticated game that demonstrates mastery of all course theoretical 
 
 ## Timeline & Milestones
 
-**Week 9 (Assignment)**: Concept proposal with theoretical framework application plan
+**Week 9 (Assignment)**: Brief concept discussion in class
 **Week 11**: Mid-development check-in with progress demonstration  
-**Week 13**: Technical presentation of architecture and systems
+**Week 12**: Technical presentation of architecture and systems
 **Week 14**: Final development and polish phase
 **Week 15**: Final presentations and peer review
 
 ## Tips for Success
-- **Start with Theory**: How will your game demonstrate course frameworks? Plan this before coding
-- **Document Throughout**: Keep development diary of technical and design decisions
+- **Consider Evolution**: Can you expand your tabletop game digitally? Add 3D to your 2D game? Make your walking sim interactive?
+- **Start with Theory**: How will your game demonstrate course frameworks through gameplay?
 - **Playtest Extensively**: Graduate-level games should be thoroughly tested and iterated
 - **Professional Standards**: Treat this as a portfolio piece - quality over scope
 - **Take Creative Risks**: This is your chance to show innovative application of course concepts
 - **Plan for Presentation**: Your ability to articulate design decisions is as important as the game itself
 
-## Submission Requirements
-- Complete Godot project with professional organization and documentation
-- Technical and design documentation (combined 2000-3000 words)
-- Published game on itch.io with professional page presentation
-- In-class presentation and live playtest session
-- Post-mortem reflection integrating all course theoretical frameworks
-
-*This capstone project demonstrates your mastery of graduate-level game design thinking and professional development practices, serving as a portfolio piece for your future career development.*
+*This capstone project demonstrates your mastery of graduate-level game design thinking through gameplay and technical implementation, serving as a portfolio piece for your future career development.*

@@ -62,7 +62,6 @@ Choose ONE emergent system to implement:
 
 ## Submission Requirements  
 - GitHub repository with complete Godot project
-- Emergence Analysis document in repository  
 - Repository link submitted via course management system
 
 ## Tips for Success

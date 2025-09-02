@@ -26,18 +26,17 @@ Design and create a tabletop game that demonstrates explicit systems thinking. T
   - **Processes**: Game mechanics, rule interactions, state changes  
   - **Outputs**: Results, feedback, game state updates
   - **Feedback Loops**: How outputs influence future inputs
-- **Systems Documentation**: Written analysis connecting diagram to play experience
 
 ### Physical Deliverables
 - **Game Prototype**: Physical, playable version using available materials
 - **Complete Ruleset**: Clear, comprehensive rules that enable independent play
-- **Systems Analysis Document**: Diagram and written explanation of your game as a system
+- **Systems Diagram**: Visual diagram showing your game as a system
 
 ## Grading Criteria (14 Points Total)
 
-**Systems Analysis & Documentation (6 points)**
-- 6: Sophisticated systems diagram with clear identification of inputs, processes, outputs, and feedback loops, plus thoughtful written analysis
-- 5: Good systems diagram with most elements identified and adequate analysis
+**Systems Analysis & Diagram (6 points)**
+- 6: Sophisticated systems diagram with clear identification of inputs, processes, outputs, and feedback loops
+- 5: Good systems diagram with most elements identified
 - 4: Basic systems diagram with some elements identified
 - 3: Attempted systems diagram but missing key elements or unclear
 - 2: Minimal systems thinking demonstrated
@@ -57,14 +56,13 @@ Design and create a tabletop game that demonstrates explicit systems thinking. T
 - 1: Rules are present but have significant clarity issues
 - 0: Rules are incomplete or very unclear
 
-## Systems Analysis Requirements
-**Systems Documentation** (500-750 words):
+## Systems Diagram Requirements
+**Visual System Diagram**:
 - **System Diagram**: Visual representation with labeled components
-- **Input Analysis**: What actions/elements enter your system?
-- **Process Description**: How does your game transform inputs into outputs?
+- **Input Identification**: What actions/elements enter your system?
+- **Process Visualization**: How does your game transform inputs into outputs?
 - **Output Identification**: What results does your system produce?
-- **Feedback Loop Analysis**: How do outputs influence future system states?
-- **Player Experience Connection**: How does your system create the intended play experience?
+- **Feedback Loop Mapping**: How do outputs influence future system states?
 
 ## Theoretical Framework Focus
 - **Salen & Zimmerman Systems Theory**: Apply systems thinking from your assigned reading
@@ -82,7 +80,7 @@ Design and create a tabletop game that demonstrates explicit systems thinking. T
 ## Submission Requirements
 - Physical game prototype brought to class for playtest session
 - Complete ruleset (digital document)
-- Systems analysis document with diagram
+- Systems diagram (visual/digital)
 - In-class presentation of game and systems analysis
 
 ## Tips for Success
