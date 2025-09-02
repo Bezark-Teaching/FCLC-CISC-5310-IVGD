@@ -1,2 +1,0 @@
-# SMP
-Godot Simple Multiplayer

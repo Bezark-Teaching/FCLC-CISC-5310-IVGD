@@ -1,9 +1,0 @@
-[gd_scene load_steps=3 format=3 uid="uid://bxx4lnwxelcpa"]
-
-[ext_resource type="Script" path="res://Resource/ResourceSaving.gd" id="1_8og8u"]
-[ext_resource type="PackedScene" uid="uid://cge11gp86y8qf" path="res://Character/SimpleCharacter.tscn" id="2_e38or"]
-
-[node name="ResourceSaving" type="Node2D"]
-script = ExtResource("1_8og8u")
-
-[node name="CharacterBody2D" parent="." instance=ExtResource("2_e38or")]

@@ -1,7 +1,0 @@
-[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://c40rnq8d3xvvh"]
-
-[ext_resource type="Texture2D" uid="uid://dm3g54tpnyh31" path="res://Fruits/Pineapple.png" id="1_xf636"]
-
-[resource]
-atlas = ExtResource("1_xf636")
-region = Rect2(0, 0, 30.6667, 32)
