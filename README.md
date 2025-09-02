@@ -1,4 +1,8 @@
-
+# Top of Mind
+- **Assigned Reading:** Hunicke, LeBlanc, Zubek ["MDA Framework"](Readings/Systems-Thinking/MDA.pdf) + Sellers ["Advanced Game Design"](Readings/Systems-Thinking/advancedgamedesign.pdf) Skim Ch.1, read Ch. 2 - *(discuss next week)*
+- Bring in a playable prototype of your [Tabletop Game](/Assignments/Tabletop/Tabletop.md)
+- [FILL OUT THIS FORM](https://forms.gle/5X6TjT88Yg5m5XLs8) so you can tell me if I'm giving you too much homework!
+ 
 # Advanced Game Design and Development - Graduate Level
 
 - **Course Code:** 5310
@@ -61,7 +65,7 @@ This advanced course uses **theory as a lens** for game development practice, st
 *Understanding games as complex adaptive systems - No digital tools yet*
 
 ### Week 1 9/2 - Introduction & MDA Framework
-**Assigned Reading:** Hunicke, LeBlanc, Zubek ["MDA Framework"](Readings/Systems-Thinking/MDA.pdf) + Sellers ["Advanced Game Design"](Readings/Systems-Thinking/advancedgamedesign.pdf) Ch.1 (Foundations of Systems) - *(discuss next week)*
+**Assigned Reading:** Hunicke, LeBlanc, Zubek ["MDA Framework"](Readings/Systems-Thinking/MDA.pdf) + Sellers ["Advanced Game Design"](Readings/Systems-Thinking/advancedgamedesign.pdf) Skim Ch.1, read Ch. 2 - *(discuss next week)*
 
 - [Week 1 Slides](https://docs.google.com/presentation/d/1o1wn7qCIHvm6pyRf_S_lDHJCvFAZv06cnDHy8nc7OfY/edit?usp=sharing)
 - [FILL OUT THIS FORM](https://forms.gle/5X6TjT88Yg5m5XLs8) so you can tell me if I'm giving you too much homework!
