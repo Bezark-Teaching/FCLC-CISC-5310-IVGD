@@ -1,6 +1,6 @@
 # Tabletop Game Project
 **Theory Lens**: Game Design as Systems Design  
-**Assigned**: Week 1 (9/2) | **Due**: Week 2 (9/9)  
+**Assigned**: Week 1 (9/2) | **Due**: Week 3 (9/16)  
 **Points**: 14
 
 ## Overview

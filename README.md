@@ -22,7 +22,7 @@ This advanced graduate course uses **theory as a lens** for game development pra
 | Assignment                                                         | Description                                              | Due Date   | Points |
 |:-------------------------------------------------------------------|:---------------------------------------------------------|:-----------|:-------|
 | **Class Participation**                                            | Active engagement, peer feedback, code reviews           | Ongoing    |    20  |
-| [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                 | Systems-focused analog game with playtesting analysis    | 9/9        |    14  |
+| [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                 | Systems-focused analog game with playtesting analysis    | 9/16       |    14  |
 | [Lab 1: Godot Foundations](/Assignments/Labs/Lab_1.md)             | Essential 2D Godot skills and project structure          | 9/30       |     5  |
 | [Lab 2: Emergence](/Assignments/Labs/Lab_2.md)                     | Simple agents producing complex group behavior           | 10/7       |     5  |
 | [Lab 3: Pattern Documentation](/Assignments/Labs/Lab_3.md)         | Identify and document design patterns while building     | 10/14      |     5  |
