@@ -12,8 +12,7 @@ This course offers a thorough introduction to the world of video game design and
 ## **Course Objectives:**
 - Master the fundamentals of 2D and 3D game development using Godot 4.5.
 - Apply advanced game development concepts and programming patterns.
-- Develop skills in UX/UI design, multiplayer networking, and 3D.
-- Explore machine learning applications and next-gen platform prototyping.*(Dependent on hardware availability)
+- Develop skills in UX/UI design, multiplayer networking, and 3D
 - Execute a comprehensive game project from concept to completion.
 
 # **Assessment**
