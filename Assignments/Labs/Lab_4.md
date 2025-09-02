@@ -1,6 +1,6 @@
 # Lab 4: Walking Sim
 **Theory Lens**: Environmental Storytelling & Spatial Affordances  
-**Due**: Week 12 (11/18)  
+**Due**: Week 13 (11/25)  
 **Points**: 24
 
 ## Overview

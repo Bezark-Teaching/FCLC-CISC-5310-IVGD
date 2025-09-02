@@ -27,7 +27,7 @@ This advanced graduate course uses **theory as a lens** for game development pra
 | [Lab 2: Emergence](/Assignments/Labs/Lab_2.md)                     | Simple agents producing complex group behavior           | 10/7       |     5  |
 | [Lab 3: Pattern Documentation](/Assignments/Labs/Lab_3.md)         | Identify and document design patterns while building     | 10/14      |     5  |
 | [2D Game](/Assignments/2D/2DGame.md)                               | Complete 2D game demonstrating clean architecture        | 10/28      |    34  |
-| [Lab 4: Walking Sim](/Assignments/Labs/Lab_4.md)                   | 3D environmental storytelling experience                 | 11/18      |    24  |
+| [Lab 4: Walking Sim](/Assignments/Labs/Lab_4.md)                   | 3D environmental storytelling experience                 | 11/25      |    24  |
 | [Capstone Presentation](/Assignments/Capstone/Capstone_Concept.md) | Technical presentation of final project architecture     | 11/18      |    10  |
 | [Capstone Game](/Assignments/Capstone/Capstone_Game.md)            | Sophisticated game showcasing advanced concepts          | 12/9       |    33  |
 | **Total Points Possible**                                          |                                                          |            | **150**|
@@ -212,8 +212,6 @@ This advanced course uses **theory as a lens** for game development practice, st
 3. **Lecture:** Open source development, Godot's community model, contributing to projects  
 4. **Workshop:** Final capstone development sprint planning based on presentation feedback
 
-**Due:** Lab 4 - 3D Interactive Scene
-**Due:** Walking Sim
 **Due:** Capstone Presentation
 
 ---
@@ -221,7 +219,7 @@ This advanced course uses **theory as a lens** for game development practice, st
 ## PART IV: PROFESSIONAL PRACTICE (Weeks 13-15)
 *Industry context and professional development*
 
-### Week 13 11/25 - Advanced AI & Interactive Systems (Thanksgiving Week)
+### Week 13 11/25 - Advanced AI & Interactive Systems (Thanksgiving Week- maybe no class...)
 **Assigned Reading:** [Isla "Handling Complexity in the Halo 2 AI"](https://www.gamedeveloper.com/programming/gdc-2005-proceeding-handling-complexity-in-the-i-halo-2-i-ai)(excerpts) - 10 pages *(discuss next week)*
 
 **Class Structure:**
@@ -229,6 +227,8 @@ This advanced course uses **theory as a lens** for game development practice, st
 2. **Lecture:** Advanced AI techniques, perception systems, believable behavior (shortened format due to holiday)
 3. **Workshop:** Polish capstone projects - integrate AI agents with environmental storytelling
 4. **Individual Check-ins:** Brief meetings on capstone progress and final scope
+
+**Due:** Walking Sim
 
 ### Week 14 12/2 - Production & Polish Practices
 **Assigned Reading:** Schell ["The Art of Game Design"](Readings/Systems-Thinking/Jesse Schell - The Art of Game Design A Book of Lenses .pdf) Ch.27 (Playtesting) - 8 pages *(discuss next week)*
