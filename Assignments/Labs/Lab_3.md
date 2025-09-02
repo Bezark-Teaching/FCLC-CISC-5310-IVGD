@@ -1,4 +1,4 @@
-# Lab 3: Pattern Documentation
+# Lab 3: Patterns
 **Theory Lens**: Christopher Alexander's Pattern Language in Code  
 **Due**: Week 7 (10/14)  
 **Points**: 5
