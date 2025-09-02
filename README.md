@@ -61,7 +61,7 @@ This advanced course uses **theory as a lens** for game development practice, st
 *Understanding games as complex adaptive systems - No digital tools yet*
 
 ### Week 1 9/2 - Introduction & MDA Framework
-**Assigned Reading:** Hunicke, LeBlanc, Zubek ["MDA Framework"](Readings/Systems-Thinking/MDA.pdf) + Sellers ["Advanced Game Design"](Readings/Systems-Thinking/advancedgamedesign.pdf) Ch.1 (Foundations of Systems) - 15 pages *(discuss next week)*
+**Assigned Reading:** Hunicke, LeBlanc, Zubek ["MDA Framework"](Readings/Systems-Thinking/MDA.pdf) + Sellers ["Advanced Game Design"](Readings/Systems-Thinking/advancedgamedesign.pdf) Ch.1 (Foundations of Systems) - *(discuss next week)*
 
 **Class Structure:**
 1. **Welcome/Introductions** - Who are you? Why game design?
@@ -87,7 +87,7 @@ This advanced course uses **theory as a lens** for game development practice, st
 - Document how mechanics create dynamics create aesthetics
 
 ### Week 3 9/16 - Emergence & Complex Systems  
-**Assigned Reading:** Johnson "Emergence" Ch.1 (The Myth of the Ant Queen) - 15 pages *(discuss next week)*
+**Assigned Reading:** Johnson "Emergence" Ch.1 (The Myth of the Ant Queen) - *(discuss next week)*
 
 **Class Structure:**
 1. **Discussion:** Advanced Game Design reading - game loops and system architecture
