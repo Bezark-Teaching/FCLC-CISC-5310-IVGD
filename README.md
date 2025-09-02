@@ -63,10 +63,13 @@ This advanced course uses **theory as a lens** for game development practice, st
 ### Week 1 9/2 - Introduction & MDA Framework
 **Assigned Reading:** Hunicke, LeBlanc, Zubek ["MDA Framework"](Readings/Systems-Thinking/MDA.pdf) + Sellers ["Advanced Game Design"](Readings/Systems-Thinking/advancedgamedesign.pdf) Ch.1 (Foundations of Systems) - *(discuss next week)*
 
+- [Week 1 Slides](https://docs.google.com/presentation/d/1o1wn7qCIHvm6pyRf_S_lDHJCvFAZv06cnDHy8nc7OfY/edit?usp=sharing)
+- [FILL OUT THIS FORM](https://forms.gle/5X6TjT88Yg5m5XLs8) so you can tell me if I'm giving you too much homework!
+
 **Class Structure:**
 1. **Welcome/Introductions** - Who are you? Why game design?
 2. **Lecture:** What is a Game? MDA Framework - Mechanics, Dynamics, Aesthetics
-3. **Workshop:** Tabletop game analysis using MDA - break down existing games
+3. **Workshop:** Tabletop game design using MDA
 4. **Q&A:** Course expectations, assignment clarification
 
 **Project:** Tabletop Game **(ASSIGNED)**
