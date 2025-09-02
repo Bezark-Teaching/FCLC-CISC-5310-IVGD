@@ -2,7 +2,7 @@
 # Capstone Game Project
 **Theory Integration**: Synthesizing All Course Frameworks  
 **Assigned**: Week 9 (10/28) | **Due**: Week 15 (12/9)  
-**Points**: 35
+**Points**: 33
 
 ## Overview
 Create a sophisticated game that demonstrates mastery of all course theoretical frameworks: systems thinking, design patterns, spatial design, and professional development practices. This capstone project showcases your growth as a graduate-level game developer.
@@ -27,14 +27,14 @@ Create a sophisticated game that demonstrates mastery of all course theoretical 
 - **Professional Documentation**: Industry-standard project documentation, code organization, and presentation
 - **Innovation & Risk-Taking**: Show creative application of course concepts in original ways
 
-## Grading Criteria (35 Points Total)
+## Grading Criteria (33 Points Total)
 
-**Theoretical Framework Integration (12 points)**
-- 12: Sophisticated synthesis of systems thinking, design patterns, and spatial design with clear evidence of all course frameworks
-- 10: Good integration of most course frameworks with clear theoretical application
-- 8: Basic integration of some course frameworks with adequate theoretical understanding
-- 6: Minimal integration of course frameworks or unclear theoretical application
-- 4: Little evidence of course framework integration
+**Theoretical Framework Integration (10 points)**
+- 10: Sophisticated synthesis of systems thinking, design patterns, and spatial design with clear evidence of all course frameworks
+- 8: Good integration of most course frameworks with clear theoretical application
+- 6: Basic integration of some course frameworks with adequate theoretical understanding
+- 4: Minimal integration of course frameworks or unclear theoretical application
+- 2: Little evidence of course framework integration
 - 0: No clear connection to course theoretical content
 
 **Technical Sophistication & Innovation (10 points)**

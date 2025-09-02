@@ -2,7 +2,7 @@
 # 2D Game Project
 **Theory Lens**: Design Patterns & Clean Architecture  
 **Assigned**: Week 5 (9/30) | **Due**: Week 9 (10/28)  
-**Points**: 35
+**Points**: 34
 
 ## Overview
 Create a complete 2D game over 4+ weeks that demonstrates clean architecture, design patterns, and professional development practices. This is your first major project applying the theoretical frameworks from the design patterns section.
@@ -34,11 +34,11 @@ Create a complete 2D game over 4+ weeks that demonstrates clean architecture, de
 - **Week 8**: Polish phase - juice, feedback systems, testing
 - **Week 9 (Due)**: Presentation and peer review
 
-## Grading Criteria (35 Points Total)
+## Grading Criteria (34 Points Total)
 
-**Architecture & Design Patterns (12 points)**
-- 12: Sophisticated implementation of 3+ design patterns with clear architectural benefits
-- 9: Good implementation of 3 design patterns with mostly clean architecture  
+**Architecture & Design Patterns (11 points)**
+- 11: Sophisticated implementation of 3+ design patterns with clear architectural benefits
+- 8: Good implementation of 3 design patterns with mostly clean architecture  
 - 6: Basic implementation of 2-3 patterns with adequate organization
 - 3: Attempted pattern implementation but with architectural issues
 - 0: No clear design pattern implementation or poor architecture

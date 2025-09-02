@@ -1,13 +1,10 @@
-# Lab 2: Emergent Pong  
-**Theory Lens**: Complex Adaptive Systems through Game Variation  
+# Lab 2: Emergent Behavior  
+**Theory Lens**: Complex Adaptive Systems & Simple Agents  
 **Due**: Week 6 (10/7)  
 **Points**: 5
 
 ## Overview
-Create a variation of Pong that demonstrates emergent behavior - where simple rule changes create complex, unexpected gameplay patterns. This lab synthesizes emergence theory with practical game design, inspired by Pippin Barr's PONGS.
-
-Reference: https://pippinbarr.com/pongs/info/  
-Base Code: [Pong Module](../../Modules/2D/pong)
+Create simple agents in Godot that produce complex group behavior from simple individual rules. This lab demonstrates how emergence arises from local interactions between autonomous agents, applying complex adaptive systems theory to interactive design.
 
 ## Learning Objectives  
 - Apply emergence theory to game design
@@ -17,38 +14,38 @@ Base Code: [Pong Module](../../Modules/2D/pong)
 
 ## Requirements
 
-### Core Implementation
-- **Recognizable Pong Base**: Ball, paddle(s), play space, basic collision
-- **Emergent Rule Modification**: One significant change that creates emergent behavior patterns
-- **Local Rule Changes**: Modifications should affect individual elements but create system-wide effects
-- **Playable Result**: Must remain engaging even if deliberately challenging
+### Agent Implementation
+- **Simple Agents**: Create 20+ individual agents with basic behaviors
+- **Local Rules**: Each agent follows simple, local decision-making rules
+- **No Central Control**: Avoid global management - agents should be autonomous
+- **Interactive Environment**: Agents respond to their immediate neighbors and environment
 
 ### Emergent Behavior Focus
-Choose ONE approach that creates emergence:
-- **Multiple Agents**: Multiple balls/paddles with simple individual rules creating complex interactions
-- **Environmental Response**: Play space that adapts based on local game events  
-- **Rule Evolution**: Game rules that change based on player behavior patterns
-- **Collective Dynamics**: Individual elements that respond to nearby elements, creating group behaviors
+Choose ONE emergent system to implement:
+- **Flocking/Swarming**: Agents that follow basic separation, alignment, cohesion rules
+- **Predator-Prey**: Two agent types with simple chase/flee behaviors creating ecosystem patterns
+- **Resource Gathering**: Agents that seek resources and create trail systems
+- **Territory Formation**: Agents that claim and defend areas, creating spatial organization
 
 ### Documentation Requirements
-- **Emergent Pong Analysis** (500-750 words):
-  - **Original Pong Elements**: What core Pong mechanics did you preserve?
-  - **Rule Modification**: What simple rule did you change and why?
-  - **Emergent Behaviors**: What complex patterns emerged from your rule change?
-  - **Player Experience**: How does emergence affect the player experience differently than traditional Pong?
+- **Emergent Behavior Analysis** (500-750 words):
+  - **Agent Rules**: What simple rules govern each individual agent?
+  - **Local Interactions**: How do agents detect and respond to neighbors?
+  - **Emergent Patterns**: What complex group behaviors emerged from simple individual rules?
+  - **System Properties**: What system-level properties emerged that no individual agent possesses?
   - **Unexpected Results**: What behaviors surprised you during development/testing?
 
 ## Grading Criteria (5 Points Total)
 
-**Pong Foundation (1 point)**
-- 1: Functional Pong base with recognizable elements (ball, paddle, collision)
-- 0.5: Basic Pong elements present but with significant functionality issues
-- 0: Missing core Pong elements or non-functional
+**Agent Implementation (1 point)**
+- 1: Functional agents with clear individual behaviors and neighbor detection
+- 0.5: Basic agents present but with significant functionality issues
+- 0: Missing core agent functionality or non-functional
 
-**Emergent Rule Implementation (2 points)**
-- 2: Clear rule modification that creates genuine emergent behavior patterns
-- 1: Rule change implemented but limited emergent effects
-- 0: Rule change is cosmetic or doesn't create emergent behavior
+**Emergent Behavior (2 points)**
+- 2: Clear emergent patterns arise from simple agent rules with genuine complexity
+- 1: Some emergent behavior visible but limited in complexity
+- 0: No clear emergent behavior, agents act independently
 
 **System Complexity (1 point)**
 - 1: Simple rule change creates genuinely complex, unpredictable gameplay patterns
@@ -61,10 +58,10 @@ Choose ONE approach that creates emergence:
 - 0: Poor analysis or missing connection to emergence theory
 
 ## Example Concepts
-- **Flocking Pong**: Multiple balls that attract/repel each other → complex trajectory patterns
-- **Adaptive Pong**: Paddle speed changes based on ball history → evolving difficulty patterns
-- **Territorial Pong**: Screen areas that "remember" ball impacts → environmental behavioral zones  
-- **Social Pong**: Multiple paddles with simple AI rules → emergent cooperation/competition patterns
+- **Boid Flocking**: Agents following separation, alignment, and cohesion rules → complex group movement
+- **Ant Colony**: Agents laying pheromone trails while seeking food → emergent path optimization
+- **Predator-Prey Ecosystem**: Simple chase/flee rules → dynamic population patterns
+- **Cellular Automata**: Grid-based agents with neighbor-based rules → complex visual patterns
 
 ## Inspiration & References
 - Craig Reynolds' "Boids" flocking simulation
@@ -84,4 +81,4 @@ Choose ONE approach that creates emergence:
 - Document unexpected behaviors as they occur
 - Consider how small rule changes create dramatically different patterns
 
-*This assignment bridges the theoretical understanding of emergence from your reading with hands-on implementation, preparing you for more complex pattern-based thinking in game design.*
+*This assignment bridges the theoretical understanding of emergence from your reading with hands-on agent implementation, preparing you for complex systems thinking in game design.*

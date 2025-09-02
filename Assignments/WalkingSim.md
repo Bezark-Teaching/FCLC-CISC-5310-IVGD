@@ -1,7 +1,7 @@
 # Walking Sim Project
 **Theory Lens**: Environmental Storytelling & Spatial Affordances  
 **Assigned**: Week 9 (10/28) | **Due**: Week 12 (11/18)  
-**Points**: 15
+**Points**: 14
 
 ## Overview
 Create a 3D walking simulator that tells a story purely through environmental design, spatial composition, and atmospheric elements. This project applies Gibson's affordance theory and Jenkins' narrative architecture concepts to create meaningful spatial experiences.
@@ -31,15 +31,14 @@ Create a 3D walking simulator that tells a story purely through environmental de
 - **Single path recommended**: Guide player through intentional spatial sequence
 - **Environmental interaction**: Minimal but meaningful (doors, lights, simple triggers)
 
-## Grading Criteria (15 Points Total)
+## Grading Criteria (14 Points Total)
 
-**Environmental Storytelling (6 points)**
-- 6: Sophisticated narrative told entirely through spatial design with clear emotional impact
-- 5: Strong environmental narrative with mostly effective spatial storytelling
-- 4: Good use of environmental elements to suggest narrative
-- 3: Basic environmental storytelling with some effective moments
-- 2: Attempted environmental narrative but unclear or weak
-- 1: Minimal environmental storytelling elements
+**Environmental Storytelling (5 points)**
+- 5: Sophisticated narrative told entirely through spatial design with clear emotional impact
+- 4: Strong environmental narrative with mostly effective spatial storytelling
+- 3: Good use of environmental elements to suggest narrative
+- 2: Basic environmental storytelling with some effective moments
+- 1: Attempted environmental narrative but unclear or weak
 - 0: No clear environmental narrative
 
 **Spatial Design & Affordances (4 points)**

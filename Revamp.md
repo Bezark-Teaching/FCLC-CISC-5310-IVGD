@@ -14,7 +14,7 @@
 | **2D Game**                      | Complete 2D game demonstrating clean architecture         |    35   | Week 9 (10/28)    |
 | **Lab 4: 3D Interactive Scene**  | 3D environment with intelligent NPCs and interactions     |    10   | Week 12 (11/18)   |
 | **Walking Sim**                  | Environmental storytelling experience using 3D techniques |    15   | Week 12 (11/18)   |
-| **Capstone Presentation**        | Technical presentation of final project architecture       |    10   | Week 13 (11/25)   |
+| **Capstone Presentation**        | Technical presentation of final project architecture      |    10   | Week 13 (11/25)   |
 | **Capstone Game**                | Sophisticated game showcasing advanced concepts           |    35   | Week 15 (12/9)    |
 | **TOTAL**                        |                                                           | **150** |                   |
 
@@ -38,7 +38,7 @@ Each 2-hour class is divided into four 30-minute segments:
 *Understanding games as complex adaptive systems - No digital tools yet*
 
 ### Week 1 9/2 - Introduction & Systems Design
-**Assigned Reading:** Salen & Zimmerman, "Rules of Play" Ch.1-4 (Systems, Design, Play) - 20 pages *(discuss next week)*
+**Assigned Reading:** Sellers ["Advanced Game Design"](Readings/Systems-Thinking/advancedgamedesign.pdf) Ch.1 (Foundations of Systems) + Salen & Zimmerman ["Rules of Play"](Readings/Systems-Thinking/Rules-of-Play.pdf) Ch.1-2 (Systems, Design) - 20 pages *(discuss next week)*
 
 **Class Structure:**
 1. **Welcome/Introductions** - Who are you? Why game design?
@@ -51,7 +51,7 @@ Each 2-hour class is divided into four 30-minute segments:
 - No digital tools - focus purely on game logic and player interaction
 
 ### Week 2 9/9 - MDA Framework & Playtesting
-**Assigned Reading:** Hunicke, LeBlanc, Zubek "MDA Framework" - 5 pages *(discuss next week)*
+**Assigned Reading:** Hunicke, LeBlanc, Zubek ["MDA Framework"](Readings/Systems-Thinking/MDA.pdf) - 5 pages *(discuss next week)*
 
 **Class Structure:**
 1. **Discussion:** Salen & Zimmerman reading - systems in games
@@ -76,7 +76,7 @@ Each 2-hour class is divided into four 30-minute segments:
 *Building reusable, maintainable game architectures*
 
 ### Week 4 9/23 - Introduction to Godot & Patterns
-**Assigned Reading:** Alexander "A Pattern Language" Introduction + 3 selected patterns - 15 pages *(discuss next week)*
+**Assigned Reading:** Alexander ["A Pattern Language"](Readings/Design-Patterns/Alexander_A_Pattern_Language.pdf) Introduction + 3 selected patterns - 15 pages *(discuss next week)*
 
 **Class Structure:**
 1. **Discussion:** MDA Framework reading - how does this apply to digital games?
@@ -84,43 +84,43 @@ Each 2-hour class is divided into four 30-minute segments:
 3. **Workshop:** Hands-on Godot basics - create your first scene with movement
 4. **Q&A:** Godot installation issues, basic troubleshooting
 
-**Project:** Lab 1 - Emergent Behavior **(ASSIGNED)**
-- Create simple agents in Godot that produce complex group behavior
-- Apply emergence concepts from Week 2 reading to digital implementation
+**Project:** Lab 1 - MDA Implementation **(ASSIGNED)**
+- Analyze existing game using MDA Framework
+- Create simple Godot prototype demonstrating clear Mechanics→Dynamics→Aesthetics chain
 
 ### Week 5 9/30 - Patterns & Component Architecture  
-**Assigned Reading:** Nystrom "Game Programming Patterns" - Observer + State patterns - 10 pages *(discuss next week)*
+**Assigned Reading:** Nystrom "Game Programming Patterns" - [Observer](https://gameprogrammingpatterns.com/observer.html) + [State](https://gameprogrammingpatterns.com/state.html) patterns - 10 pages *(discuss next week)*
 
 **Class Structure:**
 1. **Discussion:** Alexander reading - how do architectural patterns apply to code?
 2. **Lecture:** Godot's signal system, node composition, scene instantiation
 3. **Workshop:** Build component-based player controller, practice signals
-4. **Code Review:** Share Lab 1 solutions, discuss different approaches to emergence
+4. **Code Review:** Share Lab 1 solutions, discuss different approaches to MDA implementation
 
-**Due:** Lab 1 - Emergent Behavior
-**Project:** Lab 2 - MDA Implementation **(ASSIGNED)**
-- Build digital prototype focusing on mechanics → dynamics → aesthetics chain
+**Due:** Lab 1 - MDA Implementation
+**Project:** Lab 2 - Emergent Behavior **(ASSIGNED)**
+- Create simple agents in Godot that produce complex group behavior from simple rules
 - Document how code choices affect player experience
 **Project:** 2D Game **(ASSIGNED)** - Begin planning and early development
 - 4+ weeks to develop complete 2D game demonstrating clean architecture
 - Focus on maintainable, well-organized code using design patterns
 
 ### Week 6 10/7 - Software Patterns in Practice
-**Assigned Reading:** Martin "Clean Code" Ch.1 (Clean Code) - 8 pages *(discuss next week)*
+**Assigned Reading:** Martin ["Clean Code"](Readings/Design-Patterns/Clean Code.pdf) Ch.1 (Clean Code) - 8 pages *(discuss next week)*
 
 **Class Structure:**
 1. **Discussion:** Game Programming Patterns reading - Observer & State in your work
 2. **Lecture:** State machines, strategy pattern, practical code organization
 3. **Workshop:** Implement state machine for AI or player behavior
-4. **Peer Review:** Lab 2 presentations - critique MDA implementation
+4. **Peer Review:** Lab 2 presentations - critique emergence implementations
 
-**Due:** Lab 2 - MDA Implementation  
+**Due:** Lab 2 - Emergent Behavior  
 **Project:** Lab 3 - Pattern Documentation **(ASSIGNED)**
 - Document 3 design patterns you discover while building
 - Use Alexander format: Context, Problem, Solution
 
 ### Week 7 10/14 - Clean Architecture & 2D Game Development
-**Assigned Reading:** Fowler "Refactoring" Ch.1 (Refactoring, First Example) - 12 pages *(discuss next week)*
+**Assigned Reading:** Sellers ["Advanced Game Design"](Readings/Design-Patterns/advancedgamedesign.pdf) Ch.7 (Creating Game Loops) + Fowler "Refactoring" Ch.1 (Refactoring, First Example) - 20 pages *(discuss next week)*
 
 **Class Structure:**
 1. **Discussion:** Clean Code reading - how does this apply to game development?
@@ -131,7 +131,7 @@ Each 2-hour class is divided into four 30-minute segments:
 **Due:** Lab 3 - Pattern Documentation
 
 ### Week 8 10/21 - Integration & Polish Techniques
-**Assigned Reading:** McConnell "Code Complete" Ch.22 (Testing) - 15 pages *(discuss next week)*
+**Assigned Reading:** McConnell ["Code Complete"](Readings/Professional-Practice/Code Complete - Edition 2.pdf) Ch.22 (Testing) - 15 pages *(discuss next week)*
 
 **Class Structure:**
 1. **Discussion:** Refactoring reading - when and how to improve existing code
@@ -145,7 +145,7 @@ Each 2-hour class is divided into four 30-minute segments:
 *Building immersive, interactive spaces*
 
 ### Week 9 10/28 - 2D Game Presentations & 3D Introduction
-**Assigned Reading:** Norman "The Design of Everyday Things" Ch.1 (Psychopathology of Everyday Things) - 12 pages *(discuss next week)*
+**Assigned Reading:** Norman ["The Design of Everyday Things"](Readings/3D-Environments/The-Design-of-Everyday-Things-Revised-and-Expanded-Edition.pdf) Ch.1 (Psychopathology of Everyday Things) - 12 pages *(discuss next week)*
 
 **Class Structure:**
 1. **Discussion:** Code Complete testing reading - how do you test games?
@@ -159,7 +159,7 @@ Each 2-hour class is divided into four 30-minute segments:
 **Project:** Walking Sim **(ASSIGNED)** - Environmental storytelling experience
 
 ### Week 10 11/4 - 3D Physics & Spatial Design
-**Assigned Reading:** Reynolds "Steering Behaviors" online article - 8 pages *(discuss next week)*
+**Assigned Reading:** [Reynolds "Steering Behaviors"](https://www.red3d.com/cwr/steer/) online article - 8 pages *(discuss next week)*
 
 **Class Structure:**
 1. **Discussion:** Norman reading - how do physical objects suggest their use?
@@ -168,7 +168,7 @@ Each 2-hour class is divided into four 30-minute segments:
 4. **Design Session:** Plan Lab 4 & Walking Sim - what kinds of 3D spaces will you create?
 
 ### Week 11 11/11 - Environmental Storytelling & AI Agents
-**Assigned Reading:** Jenkins "Game Design as Narrative Architecture" - 15 pages *(discuss next week)*
+**Assigned Reading:** Jenkins ["Game Design as Narrative Architecture"](Readings/3D-Environments/09.-Henry-Jenkins-Game-Design-As-Narrative-Architecture.pdf) - 15 pages *(discuss next week)*
 
 **Class Structure:**
 1. **Discussion:** Reynolds reading - steering behaviors in your 3D environments
@@ -177,7 +177,7 @@ Each 2-hour class is divided into four 30-minute segments:
 4. **Progress Review:** Show Lab 4 & Walking Sim development, get feedback on spatial design
 
 ### Week 12 11/18 - Advanced AI & Interactive Systems
-**Assigned Reading:** Isla "Handling Complexity in the Halo 2 AI" (excerpts) - 10 pages *(discuss next week)*
+**Assigned Reading:** [Isla "Handling Complexity in the Halo 2 AI"](https://www.gamedeveloper.com/programming/gdc-2005-proceeding-handling-complexity-in-the-i-halo-2-i-ai)(excerpts) - 10 pages *(discuss next week)*
 
 **Class Structure:**
 1. **Discussion:** Jenkins reading - how does space tell stories in games?
@@ -194,7 +194,7 @@ Each 2-hour class is divided into four 30-minute segments:
 *Industry context and professional development*
 
 ### Week 13 11/25 - Capstone Presentations & Open Source (Thanksgiving Week)
-**Assigned Reading:** Raymond "The Cathedral and the Bazaar" (excerpts) - 10 pages *(discuss next week)*
+**Assigned Reading:** Raymond ["The Cathedral and the Bazaar"](Readings/Professional-Practice/Raymond_Eric_S_The_Cathedral_and_the_Bazaar_rev_ed.pdf) (excerpts) - 10 pages *(discuss next week)*
 
 **Class Structure:**
 1. **Discussion:** Halo AI reading - what makes AI feel intelligent vs. actually intelligent?
@@ -205,7 +205,7 @@ Each 2-hour class is divided into four 30-minute segments:
 **Due:** Capstone Presentation
 
 ### Week 14 12/2 - Production & Polish Practices
-**Assigned Reading:** Schell "The Art of Game Design" Ch.27 (Playtesting) - 8 pages *(discuss next week)*
+**Assigned Reading:** Schell ["The Art of Game Design"](Readings/Systems-Thinking/Jesse Schell - The Art of Game Design A Book of Lenses .pdf) Ch.27 (Playtesting) - 8 pages *(discuss next week)*
 
 **Class Structure:**
 1. **Discussion:** Cathedral & Bazaar reading - how does open source affect game development?

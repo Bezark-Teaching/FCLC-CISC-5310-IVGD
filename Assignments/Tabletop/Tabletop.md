@@ -1,7 +1,7 @@
 # Tabletop Game Project
 **Theory Lens**: Game Design as Systems Design  
 **Assigned**: Week 1 (9/2) | **Due**: Week 2 (9/9)  
-**Points**: 15
+**Points**: 14
 
 ## Overview
 Design and create a tabletop game that demonstrates explicit systems thinking. This analog project establishes the foundation for understanding games as complex adaptive systems before transitioning to digital development.
@@ -33,7 +33,7 @@ Design and create a tabletop game that demonstrates explicit systems thinking. T
 - **Complete Ruleset**: Clear, comprehensive rules that enable independent play
 - **Systems Analysis Document**: Diagram and written explanation of your game as a system
 
-## Grading Criteria (15 Points Total)
+## Grading Criteria (14 Points Total)
 
 **Systems Analysis & Documentation (6 points)**
 - 6: Sophisticated systems diagram with clear identification of inputs, processes, outputs, and feedback loops, plus thoughtful written analysis
@@ -43,12 +43,12 @@ Design and create a tabletop game that demonstrates explicit systems thinking. T
 - 2: Minimal systems thinking demonstrated
 - 0: No systems analysis provided
 
-**Game Functionality & Design (6 points)**  
-- 6: Game functions excellently within constraints with clear design goals achieved
-- 5: Game works well with minor issues, mostly achieves design goals
-- 4: Game is functional and meets basic requirements
-- 3: Game works but has functionality issues or unclear goals
-- 2: Game has significant problems but demonstrates effort
+**Game Functionality & Design (5 points)**  
+- 5: Game functions excellently within constraints with clear design goals achieved
+- 4: Game works well with minor issues, mostly achieves design goals
+- 3: Game is functional and meets basic requirements
+- 2: Game works but has functionality issues or unclear goals
+- 1: Game has significant problems but demonstrates effort
 - 0: Game is non-functional or incomplete
 
 **Rule Clarity & Completeness (3 points)**
