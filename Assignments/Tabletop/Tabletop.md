@@ -37,12 +37,12 @@ Design and create a tabletop game that demonstrates explicit systems thinking. T
 
 ## Grading Criteria (14 Points Total)
 
-**Causal Loop Analysis & Diagram (6 points)**
-- 6: Sophisticated causal loop diagram with correct S/O notation, clearly labeled R/B loops, and insightful analysis of system dynamics
-- 5: Good causal loop diagram with mostly correct notation and identified loops
-- 4: Basic causal loop diagram with some correct notation and at least one clear loop
-- 3: Attempted causal loop diagram but missing key elements or incorrect notation
-- 2: Minimal systems thinking with unclear or incorrect diagram structure
+**Causal Loop Analysis & Diagram (5 points)**
+- 5: Sophisticated causal loop diagram with correct S/O notation, clearly labeled R/B loops, and insightful analysis of system dynamics
+- 4: Good causal loop diagram with mostly correct notation and identified loops
+- 3: Basic causal loop diagram with some correct notation and at least one clear loop
+- 2: Attempted causal loop diagram but missing key elements or incorrect notation
+- 1: Minimal systems thinking with unclear or incorrect diagram structure
 - 0: No causal loop analysis provided
 
 **Game Functionality & Design (5 points)**  
@@ -53,10 +53,11 @@ Design and create a tabletop game that demonstrates explicit systems thinking. T
 - 1: Game has significant problems but demonstrates effort
 - 0: Game is non-functional or incomplete
 
-**Rule Clarity & Completeness (3 points)**
-- 3: Rules are clear, complete, and enable independent play by others
-- 2: Rules are mostly clear with minor gaps or confusion
-- 1: Rules are present but have significant clarity issues
+**Rule Clarity & Completeness (4 points)**
+- 4: Rules are clear, complete, and enable independent play by others
+- 3: Rules are mostly clear with minor gaps or confusion
+- 2: Rules are present but have significant clarity issues
+- 1: Rules have major problems but show basic understanding
 - 0: Rules are incomplete or very unclear
 
 ## Causal Loop Diagram Requirements
