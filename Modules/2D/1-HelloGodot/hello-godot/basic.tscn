@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://dnsg31ddaijnk" path="res://images/icon.svg" id="1_gohcl"]
 [ext_resource type="Texture2D" uid="uid://cg5117cl5bf3l" path="res://images/dog.png" id="2_5ie5f"]
 [ext_resource type="Texture2D" uid="uid://cmsq554s287kf" path="res://images/sonic/ba0305e8e9994a6c92b41380dae42503eve0N4Bsq5pdqdo9-0.png" id="3_54a44"]
-[ext_resource type="Script" path="res://dog.gd" id="3_p3p1r"]
+[ext_resource type="Script" uid="uid://b77snk2p6vp7r" path="res://dog.gd" id="3_p3p1r"]
 [ext_resource type="PackedScene" uid="uid://rhghx2v1j8l2" path="res://tree.tscn" id="5_yt0lo"]
 
 [node name="Robot" type="Sprite2D"]

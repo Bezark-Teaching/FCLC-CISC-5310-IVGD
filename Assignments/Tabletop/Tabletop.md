@@ -21,6 +21,7 @@ Design and create a tabletop game that demonstrates explicit systems thinking. T
 - **Clear Victory Condition**: Explicit win/lose states with defined objectives
 
 ### Systems Analysis Requirements (Graduate Level)
+// Change this to a causal loop diagram
 - **Explicit System Diagram**: Visual representation showing:
   - **Inputs**: Player actions, random elements, resource inputs
   - **Processes**: Game mechanics, rule interactions, state changes  

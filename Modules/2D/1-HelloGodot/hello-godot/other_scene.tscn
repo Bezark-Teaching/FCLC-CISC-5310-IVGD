@@ -7,7 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://bwft3qiptamoi" path="res://images/coolrobot.svg" id="5_q0ewp"]
 [ext_resource type="Texture2D" uid="uid://cg5117cl5bf3l" path="res://images/dog.png" id="6_c27od"]
 [ext_resource type="Texture2D" uid="uid://byg30p34hcj3p" path="res://images/tree.png" id="7_wdeim"]
-[ext_resource type="Script" path="res://body_sprites.gd" id="8_iy25n"]
+[ext_resource type="Script" uid="uid://bilhb1xuvlgpa" path="res://body_sprites.gd" id="8_iy25n"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_serli"]
 animations = [{
