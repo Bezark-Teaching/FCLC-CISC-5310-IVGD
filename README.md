@@ -85,6 +85,8 @@ This advanced course uses **theory as a lens** for game development practice, st
 
 **Class Structure:**
 1. **Discussion:** MDA Framework and Advanced Game Design reading - applying theory to your tabletop designs
+  - [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
+  - [Advanced Game Design Chapter 2](Readings/Systems-Thinking/ADG-Ch2-Slides.md)
 2. **Playtesting:** Present and playtest tabletop game prototypes with peer feedback
 3. **Workshop:** Causal Loop Diagram methodology - learn S/O notation and loop identification
 4. **Practice:** Create causal loop diagrams for your tabletop games with instructor guidance

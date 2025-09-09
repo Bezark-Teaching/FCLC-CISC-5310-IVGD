@@ -71,10 +71,13 @@ Each part is independent of others in  that each has its own identity and acts o
 ## Behaviors
 > Parts affect each other via their behaviors. Each part has something that it does—most often  some resource it creates, changes, or destroys in the system. These behaviors may be simple  or complex, and they typically affect other parts by communicating some resource or value  change to them.
 ---
-# Sources, Stocks, Sinks
 
+# Causal Loop Diagrams
+- Variables
+- Flows
+- Loops
 ---
-# Converters and Deciders
-
+![cookie clicker](./cookie.png)
+![tetris](./tetris.png)
+![mario](./mario.png)
 ---
-# Loops
