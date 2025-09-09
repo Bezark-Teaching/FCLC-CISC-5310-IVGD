@@ -80,18 +80,19 @@ This advanced course uses **theory as a lens** for game development practice, st
 - Design analog game demonstrating clear MDA structure
 - No digital tools - focus purely on game logic and player interaction
 
-### Week 2 9/9 - Systems Design & Playtesting  
+### Week 2 9/9 - Systems Design & Causal Loop Analysis  
 **Assigned Reading:** Sellers ["Advanced Game Design"](Readings/Systems-Thinking/advancedgamedesign.pdf) Ch.7 (Creating Game Loops) - 12 pages *(discuss next week)*
 
 **Class Structure:**
-1. **Discussion:** MDA Framework reading - applying theory to your tabletop designs
-2. **Lecture:** Systems thinking fundamentals, playtesting methodology
-3. **Workshop:** Tabletop playtesting - use MDA to analyze and iterate your designs
-4. **Assignment:** System diagram creation for your tabletop game
+1. **Discussion:** MDA Framework and Advanced Game Design reading - applying theory to your tabletop designs
+2. **Playtesting:** Present and playtest tabletop game prototypes with peer feedback
+3. **Workshop:** Causal Loop Diagram methodology - learn S/O notation and loop identification
+4. **Practice:** Create causal loop diagrams for your tabletop games with instructor guidance
 
-**Project:** System Diagram **(ASSIGNED)**
-- Create explicit system diagram (inputs, processes, outputs, feedback loops) for your tabletop game
-- Document how mechanics create dynamics create aesthetics
+**Project:** Causal Loop Diagram **(ASSIGNED)**
+- Create causal loop diagram with S/O notation and labeled feedback loops for your tabletop game
+- Identify at least two loops: one reinforcing (R) and one balancing (B)
+- Brief analysis of how loops create intended gameplay dynamics
 
 ### Week 3 9/16 - Emergence & Complex Systems  
 **Assigned Reading:** Johnson "Emergence" Ch.1 (The Myth of the Ant Queen) - *(discuss next week)*

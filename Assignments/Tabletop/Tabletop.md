@@ -21,27 +21,29 @@ Design and create a tabletop game that demonstrates explicit systems thinking. T
 - **Clear Victory Condition**: Explicit win/lose states with defined objectives
 
 ### Systems Analysis Requirements (Graduate Level)
-// Change this to a causal loop diagram
-- **Explicit System Diagram**: Visual representation showing:
-  - **Inputs**: Player actions, random elements, resource inputs
-  - **Processes**: Game mechanics, rule interactions, state changes  
-  - **Outputs**: Results, feedback, game state updates
-  - **Feedback Loops**: How outputs influence future inputs
+- **Causal Loop Diagram**: A structured systems analysis showing:
+  - **Variables**: Key game elements that change during play (e.g., player score, resource levels, turn position)
+  - **Causal Links**: Arrows connecting variables with S (Same) or O (Opposite) notation
+    - **S notation**: When one variable increases, the linked variable increases
+    - **O notation**: When one variable increases, the linked variable decreases
+  - **Loop Identification**: At least two distinct feedback loops, each clearly labeled as:
+    - **Reinforcing Loop (R)**: Accelerates change in one direction
+    - **Balancing Loop (B)**: Seeks equilibrium or limits growth
 
 ### Physical Deliverables
 - **Game Prototype**: Physical, playable version using available materials
 - **Complete Ruleset**: Clear, comprehensive rules that enable independent play
-- **Systems Diagram**: Visual diagram showing your game as a system
+- **Causal Loop Diagram**: Visual diagram with S/O notation and labeled feedback loops
 
 ## Grading Criteria (14 Points Total)
 
-**Systems Analysis & Diagram (6 points)**
-- 6: Sophisticated systems diagram with clear identification of inputs, processes, outputs, and feedback loops
-- 5: Good systems diagram with most elements identified
-- 4: Basic systems diagram with some elements identified
-- 3: Attempted systems diagram but missing key elements or unclear
-- 2: Minimal systems thinking demonstrated
-- 0: No systems analysis provided
+**Causal Loop Analysis & Diagram (6 points)**
+- 6: Sophisticated causal loop diagram with correct S/O notation, clearly labeled R/B loops, and insightful analysis of system dynamics
+- 5: Good causal loop diagram with mostly correct notation and identified loops
+- 4: Basic causal loop diagram with some correct notation and at least one clear loop
+- 3: Attempted causal loop diagram but missing key elements or incorrect notation
+- 2: Minimal systems thinking with unclear or incorrect diagram structure
+- 0: No causal loop analysis provided
 
 **Game Functionality & Design (5 points)**  
 - 5: Game functions excellently within constraints with clear design goals achieved
@@ -57,13 +59,13 @@ Design and create a tabletop game that demonstrates explicit systems thinking. T
 - 1: Rules are present but have significant clarity issues
 - 0: Rules are incomplete or very unclear
 
-## Systems Diagram Requirements
-**Visual System Diagram**:
-- **System Diagram**: Visual representation with labeled components
-- **Input Identification**: What actions/elements enter your system?
-- **Process Visualization**: How does your game transform inputs into outputs?
-- **Output Identification**: What results does your system produce?
-- **Feedback Loop Mapping**: How do outputs influence future system states?
+## Causal Loop Diagram Requirements
+**Structured Causal Loop Analysis**:
+- **Variable Selection**: Identify 4-6 key variables that change during gameplay
+- **Causal Relationships**: Connect variables with arrows labeled S or O
+- **Loop Labeling**: Clearly mark each feedback loop as R (Reinforcing) or B (Balancing)
+- **System Behavior**: Brief explanation of how each loop affects gameplay dynamics
+- **Design Intention**: How do these loops create the player experience you intended?
 
 ## Theoretical Framework Focus
 - **Salen & Zimmerman Systems Theory**: Apply systems thinking from your assigned reading
@@ -81,7 +83,7 @@ Design and create a tabletop game that demonstrates explicit systems thinking. T
 ## Submission Requirements
 - Physical game prototype brought to class for playtest session
 - Complete ruleset (digital document)
-- Systems diagram (visual/digital)
+- Causal loop diagram with S/O notation and labeled feedback loops (visual/digital)
 - In-class presentation of game and systems analysis
 
 ## Tips for Success
