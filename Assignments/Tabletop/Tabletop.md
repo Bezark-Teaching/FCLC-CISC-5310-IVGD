@@ -21,7 +21,9 @@ Design and create a tabletop game that demonstrates explicit systems thinking. T
 - **Clear Victory Condition**: Explicit win/lose states with defined objectives
 
 ### Systems Analysis Requirements (Graduate Level)
-- **Causal Loop Diagram**: A structured systems analysis showing:
+Choose the most appropriate systems analysis for your game:
+
+**Option A: Causal Loop Diagram** (best for feedback-heavy systems):
   - **Variables**: Key game elements that change during play (e.g., player score, resource levels, turn position)
   - **Causal Links**: Arrows connecting variables with S (Same) or O (Opposite) notation
     - **S notation**: When one variable increases, the linked variable increases
@@ -30,20 +32,26 @@ Design and create a tabletop game that demonstrates explicit systems thinking. T
     - **Reinforcing Loop (R)**: Accelerates change in one direction
     - **Balancing Loop (B)**: Seeks equilibrium or limits growth
 
+**Option B: Stock and Flow Diagram** (best for resource/accumulation systems):
+  - **Stocks**: Things that can be accumulated (e.g., points, cards, territory, energy)
+  - **Flows**: Rates that change stocks (e.g., points per turn, cards drawn, territory gained)
+  - **Converters**: Elements that affect flow rates (e.g., multipliers, efficiency bonuses)
+  - **Deciders**: Information or conditions that control when flows activate (e.g., rules, triggers, player choices)
+
 ### Physical Deliverables
 - **Game Prototype**: Physical, playable version using available materials
 - **Complete Ruleset**: Clear, comprehensive rules that enable independent play
-- **Causal Loop Diagram**: Visual diagram with S/O notation and labeled feedback loops
+- **Systems Diagram**: Either causal loop diagram (with S/O notation and labeled feedback loops) or stock and flow diagram (with stocks, flows, converters, and deciders)
 
 ## Grading Criteria (14 Points Total)
 
-**Causal Loop Analysis & Diagram (5 points)**
-- 5: Sophisticated causal loop diagram with correct S/O notation, clearly labeled R/B loops, and insightful analysis of system dynamics
-- 4: Good causal loop diagram with mostly correct notation and identified loops
-- 3: Basic causal loop diagram with some correct notation and at least one clear loop
-- 2: Attempted causal loop diagram but missing key elements or incorrect notation
+**Systems Analysis & Diagram (5 points)**
+- 5: Sophisticated systems diagram (causal loop OR stock/flow) with correct notation, clearly identified elements, and insightful analysis of system dynamics
+- 4: Good systems diagram with mostly correct notation and identified key elements
+- 3: Basic systems diagram with some correct notation and at least one clear relationship
+- 2: Attempted systems diagram but missing key elements or incorrect notation
 - 1: Minimal systems thinking with unclear or incorrect diagram structure
-- 0: No causal loop analysis provided
+- 0: No systems analysis provided
 
 **Game Functionality & Design (5 points)**  
 - 5: Game functions excellently within constraints with clear design goals achieved
@@ -60,13 +68,24 @@ Design and create a tabletop game that demonstrates explicit systems thinking. T
 - 1: Rules have major problems but show basic understanding
 - 0: Rules are incomplete or very unclear
 
-## Causal Loop Diagram Requirements
-**Structured Causal Loop Analysis**:
+## Systems Diagram Requirements
+Choose the appropriate analysis method for your game:
+
+**Causal Loop Analysis**:
 - **Variable Selection**: Identify 4-6 key variables that change during gameplay
 - **Causal Relationships**: Connect variables with arrows labeled S or O
 - **Loop Labeling**: Clearly mark each feedback loop as R (Reinforcing) or B (Balancing)
 - **System Behavior**: Brief explanation of how each loop affects gameplay dynamics
-- **Design Intention**: How do these loops create the player experience you intended?
+
+**Stock and Flow Analysis**:
+- **Stock Identification**: Identify 3-5 key accumulations in your game
+- **Flow Mapping**: Show what increases/decreases each stock and at what rates
+- **Converter Analysis**: Identify elements that modify flow rates
+- **Decider Documentation**: Show what triggers or controls flows
+- **System Behavior**: Brief explanation of how stocks and flows create gameplay dynamics
+
+**For Both Methods**:
+- **Design Intention**: How does your system create the player experience you intended?
 
 ## Theoretical Framework Focus
 - **Salen & Zimmerman Systems Theory**: Apply systems thinking from your assigned reading
@@ -84,7 +103,7 @@ Design and create a tabletop game that demonstrates explicit systems thinking. T
 ## Submission Requirements
 - Physical game prototype brought to class for playtest session
 - Complete ruleset (digital document)
-- Causal loop diagram with S/O notation and labeled feedback loops (visual/digital)
+- Systems diagram (causal loop OR stock/flow) with appropriate notation (visual/digital)
 - In-class presentation of game and systems analysis
 
 ## Tips for Success

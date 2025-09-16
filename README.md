@@ -81,12 +81,10 @@ This advanced course uses **theory as a lens** for game development practice, st
 - No digital tools - focus purely on game logic and player interaction
 
 ### Week 2 9/9 - Systems Design & Causal Loop Analysis  
-**Assigned Reading:** Sellers ["Advanced Game Design"](Readings/Systems-Thinking/advancedgamedesign.pdf) Ch.7 (Creating Game Loops) - 12 pages *(discuss next week)*
 
 **Class Structure:**
 1. **Discussion:** MDA Framework and Advanced Game Design reading - applying theory to your tabletop designs
   - [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
-  - [Advanced Game Design Chapter 2](Readings/Systems-Thinking/ADG-Ch2-Slides.md)
 2. **Playtesting:** Present and playtest tabletop game prototypes with peer feedback
 3. **Workshop:** Causal Loop Diagram methodology - learn S/O notation and loop identification
 4. **Practice:** Create causal loop diagrams for your tabletop games with instructor guidance
@@ -97,15 +95,15 @@ This advanced course uses **theory as a lens** for game development practice, st
 - Brief analysis of how loops create intended gameplay dynamics
 
 ### Week 3 9/16 - Emergence & Complex Systems  
-**Assigned Reading:** Johnson "Emergence" Ch.1 (The Myth of the Ant Queen) - *(discuss next week)*
+**Assigned Reading:** Sellers ["Advanced Game Design"](Readings/Systems-Thinking/advancedgamedesign.pdf) Ch.7 (Creating Game Loops) - 12 pages *(discuss next week)*
 
 **Class Structure:**
-1. **Discussion:** Advanced Game Design reading - game loops and system architecture
-2. **Presentations:** Present tabletop games with system diagrams and MDA analysis
-3. **Lecture:** Emergence, complexity from simple rules, bottom-up vs top-down design
-4. **Introduction:** Overview of Godot editor (demo only, no hands-on yet)
+1. **Presentations:** Present tabletop games with system diagrams and MDA analysis
+2. **Discussion:** Advanced Game Design reading - game loops and system architecture
+  - [Advanced Game Design Chapter 2](Readings/Systems-Thinking/ADG-Ch2-Slides.md)
+<!-- 3. **Lecture:** Emergence, complexity from simple rules, bottom-up vs top-down design -->
+3. **Introduction:** Overview of Godot editor (demo only, no hands-on yet)
 
-**Due:** Tabletop Game + System Diagram
 
 ---
 
@@ -113,13 +111,14 @@ This advanced course uses **theory as a lens** for game development practice, st
 *Building reusable, maintainable game architectures*
 
 ### Week 4 9/23 - Introduction to Godot & Patterns
-**Assigned Reading:** Alexander ["A Pattern Language"](Readings/Design-Patterns/Alexander_A_Pattern_Language.pdf) Introduction + 3 selected patterns - 15 pages *(discuss next week)*
+**Assigned Reading:** Johnson "Emergence" Ch.1 (The Myth of the Ant Queen) - *(discuss next week)*
+<!-- **Assigned Reading:** Alexander ["A Pattern Language"](Readings/Design-Patterns/Alexander_A_Pattern_Language.pdf) Introduction + 3 selected patterns - 15 pages *(discuss next week)* -->
 
 **Class Structure:**
-1. **Discussion:** Johnson Emergence reading - complexity from simple rules in games
-2. **Lecture:** Introduction to Godot editor, nodes, scenes, basic scripting
-3. **Workshop:** Hands-on Godot basics - create your first scene with movement
-4. **Q&A:** Godot installation issues, basic troubleshooting
+<!-- 1. **Discussion:** Johnson Emergence reading - complexity from simple rules in games -->
+1. **Lecture:** Introduction to Godot editor, nodes, scenes, basic scripting
+2. **Workshop:** Hands-on Godot basics - create your first scene with movement
+3. **Q&A:** Godot installation issues, basic troubleshooting
 
 **Project:** Lab 1 - MDA Implementation **(ASSIGNED)**
 - Analyze existing game using MDA Framework
@@ -127,6 +126,8 @@ This advanced course uses **theory as a lens** for game development practice, st
 **Project:** Lab 2 - Emergent Behavior **(ASSIGNED)**
 - Create simple agents in Godot that produce complex group behavior from simple rules
 - Demonstrate emergence principles discussed in Week 3
+
+**Due:** Tabletop Game + System Diagram
 
 ### Week 5 9/30 - Patterns & Component Architecture  
 **Assigned Reading:** Nystrom "Game Programming Patterns" - [Observer](https://gameprogrammingpatterns.com/observer.html) + [State](https://gameprogrammingpatterns.com/state.html) patterns - 10 pages *(discuss next week)*
