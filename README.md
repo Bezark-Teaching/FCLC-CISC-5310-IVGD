@@ -1,7 +1,8 @@
 # Top of Mind
-- **Assigned Reading:** Hunicke, LeBlanc, Zubek ["MDA Framework"](Readings/Systems-Thinking/MDA.pdf) + Sellers ["Advanced Game Design"](Readings/Systems-Thinking/advancedgamedesign.pdf) Skim Ch.1, read Ch. 2 - *(discuss next week)*
-- Bring in a playable prototype of your [Tabletop Game](/Assignments/Tabletop/Tabletop.md)
-- [FILL OUT THIS FORM](https://forms.gle/5X6TjT88Yg5m5XLs8) so you can tell me if I'm giving you too much homework!
+- Submit the entire [Tabletop Game](/Assignments/Tabletop/Tabletop.md) assignement by end of day 9/23. This includes:
+  - Written Rules
+  - Either a Causal Loop or a Stock and Flow Diagram
+- Download Godot [Godot 4.5](https://godotengine.org/) and watch this [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo). If you are already fluent in github feel free to skip to minute 27. The video was recorded before the latest version of Godot, so there are some differences between the what you see in the tutorial and what you have in front of you, but everything important is the same. The biggest difference is there is a new Game tab at the very top of the screen which I'll cover in class next week!
  
 # Advanced Game Design and Development - Graduate Level
 
