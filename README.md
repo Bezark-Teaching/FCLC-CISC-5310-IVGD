@@ -102,8 +102,7 @@ This advanced course uses **theory as a lens** for game development practice, st
 1. **Presentations:** Present tabletop games with system diagrams and MDA analysis
 2. **Discussion:** Advanced Game Design reading - game loops and system architecture
   - [Advanced Game Design Chapter 2](Readings/Systems-Thinking/ADG-Ch2-Slides.md)
-<!-- 3. **Lecture:** Emergence, complexity from simple rules, bottom-up vs top-down design -->
-3. **Introduction:** Overview of Godot editor (demo only, no hands-on yet)
+<!-- 3. **Introduction:** Overview of Godot editor (demo only, no hands-on yet) -->
 
 
 ---
@@ -113,50 +112,50 @@ This advanced course uses **theory as a lens** for game development practice, st
 
 ### Week 4 9/23 - Introduction to Godot & Patterns
 **Assigned Reading:** Johnson "Emergence" Ch.1 (The Myth of the Ant Queen) - *(discuss next week)*
-<!-- **Assigned Reading:** Alexander ["A Pattern Language"](Readings/Design-Patterns/Alexander_A_Pattern_Language.pdf) Introduction + 3 selected patterns - 15 pages *(discuss next week)* -->
 
 **Class Structure:**
-<!-- 1. **Discussion:** Johnson Emergence reading - complexity from simple rules in games -->
 1. **Lecture:** Introduction to Godot editor, nodes, scenes, basic scripting
 2. **Workshop:** Hands-on Godot basics - create your first scene with movement
 3. **Q&A:** Godot installation issues, basic troubleshooting
 
-**Project:** Lab 1 - MDA Implementation **(ASSIGNED)**
-- Analyze existing game using MDA Framework
-- Create simple Godot prototype demonstrating clear Mechanics→Dynamics→Aesthetics chain
-**Project:** Lab 2 - Emergent Behavior **(ASSIGNED)**
-- Create simple agents in Godot that produce complex group behavior from simple rules
-- Demonstrate emergence principles discussed in Week 3
-
+**Project:** [Lab 1 - Godot Foundations](/Assignments/Labs/Lab_1.md) **(ASSIGNED)**
 **Due:** Tabletop Game + System Diagram
 
 ### Week 5 9/30 - Patterns & Component Architecture  
-**Assigned Reading:** Nystrom "Game Programming Patterns" - [Observer](https://gameprogrammingpatterns.com/observer.html) + [State](https://gameprogrammingpatterns.com/state.html) patterns - 10 pages *(discuss next week)*
+**Assigned Reading:** Alexander ["A Pattern Language"](Readings/Design-Patterns/Alexander_A_Pattern_Language.pdf) Introduction + 3 selected patterns - 15 pages *(discuss next week)* Nystrom "Game Programming Patterns" - [Observer](https://gameprogrammingpatterns.com/observer.html) + [State](https://gameprogrammingpatterns.com/state.html) patterns - 10 pages *(discuss next week)*
 
 **Class Structure:**
-1. **Discussion:** Alexander reading - how do architectural patterns apply to code?
+<!-- 1. **Discussion:** Johnson Emergence reading - complexity from simple rules in games -->
 2. **Lecture:** Godot's signal system, node composition, scene instantiation
+3. **Lecture:** Emergence, complexity from simple rules, bottom-up vs top-down design
 3. **Workshop:** Build component-based player controller, practice signals
 4. **Code Review:** Share Lab 1 solutions, discuss different approaches to MDA implementation
 
 **Due:** Lab 1 - MDA Implementation
-**Project:** Lab 3 - Pattern Documentation **(ASSIGNED)**
-- Document 3 design patterns you discover while building
-- Use Alexander format: Context, Problem, Solution
+
+**Project:** [Lab 2 - Emergent Behavior](/Assignments/Labs/Lab_2.md) **(ASSIGNED)**
+- Create simple agents in Godot that produce complex group behavior from simple rules
+- Demonstrate emergence principles discussed in Week 3
+
 **Project:** 2D Game **(ASSIGNED)** - Begin planning and early development
 - 4+ weeks to develop complete 2D game demonstrating clean architecture
 - Focus on maintainable, well-organized code using design patterns
 
 ### Week 6 10/7 - Software Patterns in Practice
-**Assigned Reading:** Martin ["Clean Code"](Readings/Design-Patterns/Clean Code.pdf) Ch.1 (Clean Code) - 8 pages *(discuss next week)*
+<!-- **Assigned Reading:** Martin ["Clean Code"](Readings/Design-Patterns/Clean Code.pdf) Ch.1 (Clean Code) - 8 pages *(discuss next week)* -->
 
 **Class Structure:**
+1. **Discussion:** Alexander reading - how do architectural patterns apply to code?
 1. **Discussion:** Game Programming Patterns reading - Observer & State in your work
 2. **Lecture:** State machines, strategy pattern, practical code organization
 3. **Workshop:** Implement state machine for AI or player behavior
 4. **Peer Review:** Lab 2 presentations - critique emergence implementations
 
 **Due:** Lab 2 - Emergent Behavior
+
+**Project:** Lab 3 - Pattern Documentation **(ASSIGNED)**
+- Document 3 design patterns you discover while building
+- Use Alexander format: Context, Problem, Solution
 
 ### Week 7 10/14 - Clean Architecture & 2D Game Development
 **Assigned Reading:** McConnell ["Code Complete"](Readings/Professional-Practice/Code Complete - Edition 2.pdf) Ch.22 (Testing) - 15 pages *(discuss next week)*
