@@ -114,7 +114,6 @@ This course follows a **practice-first, theory-second** approach:
 ### Week 4 9/23 - Hello Godot: From Analog to Digital Systems
 
 **Class Structure:**
-0. Hello Samin!
 1. **Q&A:** Tabletop submissions and system diagrams
 - Diagrams
 2. **Workshop:** Godot editor tour - nodes as system components, scenes as systems
