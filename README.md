@@ -98,7 +98,6 @@ This course follows a **practice-first, theory-second** approach:
 - Brief analysis of how loops create intended gameplay dynamics
 
 ### Week 3 9/16 - Emergence & Complex Systems  
-**Assigned Reading:** Sellers ["Advanced Game Design"](Readings/Systems-Thinking/advancedgamedesign.pdf) Ch.7 (Creating Game Loops) - 12 pages *(discuss next week)*
 
 **Class Structure:**
 1. **Presentations:** Present tabletop games with system diagrams and MDA analysis
@@ -113,7 +112,6 @@ This course follows a **practice-first, theory-second** approach:
 *Hands-on Godot skills, discover patterns through practice*
 
 ### Week 4 9/23 - Hello Godot: From Analog to Digital Systems
-**Assigned Reading:** Johnson "Emergence" Ch.1 (The Myth of the Ant Queen) - *(discuss next week)*
 
 **Class Structure:**
 0. Hello Samin!
