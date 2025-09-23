@@ -1,8 +1,10 @@
 # Top of Mind
-- Submit the entire [Tabletop Game](/Assignments/Tabletop/Tabletop.md) assignement by end of day 9/23. This includes:
-  - Written Rules
-  - Either a Causal Loop or a Stock and Flow Diagram
 - Download Godot [Godot 4.5](https://godotengine.org/) and watch this [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo). If you are already fluent in github feel free to skip to minute 27. The video was recorded before the latest version of Godot, so there are some differences between the what you see in the tutorial and what you have in front of you, but everything important is the same. The biggest difference is there is a new Game tab at the very top of the screen which I'll cover in class next week!
+
+- Previous Slides:
+  - [Week 1 Slides](https://docs.google.com/presentation/d/1o1wn7qCIHvm6pyRf_S_lDHJCvFAZv06cnDHy8nc7OfY/edit?usp=sharing)
+  - [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
+  - [Advanced Game Design Chapter 2](Readings/Systems-Thinking/ADG-Ch2-Slides.md)
  
 # Advanced Game Design and Development - Graduate Level
 
