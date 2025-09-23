@@ -114,19 +114,16 @@ This course follows a **practice-first, theory-second** approach:
 **Assigned Reading:** Johnson "Emergence" Ch.1 (The Myth of the Ant Queen) - *(discuss next week)*
 
 **Class Structure:**
+0. Hello Samin!
 1. **Q&A:** Tabletop submissions and system diagrams
 - Diagrams
 2. **Workshop:** Godot editor tour - nodes as system components, scenes as systems
-- Editor tour
-- Nodes scenes and systems
-- Scripts
-- Properties
-- Signals
+  - Editor tour
+  - Nodes scenes and systems
+  - Scripts
+  - Properties
+  - Signals
 3. **Workshop:** Build your first moving character - basic input and movement
-
-
-
-
 
 **Assigned Reading:** Sellers ["Advanced Game Design"](Readings/Systems-Thinking/advancedgamedesign.pdf) Ch.8 (Defining Parts) *(discuss next week)* 
 
