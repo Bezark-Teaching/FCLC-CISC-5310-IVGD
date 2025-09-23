@@ -115,14 +115,23 @@ This course follows a **practice-first, theory-second** approach:
 
 **Class Structure:**
 1. **Q&A:** Tabletop submissions and system diagrams
+- Diagrams
 2. **Workshop:** Godot editor tour - nodes as system components, scenes as systems
+- Editor tour
+- Nodes scenes and systems
+- Scripts
+- Properties
+- Signals
 3. **Workshop:** Build your first moving character - basic input and movement
-4. **Discussion:** What makes a good digital game system? How is it different from analog?
+
+
+
+
 
 **Assigned Reading:** Sellers ["Advanced Game Design"](Readings/Systems-Thinking/advancedgamedesign.pdf) Ch.8 (Defining Parts) *(discuss next week)* 
 
 **Project:** [Lab 1 - Godot Foundations](/Assignments/Labs/Lab_1.md) **(ASSIGNED)**
-**Project:** 2D Game **(ASSIGNED)** - Begin planning
+**Project:** [2D Game](/Assignments/2D/2DGame.md) **(ASSIGNED)** - Begin planning
 - 4 weeks to develop complete 2D game focusing on emergent gameplay systems
 
 **Due:** Tabletop Game + System Diagram
@@ -165,10 +174,7 @@ This course follows a **practice-first, theory-second** approach:
 
 **Due:** Lab 2 - Emergent Systems
 
-**Project:** [Lab 3 - System Analysis](/Assignments/Labs/Lab_3.md) **(ASSIGNED)**
-- Analyze the feedback loops and emergent properties in your Lab 2 system
-- Create a systems diagram showing how your simple rules create complex behaviors
-- Add polish that makes the system relationships more visible to players
+**Project:** [Lab 3 - Core Game Systems](/Assignments/Labs/Lab_3.md) **(ASSIGNED)**
 
 ### Week 7 10/14 - System Architecture & Code Organization
 **Assigned Reading:** Nystrom "Game Programming Patterns" - [State](https://gameprogrammingpatterns.com/state.html) + [Component](https://gameprogrammingpatterns.com/component.html) patterns *(discuss next week)*

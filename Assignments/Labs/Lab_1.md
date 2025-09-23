@@ -8,32 +8,26 @@ Build a solid foundation in Godot 2D development by creating a simple interactiv
 
 ## Learning Objectives
 - Master fundamental Godot 2D concepts (scenes, nodes, scripts)
-- Implement proper player character control using CharacterBody2D
-- Understand signal-based communication between game objects
+- Implement basic player character control in 2D
+- Create simple interactive elements that respond to player actions
 - Practice clean code organization and project structure
 - Build technical foundation for more complex projects
 
 ## Requirements
 
 ### Player Character
-- **CharacterBody2D**: Properly implemented player character with smooth movement
-- **Input Handling**: Responsive controls using Input singleton
-- **Basic Physics**: Collision detection and response
+- A controllable player character using any movement method (CharacterBody2D, RigidBody2D, or direct transform manipulation)
+- Smooth, responsive controls that feel good to use
 
-### Scene Management
-- **Main Scene**: Well-organized main scene with proper node hierarchy
-- **Scene Instances**: At least 2 different scene instances (e.g., collectibles, obstacles, NPCs)
-- **Scene Organization**: Logical scene structure with appropriate node names
+### Interactive Element
+- At least one object the player can interact with (collectible, door, switch, enemy, etc.)
+- Clear visual or audio feedback when interaction occurs
+- Interaction can be collision-based, input-based, or proximity-based
 
-### Game Mechanics
-- **Interactive Elements**: At least one type of interactive object (collectible, switch, door, etc.)
-- **Signal Communication**: Use signals to communicate between objects (not direct node references)
-- **Basic Feedback**: Visual or audio feedback for player actions
-
-### Code Quality
-- **Clean Scripts**: Well-organized, commented code
-- **Project Structure**: Logical file organization and naming conventions
-- **Version Control**: Proper Git repository with meaningful commits
+### Basic Project Organization
+- Well-organized main scene with logical node hierarchy
+- Clean file structure and meaningful node names
+- Basic commenting in scripts
 
 ### Submission Requirements
 - GitHub repository with complete Godot project
@@ -42,35 +36,30 @@ Build a solid foundation in Godot 2D development by creating a simple interactiv
 ## Grading Criteria (7 Points Total)
 
 **Player Character Implementation (3 points)**
-- 3: CharacterBody2D with smooth, responsive movement and proper collision
-- 2: Good player character with minor movement or collision issues
-- 1: Basic player character that mostly works
-- 0: Player character is non-functional or poorly implemented
+- 3: Smooth, responsive movement that feels polished
+- 2: Good player movement with minor issues
+- 1: Basic functional movement
+- 0: Non-functional or very poor movement
 
-**Scene Management & Signals (2 points)**
-- 2: Proper scene organization with effective use of signals for communication
-- 1: Basic scene structure with some signal usage
-- 0: Poor scene organization or no signal implementation
+**Interactive Element (2 points)**
+- 2: Clear, satisfying interaction with appropriate feedback
+- 1: Basic interaction that works but limited feedback
+- 0: Poor or non-functional interaction
 
-**Code Quality & Project Structure (2 points)**
+**Code Quality & Project Organization (2 points)**
 - 2: Clean, well-commented code with logical project organization
 - 1: Functional code with basic organization
 - 0: Poor code organization or minimal commenting
-- 0: Poor code quality or disorganized project structure
 
 ## Example Projects
-- **Simple Collector**: Player moves around collecting items with particle effects and sound feedback
-- **Basic Platformer**: Player character with jump mechanics, platforms, and interactive elements
-- **Top-Down Explorer**: Overhead view with player navigation, doors, switches, or NPCs
-- **Interaction Demo**: Player can activate objects, open doors, or trigger events using signals
-
-## Submission Requirements
-- GitHub repository with complete Godot project
-- Repository link submitted via course management system
+- **Simple Collector**: Player moves around collecting coins or items that disappear when touched
+- **Basic Platformer**: Player character that can jump and collect items or hit switches
+- **Top-Down Explorer**: Overhead view where player can walk through doors or pick up objects
+- **Reaction Game**: Player clicks or moves to interact with objects that respond
 
 ## Tips for Success
-- **Start with Movement**: Get player character working first, then add interactions
-- **Use Signals**: Practice signal-based communication instead of direct node references
+- **Start with Movement**: Get player character working first, then add one simple interaction
+- **Keep It Simple**: Focus on making one interaction feel good rather than many complex ones
 - **Test Frequently**: Run your project often to catch issues early
 - **Organize Early**: Set up clean project structure from the beginning
 - **Comment Your Code**: Explain what your scripts do for future reference
