@@ -22,15 +22,15 @@ This course offers a thorough introduction to the world of video game design and
 
 # **Assessment**
 
-This advanced graduate course uses **theory as a lens** for game development practice. Each assignment builds on theoretical frameworks while maintaining focus on creating sophisticated games in Godot.
+This course balances **practical game development** with **theoretical understanding**. Start by building, then apply theory to improve your work.
 
 | Assignment                                                         | Description                                              | Due Date   | Points |
 |:-------------------------------------------------------------------|:---------------------------------------------------------|:-----------|:-------|
 | **Class Participation**                                            | Active engagement, peer feedback, code reviews           | Ongoing    |    20  |
-| [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                 | Systems-focused analog game with playtesting analysis    | 9/16       |    14  |
+| [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                 | Systems-focused analog game with playtesting analysis    | 9/23       |    14  |
 | [Lab 1: Godot Foundations](/Assignments/Labs/Lab_1.md)             | Essential 2D Godot skills and project structure          | 9/30       |     5  |
-| [Lab 2: Emergence](/Assignments/Labs/Lab_2.md)                     | Simple agents producing complex group behavior           | 10/7       |     5  |
-| [Lab 3: Pattern Documentation](/Assignments/Labs/Lab_3.md)         | Identify and document design patterns while building     | 10/14      |     5  |
+| [Lab 2: Emergent Systems](/Assignments/Labs/Lab_2.md)              | Simple agents producing complex group behavior           | 10/7       |     5  |
+| [Lab 3: Core Game Systems](/Assignments/Labs/Lab_3.md)             | Health, damage, and respawn system implementation        | 10/14      |     5  |
 | [2D Game](/Assignments/2D/2DGame.md)                               | Complete 2D game demonstrating clean architecture        | 10/28      |    34  |
 | [Lab 4: Walking Sim](/Assignments/Labs/Lab_4.md)                   | 3D environmental storytelling experience                 | 11/25      |    24  |
 | [Capstone Presentation](/Assignments/Capstone/Capstone_Concept.md) | Technical presentation of final project architecture     | 11/18      |    10  |
@@ -43,27 +43,27 @@ All assignments will be graded on the due date. Students are always allowed to r
 
 # **Course Outline**
 
-This advanced course uses **theory as a lens** for game development practice, structured around four theoretical frameworks:
-- **Weeks 1-3: Systems Thinking** - Understanding games as complex adaptive systems (analog focus)
-- **Weeks 4-8: Design Patterns** - Building reusable, maintainable game architectures (2D development)
-- **Weeks 9-12: 3D Environments & Interaction** - Creating immersive, interactive spaces (3D development)  
-- **Weeks 13-15: Professional Practice** - Industry context and professional development
+This course follows a **practice-first, theory-second** approach:
+- **Weeks 1-3: Game Fundamentals** - Analog design and systems thinking foundation
+- **Weeks 4-8: 2D Development** - Hands-on Godot skills, then patterns emerge from practice
+- **Weeks 9-12: 3D Development** - Spatial design and environmental storytelling
+- **Weeks 13-15: Professional Practice** - Polish, optimization, and industry preparation
 
 ### Course Philosophy
-- **Theory Informs Practice**: Readings provide frameworks for approaching Godot development
-- **Background Projects**: Major assignments span multiple weeks like professional development
-- **Graduate Depth**: Sophisticated concepts without overwhelming separate academic work
-- **Professional Preparation**: Industry-relevant skills and presentation practice throughout
+- **Build First, Understand Second**: Get hands dirty, then apply theory to improve
+- **Theory When Relevant**: Introduce concepts when students can immediately apply them
+- **Graduate Depth**: Sophisticated projects with theoretical reflection
+- **Professional Preparation**: Industry workflows and presentation skills throughout
 
 
 # **Detailed Weekly Structure**
 
-*Each 2-hour class is structured as four 30-minute segments: Reading Discussion, Lecture, Workshop, Q&A*
+*Each 2-hour class is structured as: Quick Q&A (15min), Workshop/Hands-on (75min), Theory/Discussion (30min)*
 
 ---
 
-## PART I: SYSTEMS THINKING (Weeks 1-3)
-*Understanding games as complex adaptive systems - No digital tools yet*
+## PART I: GAME FUNDAMENTALS (Weeks 1-3)
+*Understanding games through analog design and systems thinking*
 
 ### Week 1 9/2 - Introduction & MDA Framework
 **Assigned Reading:** Hunicke, LeBlanc, Zubek ["MDA Framework"](Readings/Systems-Thinking/MDA.pdf) + Sellers ["Advanced Game Design"](Readings/Systems-Thinking/advancedgamedesign.pdf) Skim Ch.1, read Ch. 2 - *(discuss next week)*
@@ -107,75 +107,87 @@ This advanced course uses **theory as a lens** for game development practice, st
 
 ---
 
-## PART II: DESIGN PATTERNS (Weeks 4-8) 
-*Building reusable, maintainable game architectures*
+## PART II: 2D DEVELOPMENT (Weeks 4-8)
+*Hands-on Godot skills, discover patterns through practice*
 
-### Week 4 9/23 - Introduction to Godot & Patterns
+### Week 4 9/23 - Hello Godot: From Analog to Digital Systems
 **Assigned Reading:** Johnson "Emergence" Ch.1 (The Myth of the Ant Queen) - *(discuss next week)*
 
 **Class Structure:**
-1. **Lecture:** Introduction to Godot editor, nodes, scenes, basic scripting
-2. **Workshop:** Hands-on Godot basics - create your first scene with movement
-3. **Q&A:** Godot installation issues, basic troubleshooting
+1. **Q&A:** Tabletop submissions and system diagrams
+2. **Workshop:** Godot editor tour - nodes as system components, scenes as systems
+3. **Workshop:** Build your first moving character - basic input and movement
+4. **Discussion:** What makes a good digital game system? How is it different from analog?
+
+**Assigned Reading:** Sellers ["Advanced Game Design"](Readings/Systems-Thinking/advancedgamedesign.pdf) Ch.8 (Defining Parts) *(discuss next week)* 
 
 **Project:** [Lab 1 - Godot Foundations](/Assignments/Labs/Lab_1.md) **(ASSIGNED)**
+**Project:** 2D Game **(ASSIGNED)** - Begin planning
+- 4 weeks to develop complete 2D game focusing on emergent gameplay systems
+
 **Due:** Tabletop Game + System Diagram
 
-### Week 5 9/30 - Patterns & Component Architecture  
-**Assigned Reading:** Alexander ["A Pattern Language"](Readings/Design-Patterns/Alexander_A_Pattern_Language.pdf) Introduction + 3 selected patterns - 15 pages *(discuss next week)* Nystrom "Game Programming Patterns" - [Observer](https://gameprogrammingpatterns.com/observer.html) + [State](https://gameprogrammingpatterns.com/state.html) patterns - 10 pages *(discuss next week)*
+**Resources:**
+- [Introduction to Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
+- [Learn GDScript From Zero](https://gdquest.github.io/learn-gdscript/?ref=godot-docs)
+
+### Week 5 9/30 - Simple Rules, Complex Behaviors
+**Assigned Reading:** Sellers ["Advanced Game Design"](Readings/Systems-Thinking/advancedgamedesign.pdf) Ch.7 (Creating Game Loops) - 12 pages *(discuss next week)*
 
 **Class Structure:**
-<!-- 1. **Discussion:** Johnson Emergence reading - complexity from simple rules in games -->
-2. **Lecture:** Godot's signal system, node composition, scene instantiation
-3. **Lecture:** Emergence, complexity from simple rules, bottom-up vs top-down design
-3. **Workshop:** Build component-based player controller, practice signals
-4. **Code Review:** Share Lab 1 solutions, discuss different approaches to MDA implementation
+1. **Discussion:** Sellers Ch.8 - how do we define the "parts" of our digital game systems?
+2. **Workshop:** Essential 2D nodes - CharacterBody2D, Area2D, RigidBody2D, Camera2D
+  - Nodes to Know
+    - Camera2D
+    - CharacterBody2d
+    - StaticBody2D
+    - Area2D
+    - CollisionShape2D
 
-**Due:** Lab 1 - MDA Implementation
+3. **Workshop:** Build simple interacting systems - enemies that respond to player, basic AI
+4. **Code Review:** Share Lab 1 solutions, discuss different system approaches
 
-**Project:** [Lab 2 - Emergent Behavior](/Assignments/Labs/Lab_2.md) **(ASSIGNED)**
-- Create simple agents in Godot that produce complex group behavior from simple rules
-- Demonstrate emergence principles discussed in Week 3
+**Due:** Lab 1 - Godot Foundations
 
-**Project:** 2D Game **(ASSIGNED)** - Begin planning and early development
-- 4+ weeks to develop complete 2D game demonstrating clean architecture
-- Focus on maintainable, well-organized code using design patterns
+**Project:** [Lab 2 - Emergent Systems](/Assignments/Labs/Lab_2.md) **(ASSIGNED)**
+- Create simple game systems where agents follow basic rules but produce complex group behavior
+- Examples: flocking enemies, chain reactions, simple ecosystem interactions
 
-### Week 6 10/7 - Software Patterns in Practice
-<!-- **Assigned Reading:** Martin ["Clean Code"](Readings/Design-Patterns/Clean Code.pdf) Ch.1 (Clean Code) - 8 pages *(discuss next week)* -->
 
-**Class Structure:**
-1. **Discussion:** Alexander reading - how do architectural patterns apply to code?
-1. **Discussion:** Game Programming Patterns reading - Observer & State in your work
-2. **Lecture:** State machines, strategy pattern, practical code organization
-3. **Workshop:** Implement state machine for AI or player behavior
-4. **Peer Review:** Lab 2 presentations - critique emergence implementations
-
-**Due:** Lab 2 - Emergent Behavior
-
-**Project:** Lab 3 - Pattern Documentation **(ASSIGNED)**
-- Document 3 design patterns you discover while building
-- Use Alexander format: Context, Problem, Solution
-
-### Week 7 10/14 - Clean Architecture & 2D Game Development
-**Assigned Reading:** McConnell ["Code Complete"](Readings/Professional-Practice/Code Complete - Edition 2.pdf) Ch.22 (Testing) - 15 pages *(discuss next week)*
+### Week 6 10/7 - Game Loops & System Interactions
+**Optional Reading:** Nystrom "Game Programming Patterns" - [Observer](https://gameprogrammingpatterns.com/observer.html) pattern *(helpful for organizing system communication)*
 
 **Class Structure:**
-1. **Discussion:** Clean Code reading - how does this apply to game development?
-2. **Lecture:** 2D game architecture, organizing complex projects, asset management
-3. **Workshop:** 2D game development session - implement core mechanics
-4. **Individual Check-ins:** Brief meetings on 2D game progress and architecture decisions
+1. **Discussion:** Advanced Game Design Ch.7 - what game loops did you create in Lab 2?
+2. **Show & Tell:** Lab 2 presentations - demonstrate emergent behaviors you built
+3. **Workshop:** System communication - signals, events, and feedback loops in Godot
+4. **Workshop:** Basic polish techniques that enhance system clarity (not just juice)
 
-**Due:** Lab 3 - Pattern Documentation
+**Due:** Lab 2 - Emergent Systems
 
-### Week 8 10/21 - Integration & Polish Techniques
-**Assigned Reading:** Norman ["The Design of Everyday Things"](Readings/3D-Environments/The-Design-of-Everyday-Things-Revised-and-Expanded-Edition.pdf) Ch.1 (Psychopathology of Everyday Things) - 12 pages *(discuss next week)*
+**Project:** [Lab 3 - System Analysis](/Assignments/Labs/Lab_3.md) **(ASSIGNED)**
+- Analyze the feedback loops and emergent properties in your Lab 2 system
+- Create a systems diagram showing how your simple rules create complex behaviors
+- Add polish that makes the system relationships more visible to players
+
+### Week 7 10/14 - System Architecture & Code Organization
+**Assigned Reading:** Nystrom "Game Programming Patterns" - [State](https://gameprogrammingpatterns.com/state.html) + [Component](https://gameprogrammingpatterns.com/component.html) patterns *(discuss next week)*
 
 **Class Structure:**
-1. **Discussion:** Code Complete testing reading - how do you test games?
-2. **Lecture:** Game polish, juice, feedback systems, testing strategies for games
-3. **Workshop:** 2D game development session - focus on feel and polish
-4. **Progress Review:** Show current 2D game state, get feedback on architecture
+1. **Q&A:** Lab 3 system analysis - what emergent properties did you discover?
+2. **Discussion:** Now that you understand emergence, how do we organize growing systems?
+3. **Workshop:** Refactoring techniques - signals, composition, scene organization
+4. **Workshop:** 2D game development - architect systems that can evolve and grow
+
+**Due:** Lab 3 - System Analysis
+
+### Week 8 10/21 - Complex Systems in 2D Games
+
+**Class Structure:**
+1. **Discussion:** Game Programming Patterns reading - how do patterns help organize complex systems?
+2. **Workshop:** Advanced 2D systems - UI feedback loops, save/load state, scene transitions
+3. **Workshop:** 2D game development - focus on system interactions and emergent gameplay
+4. **Individual Check-ins:** System architecture review and scope management for complex interactions
 
 ---
 
