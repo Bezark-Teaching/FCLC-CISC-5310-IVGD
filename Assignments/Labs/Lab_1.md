@@ -1,7 +1,7 @@
 # Lab 1: Godot Foundations
 **Technical Focus**: Essential 2D Godot Skills & Project Structure  
 **Due**: Week 5 (9/30)  
-**Points**: 5
+**Points**: 7
 
 ## Overview
 Build a solid foundation in Godot 2D development by creating a simple interactive project that demonstrates core game development concepts including player control, scene management, and basic game mechanics.
@@ -39,11 +39,12 @@ Build a solid foundation in Godot 2D development by creating a simple interactiv
 - GitHub repository with complete Godot project
 - Repository link submitted via course management system
 
-## Grading Criteria (5 Points Total)
+## Grading Criteria (7 Points Total)
 
-**Player Character Implementation (2 points)**
-- 2: CharacterBody2D with smooth, responsive movement and proper collision
-- 1: Basic player character with minor movement or collision issues
+**Player Character Implementation (3 points)**
+- 3: CharacterBody2D with smooth, responsive movement and proper collision
+- 2: Good player character with minor movement or collision issues
+- 1: Basic player character that mostly works
 - 0: Player character is non-functional or poorly implemented
 
 **Scene Management & Signals (2 points)**
@@ -51,9 +52,10 @@ Build a solid foundation in Godot 2D development by creating a simple interactiv
 - 1: Basic scene structure with some signal usage
 - 0: Poor scene organization or no signal implementation
 
-**Code Quality & Project Structure (1 point)**
-- 1: Clean, well-commented code with logical project organization
-- 0.5: Functional code with basic organization
+**Code Quality & Project Structure (2 points)**
+- 2: Clean, well-commented code with logical project organization
+- 1: Functional code with basic organization
+- 0: Poor code organization or minimal commenting
 - 0: Poor code quality or disorganized project structure
 
 ## Example Projects

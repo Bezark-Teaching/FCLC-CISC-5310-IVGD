@@ -1,7 +1,7 @@
 # Capstone Game Project
 **Synthesis**: Demonstrating Mastery of Systems Thinking and Game Development
 **Assigned**: Week 9 (10/28) | **Due**: Week 15 (12/9)
-**Points**: 42
+**Points**: 40
 
 ## Overview
 Create a sophisticated game that demonstrates mastery of systems thinking, emergent design, and professional game development practices. This can be an evolution/expansion of any previous assignment (Tabletop, 2D Game, or Walking Sim) or an entirely new project. **If building on a previous assignment, the capstone grade can replace the original assignment's grade if higher.**
@@ -26,14 +26,14 @@ Create a sophisticated game that demonstrates mastery of systems thinking, emerg
 - **Player Experience Focus**: Game teaches itself and provides engaging, meaningful interactions
 - **Innovation & Polish**: Show creative application of course concepts with professional-level execution
 
-## Grading Criteria (42 Points Total)
+## Grading Criteria (40 Points Total)
 
-**Systems Design & Emergent Gameplay (15 points)**
-- 15: Exceptional use of interconnected systems creating sophisticated emergent gameplay that demonstrates deep understanding of systems thinking
-- 12: Strong system design with clear emergent properties and good application of systems thinking concepts
-- 9: Good system implementation with some emergent behaviors and adequate systems thinking
-- 6: Basic system design with minimal emergence or limited systems thinking application
-- 3: Poor system design with little evidence of emergent gameplay or systems thinking
+**Systems Design & Emergent Gameplay (14 points)**
+- 14: Exceptional use of interconnected systems creating sophisticated emergent gameplay that demonstrates deep understanding of systems thinking
+- 11: Strong system design with clear emergent properties and good application of systems thinking concepts
+- 8: Good system implementation with some emergent behaviors and adequate systems thinking
+- 5: Basic system design with minimal emergence or limited systems thinking application
+- 2: Poor system design with little evidence of emergent gameplay or systems thinking
 - 0: No clear system design or systems thinking application
 
 **Technical Sophistication & Code Quality (12 points)**
@@ -44,12 +44,12 @@ Create a sophisticated game that demonstrates mastery of systems thinking, emerg
 - 1: Limited technical implementation or significant functionality problems
 - 0: Poor technical implementation or non-functional project
 
-**Player Experience & Game Polish (10 points)**
-- 10: Exceptional player experience - game teaches itself perfectly, engaging throughout, with professional-level polish
-- 8: Strong player experience with good self-teaching game design and solid polish
-- 6: Good player experience that mostly teaches itself with adequate polish
-- 4: Basic player experience with some confusion or limited polish
-- 2: Poor player experience or minimal polish
+**Player Experience & Game Polish (9 points)**
+- 9: Exceptional player experience - game teaches itself perfectly, engaging throughout, with professional-level polish
+- 7: Strong player experience with good self-teaching game design and solid polish
+- 5: Good player experience that mostly teaches itself with adequate polish
+- 3: Basic player experience with some confusion or limited polish
+- 1: Poor player experience or minimal polish
 - 0: Confusing player experience or no polish
 
 **Professional Presentation & Process (5 points)**

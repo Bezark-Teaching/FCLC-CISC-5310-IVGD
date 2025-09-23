@@ -28,13 +28,13 @@ This course balances **practical game development** with **theoretical understan
 |:-------------------------------------------------------------------|:---------------------------------------------------------|:-----------|:-------|
 | **Class Participation**                                            | Active engagement, peer feedback, code reviews           | Ongoing    |    20  |
 | [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                 | Systems-focused analog game with playtesting analysis    | 9/23       |    14  |
-| [Lab 1: Godot Foundations](/Assignments/Labs/Lab_1.md)             | Essential 2D Godot skills and project structure          | 9/30       |     5  |
-| [Lab 2: Emergent Systems](/Assignments/Labs/Lab_2.md)              | Simple agents producing complex group behavior           | 10/7       |     5  |
-| [Lab 3: Core Game Systems](/Assignments/Labs/Lab_3.md)             | Health, damage, and respawn system implementation        | 10/14      |     5  |
+| [Lab 1: Godot Foundations](/Assignments/Labs/Lab_1.md)             | Essential 2D Godot skills and project structure          | 9/30       |     7  |
+| [Lab 2: Emergent Systems](/Assignments/Labs/Lab_2.md)              | Simple agents producing complex group behavior           | 10/7       |     7  |
+| [Lab 3: Core Game Systems](/Assignments/Labs/Lab_3.md)             | Health, damage, and respawn system implementation        | 10/14      |     7  |
 | [2D Game](/Assignments/2D/2DGame.md)                               | Complete 2D game demonstrating systems thinking          | 10/28      |    25  |
-| [Lab 4: Walking Sim](/Assignments/Labs/Lab_4.md)                   | 3D environmental storytelling experience                 | 11/25      |    24  |
+| [Lab 4: Walking Sim](/Assignments/Labs/Lab_4.md)                   | 3D environmental storytelling experience                 | 11/25      |    20  |
 | [Capstone Presentation](/Assignments/Capstone/Capstone_Concept.md) | Technical presentation of final project architecture     | 11/18      |    10  |
-| [Capstone Game](/Assignments/Capstone/Capstone_Game.md)            | Sophisticated game showcasing advanced concepts          | 12/9       |    42  |
+| [Capstone Game](/Assignments/Capstone/Capstone_Game.md)            | Sophisticated game showcasing advanced concepts          | 12/9       |    40  |
 | **Total Points Possible**                                          |                                                          |            | **150**|
 
 All assignments will be graded on the due date. Students are always allowed to revise and resubmit work **up until the class before the final.**

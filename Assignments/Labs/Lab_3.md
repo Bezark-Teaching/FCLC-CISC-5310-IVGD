@@ -1,7 +1,7 @@
 # Lab 3: Core Game Systems
 **Focus**: Health, Damage, and Respawn Systems
 **Due**: Week 7 (10/14)
-**Points**: 5
+**Points**: 7
 
 ## Overview
 Build fundamental game systems that work together: health tracking, damage dealing, and respawn mechanics. Focus on creating clear player feedback that helps players understand how these systems interact and affect each other.
@@ -68,16 +68,18 @@ Build a 2D scene with these interconnected systems:
 - Clean scene organization
 - Efficient signal connections
 
-## Grading Criteria (5 Points Total)
+## Grading Criteria (7 Points Total)
 
-**System Implementation (3 points)**
-- 3: All three systems work reliably with clean code organization
-- 2: Systems mostly work with minor issues or code organization problems
-- 1: Systems functional but with some bugs or poor organization
+**System Implementation (4 points)**
+- 4: All three systems work reliably with clean code organization
+- 3: Systems mostly work with minor issues or code organization problems
+- 2: Systems functional but with some bugs or poor organization
+- 1: Systems partially working with significant issues
 - 0: Systems don't function properly or are incomplete
 
-**Player Feedback & Polish (2 points)**
-- 2: Good feedback that clearly teaches players how systems work
+**Player Feedback & Polish (3 points)**
+- 3: Excellent feedback that clearly teaches players how systems work
+- 2: Good feedback with most interactions clear to players
 - 1: Basic feedback present but could be clearer or some interactions unclear
 - 0: Poor or missing feedback, players can't understand systems
 

@@ -1,7 +1,7 @@
 # Lab 2: Emergent Behavior  
 **Theory Lens**: Complex Adaptive Systems & Simple Agents  
 **Due**: Week 6 (10/7)  
-**Points**: 5
+**Points**: 7
 
 ## Overview
 Create simple agents in Godot that produce complex group behavior from simple individual rules. This lab demonstrates how emergence arises from local interactions between autonomous agents, applying complex adaptive systems theory to interactive design.
@@ -31,11 +31,12 @@ Choose ONE emergent system to implement:
 - GitHub repository with complete Godot project
 - Repository link submitted via course management system
 
-## Grading Criteria (5 Points Total)
+## Grading Criteria (7 Points Total)
 
-**Agent Implementation (1 point)**
-- 1: Functional agents with clear individual behaviors and neighbor detection
-- 0.5: Basic agents present but with significant functionality issues
+**Agent Implementation (3 points)**
+- 3: Excellent agent implementation with clear individual behaviors and neighbor detection
+- 2: Good agent functionality with minor issues
+- 1: Basic agents present but with significant functionality issues
 - 0: Missing core agent functionality or non-functional
 
 **Emergent Behavior (2 points)**

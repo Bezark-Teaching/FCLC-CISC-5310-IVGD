@@ -1,7 +1,7 @@
 # Lab 4: Walking Sim
 **Theory Lens**: Environmental Storytelling & Spatial Affordances  
 **Due**: Week 13 (11/25)  
-**Points**: 24
+**Points**: 20
 
 ## Overview
 Create a 3D walking simulator that tells a story purely through environmental design, spatial composition, and atmospheric elements. This project combines spatial affordances with environmental storytelling to create meaningful 3D experiences.
@@ -31,29 +31,27 @@ Create a 3D walking simulator that tells a story purely through environmental de
 - **Single path recommended**: Guide player through intentional spatial sequence
 - **Environmental interaction**: Minimal but meaningful (doors, lights, simple triggers)
 
-## Grading Criteria (24 Points Total)
+## Grading Criteria (20 Points Total)
 
-**Environmental Storytelling (10 points)**
-- 10: Sophisticated narrative told entirely through spatial design with clear emotional impact
-- 8: Strong environmental narrative with mostly effective spatial storytelling
-- 6: Good use of environmental elements to suggest narrative
-- 4: Basic environmental storytelling with some effective moments
-- 2: Attempted environmental narrative but unclear or weak
+**Environmental Storytelling (8 points)**
+- 8: Sophisticated narrative told entirely through spatial design with clear emotional impact
+- 6: Strong environmental narrative with mostly effective spatial storytelling
+- 4: Good use of environmental elements to suggest narrative
+- 2: Basic environmental storytelling with some effective moments
 - 0: No clear environmental narrative
 
-**Spatial Design & Affordances (8 points)**
-- 8: Excellent spatial composition where form clearly suggests function and guides player movement
-- 6: Good spatial design with clear affordances and effective player guidance
-- 4: Adequate spatial design with some effective affordances
-- 2: Basic spatial design with minimal clear affordances
+**Spatial Design & Affordances (7 points)**
+- 7: Excellent spatial composition where form clearly suggests function and guides player movement
+- 5: Good spatial design with clear affordances and effective player guidance
+- 3: Adequate spatial design with some effective affordances
+- 1: Basic spatial design with minimal clear affordances
 - 0: Poor spatial design that confuses player movement or interaction
 
-**Atmospheric Implementation (4 points)**
-- 4: Professional-quality atmosphere through lighting, audio, and environmental effects
+**Atmospheric Implementation (5 points)**
+- 5: Professional-quality atmosphere through lighting, audio, and environmental effects
 - 3: Good atmospheric elements that enhance the experience
-- 2: Basic atmospheric elements present but could be stronger
-- 1: Minimal atmospheric design
-- 0: Ineffective atmospheric design
+- 1: Basic atmospheric implementation
+- 0: Poor or missing atmospheric elements
 
 **Technical Implementation (2 points)**
 - 2: Smooth performance, intuitive controls, well-optimized 3D environment
