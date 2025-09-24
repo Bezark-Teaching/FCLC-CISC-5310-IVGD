@@ -1,32 +1,38 @@
-[gd_scene load_steps=3 format=3 uid="uid://by2n1ntmce31j"]
+[gd_scene load_steps=4 format=3 uid="uid://by2n1ntmce31j"]
 
-[ext_resource type="Texture2D" uid="uid://b65t72m7vb270" path="res://icon.svg" id="1_3q53y"]
+[ext_resource type="PackedScene" uid="uid://vgdw7xlxlh0b" path="res://flower.tscn" id="2_cove1"]
 [ext_resource type="PackedScene" uid="uid://cok8pvl6bkt62" path="res://tree.tscn" id="2_mffs5"]
+[ext_resource type="PackedScene" uid="uid://bl05t4l47ohgs" path="res://player.tscn" id="3_dwyiq"]
 
-[node name="Icon" type="Sprite2D"]
-position = Vector2(31, 413)
-texture = ExtResource("1_3q53y")
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("3_dwyiq")]
+position = Vector2(299, 322)
+character_name = "Susan"
 
 [node name="Tree" parent="." instance=ExtResource("2_mffs5")]
-offset_left = 231.0
-offset_top = -263.0
-offset_right = 401.0
-offset_bottom = -119.0
+offset_left = 262.0
+offset_top = 150.0
+offset_right = 432.0
+offset_bottom = 294.0
 
 [node name="Tree2" parent="." instance=ExtResource("2_mffs5")]
-offset_left = 660.0
-offset_top = -128.0
-offset_right = 830.0
-offset_bottom = 16.0
+offset_left = 691.0
+offset_top = 285.0
+offset_right = 861.0
+offset_bottom = 429.0
 
 [node name="Tree3" parent="." instance=ExtResource("2_mffs5")]
-offset_left = 759.0
-offset_top = -423.0
-offset_right = 929.0
-offset_bottom = -279.0
+offset_left = 790.0
+offset_top = -10.0
+offset_right = 960.0
+offset_bottom = 134.0
 
 [node name="Tree4" parent="." instance=ExtResource("2_mffs5")]
-offset_left = 58.0
-offset_top = -466.0
-offset_right = 228.0
-offset_bottom = -322.0
+offset_left = 52.0
+offset_top = 2.0
+offset_right = 222.0
+offset_bottom = 146.0
+
+[node name="Flower" parent="." instance=ExtResource("2_cove1")]
+position = Vector2(311.99997, 562)

@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://bl05t4l47ohgs"]
+
+[ext_resource type="Texture2D" uid="uid://b65t72m7vb270" path="res://icon.svg" id="1_4flbx"]
+[ext_resource type="Script" uid="uid://b3w4nhfr7o6q" path="res://player.gd" id="1_onrkg"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_onrkg"]
+font_size = 35
+font_color = Color(1, 0.3764706, 1, 1)
+
+[node name="Player" type="Node2D"]
+script = ExtResource("1_onrkg")
+speed = null
+character_name = null
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(4, 3)
+texture = ExtResource("1_4flbx")
+
+[node name="Speech" type="Label" parent="Icon"]
+offset_left = -35.0
+offset_top = -113.0
+offset_right = 62.0
+offset_bottom = -64.0
+text = "Hello!"
+label_settings = SubResource("LabelSettings_onrkg")
+
+[node name="Camera2D" type="Camera2D" parent="Icon/Speech"]
+position = Vector2(31, 110)

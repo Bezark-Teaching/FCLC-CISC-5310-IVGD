@@ -26,7 +26,9 @@ offset_bottom = 162.0
 color = Color(0.492324, 0.351869, 0.234882, 1)
 
 [node name="Flower" parent="." instance=ExtResource("1_vk3sm")]
+visible = false
 position = Vector2(35, 37)
 
 [node name="Flower2" parent="." instance=ExtResource("1_vk3sm")]
+visible = false
 position = Vector2(163, 40)
