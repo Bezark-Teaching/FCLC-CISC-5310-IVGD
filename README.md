@@ -2,7 +2,7 @@
 # Top of Mind
 - Turn in [Lab 1](/Assignments/Labs/Lab_1.md) when you can
 - Work on [Lab 2](/Assignments/Labs/Lab_2.md)
-  - Look at the [Emergence Folder](/Modules/2D/Emergence)for some examples.
+  - Look at the [Emergence Folder](/Modules/2D/Emergence) for some examples.
 - Previous Slides:
   - [Week 1 Slides](https://docs.google.com/presentation/d/1o1wn7qCIHvm6pyRf_S_lDHJCvFAZv06cnDHy8nc7OfY/edit?usp=sharing)
   - [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)

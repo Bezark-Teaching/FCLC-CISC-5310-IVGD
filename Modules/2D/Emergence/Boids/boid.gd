@@ -42,7 +42,7 @@ func _physics_process(delta: float) -> void:
 		
 		
 	move_and_slide()
-	print(velocity)
+	#	print(velocity)
 
 
 func _on_sight_body_entered(body: Node2D) -> void:
@@ -53,7 +53,8 @@ func _on_sight_body_entered(body: Node2D) -> void:
 
 func _on_sight_body_exited(body: Node2D) -> void:
 	var byeboid = nearby_boids.find(body)
-	nearby_boids.remove_at(byeboid)
+	if nearby_boids.size():
+		nearby_boids.remove_at(byeboid)
 
 #
 #func wiggle():
