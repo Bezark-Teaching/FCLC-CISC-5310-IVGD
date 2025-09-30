@@ -140,17 +140,22 @@ This course follows a **practice-first, theory-second** approach:
 **Assigned Reading:** Sellers ["Advanced Game Design"](Readings/Systems-Thinking/advancedgamedesign.pdf) Ch.7 (Creating Game Loops) - 12 pages *(discuss next week)*
 
 **Class Structure:**
-1. **Discussion:** Sellers Ch.8 - how do we define the "parts" of our digital game systems?
-2. **Workshop:** Essential 2D nodes - CharacterBody2D, Area2D, RigidBody2D, Camera2D
+1. **Lab Review:** Show and Tell/Code along
+2. **Discussion:** Sellers Ch.8 - how do we define the "parts" of our digital game systems?
+3. **Workshop:** Essential 2D nodes - CharacterBody2D, Area2D, RigidBody2D, Camera2D
   - Nodes to Know
     - Camera2D
-    - CharacterBody2d
-    - StaticBody2D
+    - Label
+    - Timer
     - Area2D
     - CollisionShape2D
+    - RigidBody2D
+    - StaticBody2D
+    - CharacterBody2d
 
-3. **Workshop:** Build simple interacting systems - enemies that respond to player, basic AI
-4. **Code Review:** Share Lab 1 solutions, discuss different system approaches
+4. **Emergence:** Build simple emergent systems. 
+  - Boids
+  - Rock Paper Scissors Boids
 
 **Due:** Lab 1 - Godot Foundations
 
@@ -158,9 +163,10 @@ This course follows a **practice-first, theory-second** approach:
 - Create simple game systems where agents follow basic rules but produce complex group behavior
 - Examples: flocking enemies, chain reactions, simple ecosystem interactions
 
+**Optional Reading:** Nystrom "Game Programming Patterns" - [Observer](https://gameprogrammingpatterns.com/observer.html) pattern *(helpful for organizing system communication)*
+
 
 ### Week 6 10/7 - Game Loops & System Interactions
-**Optional Reading:** Nystrom "Game Programming Patterns" - [Observer](https://gameprogrammingpatterns.com/observer.html) pattern *(helpful for organizing system communication)*
 
 **Class Structure:**
 1. **Discussion:** Advanced Game Design Ch.7 - what game loops did you create in Lab 2?

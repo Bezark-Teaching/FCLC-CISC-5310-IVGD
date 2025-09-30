@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://dpnp8gba6vlhf"]
+
+[ext_resource type="Script" uid="uid://b1a61xj1nyr7l" path="res://rps_contest.gd" id="1_qine3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_whsi4"]
+size = Vector2(52, 665)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vvo3a"]
+size = Vector2(1184, 64.5)
+
+[node name="RPSContest" type="Node2D"]
+script = ExtResource("1_qine3")
+number_to_spawn = 200
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-28, 325)
+shape = SubResource("RectangleShape2D_whsi4")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1181, 316)
+shape = SubResource("RectangleShape2D_whsi4")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(573, 677)
+shape = SubResource("RectangleShape2D_vvo3a")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(596, -28)
+shape = SubResource("RectangleShape2D_vvo3a")

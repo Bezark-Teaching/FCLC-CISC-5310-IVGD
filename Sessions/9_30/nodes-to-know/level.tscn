@@ -1,0 +1,59 @@
+[gd_scene load_steps=5 format=3 uid="uid://d2lyc7frapf6s"]
+
+[ext_resource type="Texture2D" uid="uid://di70s0veqj265" path="res://icon.svg" id="1_vonw3"]
+[ext_resource type="Script" uid="uid://dv60yh4vhwofv" path="res://character_body_2d.gd" id="2_oi3di"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0b4ue"]
+size = Vector2(309, 105)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f2txt"]
+size = Vector2(122, 104)
+
+[node name="Level" type="Node2D"]
+
+[node name="Platform" type="StaticBody2D" parent="."]
+position = Vector2(21, 514)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform"]
+position = Vector2(144.5, 42.5)
+shape = SubResource("RectangleShape2D_0b4ue")
+
+[node name="Icon" type="Sprite2D" parent="Platform"]
+position = Vector2(146.5, 43.5)
+scale = Vector2(2.4296875, 0.8828125)
+texture = ExtResource("1_vonw3")
+
+[node name="Platform2" type="StaticBody2D" parent="."]
+position = Vector2(464, 532)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform2"]
+position = Vector2(144.5, 42.5)
+shape = SubResource("RectangleShape2D_0b4ue")
+
+[node name="Icon" type="Sprite2D" parent="Platform2"]
+position = Vector2(146.5, 43.5)
+scale = Vector2(2.4296875, 0.8828125)
+texture = ExtResource("1_vonw3")
+
+[node name="Platform3" type="StaticBody2D" parent="."]
+position = Vector2(901, 504)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform3"]
+position = Vector2(144.5, 42.5)
+shape = SubResource("RectangleShape2D_0b4ue")
+
+[node name="Icon" type="Sprite2D" parent="Platform3"]
+position = Vector2(146.5, 43.5)
+scale = Vector2(2.4296875, 0.8828125)
+texture = ExtResource("1_vonw3")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("2_oi3di")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(18, -13)
+shape = SubResource("RectangleShape2D_f2txt")
+
+[node name="Icon" type="Sprite2D" parent="CharacterBody2D"]
+position = Vector2(17, -15)
+texture = ExtResource("1_vonw3")

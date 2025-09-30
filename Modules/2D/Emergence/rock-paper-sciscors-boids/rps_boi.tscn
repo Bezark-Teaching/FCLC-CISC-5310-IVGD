@@ -1,0 +1,36 @@
+[gd_scene load_steps=4 format=3 uid="uid://cf470e2or2qso"]
+
+[ext_resource type="Script" uid="uid://l8urirtnqrf7" path="res://rps.gd" id="1_rwofu"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_rwofu"]
+friction = 0.1
+bounce = 5.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_mdy76"]
+radius = 26.019224
+
+[node name="RPS" type="RigidBody2D"]
+mass = 0.1
+physics_material_override = SubResource("PhysicsMaterial_rwofu")
+gravity_scale = 0.1
+contact_monitor = true
+max_contacts_reported = 1
+script = ExtResource("1_rwofu")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -27.0
+offset_top = -45.0
+offset_right = 27.0
+offset_bottom = 43.0
+theme_override_font_sizes/font_size = 64
+text = "✂️"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_mdy76")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.2
+one_shot = true
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

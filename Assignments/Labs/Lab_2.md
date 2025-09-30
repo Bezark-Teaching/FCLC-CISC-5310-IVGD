@@ -26,6 +26,7 @@ Choose ONE emergent system to implement:
 - **Predator-Prey**: Two agent types with simple chase/flee behaviors creating ecosystem patterns
 - **Resource Gathering**: Agents that seek resources and create trail systems
 - **Territory Formation**: Agents that claim and defend areas, creating spatial organization
+- Or something else! 
 
 ### Submission Requirements
 - GitHub repository with complete Godot project
