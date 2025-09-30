@@ -13,7 +13,7 @@ Design and create a complete 2D game using Godot 4.5 that can be played and comp
 
 ### Game Specifications
 - **Platform**: Godot 4.5 2D project
-- **Duration**: 10-15 minute complete play experience
+- **Duration**: 3-15 minute complete play experience
 - **Scope**: Single-player recommended (local multiplayer acceptable)
 - **Completion**: Must have clear objective, win/lose conditions, and proper ending
 
