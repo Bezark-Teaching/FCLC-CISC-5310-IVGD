@@ -2,7 +2,7 @@ extends Node2D
 
 @export var size = 20
 
-const BOID = preload("uid://xw1wxk8d3htj")
+const BOID = preload("res://Boids.tscn")
 
 
 func _ready() -> void:

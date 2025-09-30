@@ -1,0 +1,53 @@
+[gd_scene load_steps=8 format=3 uid="uid://c8lfdn0latwry"]
+
+[ext_resource type="Script" uid="uid://ddpdfoj6cgsc7" path="res://level-manager.gd" id="1_kdubu"]
+[ext_resource type="Script" uid="uid://bm7t7j5v3gd4a" path="res://moving_platform.gd" id="1_q6r6c"]
+[ext_resource type="PackedScene" uid="uid://b4lioyjqn0kp3" path="res://Gold.tscn" id="3_epypp"]
+[ext_resource type="PackedScene" uid="uid://ca8nlsyqoq6xn" path="res://Silver.tscn" id="4_0hol4"]
+[ext_resource type="PackedScene" uid="uid://0shq4sbojom0" path="res://simpleCharacter.tscn" id="4_kdubu"]
+[ext_resource type="PackedScene" uid="uid://dg6xy6w3ryioa" path="res://platform.tscn" id="4_q6r6c"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q6r6c"]
+size = Vector2(270, 20)
+
+[node name="LevelManager" type="Node2D"]
+script = ExtResource("1_kdubu")
+
+[node name="MovingPlatform" type="AnimatableBody2D" parent="."]
+position = Vector2(6, 357)
+script = ExtResource("1_q6r6c")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MovingPlatform"]
+position = Vector2(130, 26)
+shape = SubResource("RectangleShape2D_q6r6c")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="MovingPlatform"]
+position = Vector2(23, 83)
+polygon = PackedVector2Array(116, -114, 231, -150, 343, -233, 507, -242, 526, -178, 455, -72, 425, -119, 297, -75)
+
+[node name="ColorRect" type="ColorRect" parent="MovingPlatform"]
+offset_right = 264.0
+offset_bottom = 53.0
+color = Color(1, 0.68235296, 1, 1)
+
+[node name="Level" type="Node2D" parent="."]
+
+[node name="Collectible" parent="Level" instance=ExtResource("3_epypp")]
+position = Vector2(1022, 217)
+
+[node name="Collectible2" parent="Level" instance=ExtResource("4_0hol4")]
+position = Vector2(256, 358)
+
+[node name="Collectible3" parent="Level" instance=ExtResource("4_0hol4")]
+position = Vector2(18, 187)
+
+[node name="Platform" parent="Level" instance=ExtResource("4_q6r6c")]
+position = Vector2(-35, 469)
+
+[node name="Platform2" parent="Level" instance=ExtResource("4_q6r6c")]
+position = Vector2(770, 477)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("4_kdubu")]
+position = Vector2(-38, 19)
+
+[connection signal="player_died" from="CharacterBody2D" to="." method="_on_character_body_2d_player_died"]

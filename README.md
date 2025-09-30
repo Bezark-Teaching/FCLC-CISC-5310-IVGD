@@ -1,10 +1,13 @@
-# Top of Mind
-- Download Godot [Godot 4.5](https://godotengine.org/) and watch this [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo). If you are already fluent in github feel free to skip to minute 27. The video was recorded before the latest version of Godot, so there are some differences between the what you see in the tutorial and what you have in front of you, but everything important is the same. The biggest difference is there is a new Game tab at the very top of the screen which I'll cover in class next week!
 
+# Top of Mind
+- Turn in [Lab 1](/Assignments/Labs/Lab_1.md) when you can
+- Work on [Lab 2](/Assignments/Labs/Lab_2.md)
+  - Look at the [Emergence Folder](/Modules/2D/Emergence)for some examples.
 - Previous Slides:
   - [Week 1 Slides](https://docs.google.com/presentation/d/1o1wn7qCIHvm6pyRf_S_lDHJCvFAZv06cnDHy8nc7OfY/edit?usp=sharing)
   - [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
   - [Advanced Game Design Chapter 2](Readings/Systems-Thinking/ADG-Ch2-Slides.md)
+  - [Advanced Game Design Chapter 8](Sessions/9_30/ADG-Ch8-Parts-Presentation.md)
  
 # Advanced Game Design and Development - Graduate Level
 
@@ -140,7 +143,7 @@ This course follows a **practice-first, theory-second** approach:
 **Assigned Reading:** Sellers ["Advanced Game Design"](Readings/Systems-Thinking/advancedgamedesign.pdf) Ch.7 (Creating Game Loops) - 12 pages *(discuss next week)*
 
 **Class Structure:**
-1. **Lab Review:** Show and Tell/Code along
+1. **lab review:** show and tell/code along
 2. **Discussion:** Sellers Ch.8 - how do we define the "parts" of our digital game systems?
 3. **Workshop:** Essential 2D nodes - CharacterBody2D, Area2D, RigidBody2D, Camera2D
   - Nodes to Know
@@ -167,6 +170,17 @@ This course follows a **practice-first, theory-second** approach:
 
 
 ### Week 6 10/7 - Game Loops & System Interactions
+
+DO ASSETS!!!
+- Animated Sprites
+- Tilemaps
+- Parllax
+
+  - [Kraftpix](https://craftpix.net/freebies/?utm_campaign=Website&utm_source=gamedev.net&utm_medium=10-free-2d-game-asset-sites)
+  - [Kenny](https://kenney.nl/assets)
+  - [Noun Project](https://thenounproject.com/)
+  - [Dotown](https://dotown.maeda-design-room.net/)
+  - [Open Game Art](https://opengameart.org/)
 
 **Class Structure:**
 1. **Discussion:** Advanced Game Design Ch.7 - what game loops did you create in Lab 2?

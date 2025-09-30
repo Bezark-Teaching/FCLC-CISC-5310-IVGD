@@ -1,0 +1,45 @@
+[gd_scene load_steps=6 format=3 uid="uid://dqti1efdemn1v"]
+
+[ext_resource type="Texture2D" uid="uid://bx7q8l0ih50f0" path="res://icon.svg" id="1_onrkg"]
+[ext_resource type="Script" uid="uid://36v6at4744ox" path="res://player.gd" id="2_i3pqv"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_0e48y"]
+font_size = 72
+font_color = Color(1, 0.7411765, 1, 1)
+outline_size = 12
+shadow_size = 39
+shadow_color = Color(0, 0, 0, 0.6901961)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0hol4"]
+size = Vector2(126, 128)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_onrkg"]
+size = Vector2(130, 127)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("2_i3pqv")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Score" type="Label" parent="."]
+offset_left = -509.0
+offset_top = -290.0
+offset_right = -309.0
+offset_bottom = -151.0
+text = "Hello!"
+label_settings = SubResource("LabelSettings_0e48y")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-1, -2)
+shape = SubResource("RectangleShape2D_0hol4")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+texture = ExtResource("1_onrkg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2, -1.5)
+shape = SubResource("RectangleShape2D_onrkg")
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]

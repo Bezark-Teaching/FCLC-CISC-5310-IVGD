@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://rwuqxrwa13k7"]
+
+[ext_resource type="PackedScene" uid="uid://dg6xy6w3ryioa" path="res://platform.tscn" id="1_41u45"]
+[ext_resource type="Texture2D" uid="uid://bx7q8l0ih50f0" path="res://icon.svg" id="1_x8fbi"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_x8fbi"]
+bounce = 1.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ktgx5"]
+radius = 82.492424
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Platform" parent="." instance=ExtResource("1_41u45")]
+position = Vector2(53, 466)
+
+[node name="RigidBody2D" type="RigidBody2D" parent="."]
+position = Vector2(298, 127)
+physics_material_override = SubResource("PhysicsMaterial_x8fbi")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
+shape = SubResource("CircleShape2D_ktgx5")
+
+[node name="Icon" type="Sprite2D" parent="RigidBody2D"]
+texture = ExtResource("1_x8fbi")

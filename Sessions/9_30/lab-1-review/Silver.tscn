@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://ca8nlsyqoq6xn"]
+
+[ext_resource type="Script" uid="uid://cclyjeh8a0n74" path="res://collectible.gd" id="1_35j22"]
+[ext_resource type="Texture2D" uid="uid://bx7q8l0ih50f0" path="res://icon.svg" id="2_e420v"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_hcdtm"]
+radius = 50.0
+
+[node name="Collectible" type="Area2D" groups=["Collectibles"]]
+script = ExtResource("1_35j22")
+value = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_hcdtm")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(2, -1)
+rotation = 0.64456797
+scale = Vector2(0.375, 0.375)
+texture = ExtResource("2_e420v")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
