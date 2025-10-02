@@ -1,0 +1,34 @@
+[gd_scene load_steps=4 format=3 uid="uid://crukw1ncacgve"]
+
+[ext_resource type="Script" path="res://boids.gd" id="1_nf80k"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nf80k"]
+size = Vector2(80, 727)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yc2ri"]
+size = Vector2(1238, 140.5)
+
+[node name="Boids" type="Node2D"]
+script = ExtResource("1_nf80k")
+size = 200
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-24, 364)
+shape = SubResource("RectangleShape2D_nf80k")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1199, 361)
+shape = SubResource("RectangleShape2D_nf80k")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(581, -38.75)
+shape = SubResource("RectangleShape2D_yc2ri")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(578, 727)
+shape = SubResource("RectangleShape2D_yc2ri")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(585, 332)
