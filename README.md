@@ -171,25 +171,38 @@ This course follows a **practice-first, theory-second** approach:
 
 ### Week 6 10/7 - Game Loops & System Interactions
 
-DO ASSETS!!!
-- Animated Sprites
-- Tilemaps
-- Parllax
+- Show and Tell
 
-  - [Kraftpix](https://craftpix.net/freebies/?utm_campaign=Website&utm_source=gamedev.net&utm_medium=10-free-2d-game-asset-sites)
-  - [Kenny](https://kenney.nl/assets)
-  - [Noun Project](https://thenounproject.com/)
-  - [Dotown](https://dotown.maeda-design-room.net/)
-  - [Open Game Art](https://opengameart.org/)
+- Assets
+  - Animated Sprites
+  - Tilemaps
+  - Parllax
+  - Where to find Assets:
+    - [Kraftpix](https://craftpix.net/freebies/?utm_campaign=Website&utm_source=gamedev.net&utm_medium=10-free-2d-game-asset-sites)
+    - [Kenny](https://kenney.nl/assets)
+    - [Noun Project](https://thenounproject.com/)
+    - [Dotown](https://dotown.maeda-design-room.net/)
+    - [Open Game Art](https://opengameart.org/)
 
-**Class Structure:**
-1. **Discussion:** Advanced Game Design Ch.7 - what game loops did you create in Lab 2?
-2. **Show & Tell:** Lab 2 presentations - demonstrate emergent behaviors you built
-3. **Workshop:** System communication - signals, events, and feedback loops in Godot
-4. **Workshop:** Basic polish techniques that enhance system clarity (not just juice)
+- Common Patterns
+  - Respawning and Kill boxes
+  - Items
+  - NPC/Enemy
+    - Finite State Machine
+
+- Scene Switching
+- Autoloads
+
+- Classes
+- Resources?
+
+- Lab 3 Components:
+  - Health
+  - Hazards
+  - Respawning
+  
 
 **Due:** Lab 2 - Emergent Systems
-
 **Project:** [Lab 3 - Core Game Systems](/Assignments/Labs/Lab_3.md) **(ASSIGNED)**
 
 ### Week 7 10/14 - System Architecture & Code Organization
@@ -205,25 +218,27 @@ DO ASSETS!!!
 
 ### Week 8 10/21 - Complex Systems in 2D Games
 
-**Class Structure:**
-1. **Discussion:** Game Programming Patterns reading - how do patterns help organize complex systems?
-2. **Workshop:** Advanced 2D systems - UI feedback loops, save/load state, scene transitions
-3. **Workshop:** 2D game development - focus on system interactions and emergent gameplay
-4. **Individual Check-ins:** System architecture review and scope management for complex interactions
+**In Class Playtest**
+
+<!-- **Class Structure:** -->
+<!-- 1. **Discussion:** Game Programming Patterns reading - how do patterns help organize complex systems? -->
+<!-- 2. **Workshop:** Advanced 2D systems - UI feedback loops, save/load state, scene transitions -->
+<!-- 3. **Workshop:** 2D game development - focus on system interactions and emergent gameplay -->
+<!-- 4. **Individual Check-ins:** System architecture review and scope management for complex interactions -->
 
 ---
 
 ## PART III: 3D ENVIRONMENTS & INTERACTION (Weeks 9-12)
 *Building immersive, interactive spaces*
 
-### Week 9 10/28 - 2D Game Presentations & 3D Introduction
-**Assigned Reading:** Norman ["The Design of Everyday Things"](Readings/3D-Environments/The-Design-of-Everyday-Things-Revised-and-Expanded-Edition.pdf) Ch.1 (Psychopathology of Everyday Things) - 12 pages *(discuss next week)*
+### Week 9 10/28 2D Games Due & 3D Introduction (NO IN PERSON CLASS)
+<!-- **Assigned Reading:** Norman ["The Design of Everyday Things"](Readings/3D-Environments/The-Design-of-Everyday-Things-Revised-and-Expanded-Edition.pdf) Ch.1 (Psychopathology of Everyday Things) - 12 pages *(discuss next week)* -->
 
-**Class Structure:**
-1. **Discussion:** Code Complete testing reading - how do you test games?
-2. **Presentations:** 2D game presentations and peer review
-3. **Lecture:** Introduction to 3D in Godot - scenes, cameras, basic movement
-4. **Workshop:** Create your first 3D scene - basic navigation and interaction
+<!-- **Class Structure:** -->
+<!-- 1. **Discussion:** Code Complete testing reading - how do you test games? -->
+<!-- 2. **Presentations:** 2D game presentations and peer review -->
+<!-- 3. **Lecture:** Introduction to 3D in Godot - scenes, cameras, basic movement -->
+<!-- 4. **Workshop:** Create your first 3D scene - basic navigation and interaction -->
 
 **Due:** 2D Game Complete
 **Project:** Capstone Game **(ASSIGNED)** - Begin planning sophisticated final project
