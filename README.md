@@ -196,10 +196,10 @@ This course follows a **practice-first, theory-second** approach:
 - Composition and Common Patterns
   - Items 
   - Enemies
-    - Finite State Machine
   - Checkpoints
   - Respawns
   - Killboxes
+  - Doors
 
 - Case Study: Platformer
 - Case Study: Top-Down
