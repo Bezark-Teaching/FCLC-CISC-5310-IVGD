@@ -169,26 +169,40 @@ This course follows a **practice-first, theory-second** approach:
 **Optional Reading:** Nystrom "Game Programming Patterns" - [Observer](https://gameprogrammingpatterns.com/observer.html) pattern *(helpful for organizing system communication)*
 
 
-### Week 6 10/7 - Game Loops & System Interactions
+### Week 6 10/7 - Patterns and Polish
 
 - Show and Tell
 
+#### Assets
+- AnimatedSprites
+- Tilemaps
 - Assets
-  - Animated Sprites
-  - Tilemaps
-  - Parllax
-  - Where to find Assets:
+  - Sprite Sheets
+  - Paralax layers
+  - Where to find assets
+    - [itch.io](https://itch.io/game-assets)
     - [Kraftpix](https://craftpix.net/freebies/?utm_campaign=Website&utm_source=gamedev.net&utm_medium=10-free-2d-game-asset-sites)
     - [Kenny](https://kenney.nl/assets)
     - [Noun Project](https://thenounproject.com/)
     - [Dotown](https://dotown.maeda-design-room.net/)
     - [Open Game Art](https://opengameart.org/)
 
-- Common Patterns
-  - Respawning and Kill boxes
-  - Items
-  - NPC/Enemy
+#### Patterns
+- [A Pattern Language](Readings/Alexander_A_Pattern_Language.pdf)
+- [The Timeless Way of Building](Readings/The_Timeless_Way_of_Building_Complete.pdf)
+- [Game Programming Patterns](https://gameprogrammingpatterns.com)
+  - [Singleton](https://gameprogrammingpatterns.com/singleton.html),[Observer](https://gameprogrammingpatterns.com/observer.html)
+
+- Composition and Common Patterns
+  - Items 
+  - Enemies
     - Finite State Machine
+  - Checkpoints
+  - Respawns
+  - Killboxes
+
+- Case Study: Platformer
+- Case Study: Top-Down
 
 - Scene Switching
 - Autoloads
