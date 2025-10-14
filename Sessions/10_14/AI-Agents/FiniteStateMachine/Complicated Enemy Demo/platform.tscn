@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://cy33diqeivgmf"]
+
+[ext_resource type="Texture2D" uid="uid://c8s3msd0lbp7s" path="res://Simple Enemy Demo/icon.svg" id="1_folu8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f007w"]
+size = Vector2(43, 17)
+
+[node name="Platform" type="StaticBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_f007w")
+
+[node name="Icon" type="Sprite2D" parent="."]
+scale = Vector2(0.34375, 0.1328125)
+texture = ExtResource("1_folu8")

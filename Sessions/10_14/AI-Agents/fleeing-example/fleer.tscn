@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=3 uid="uid://dwfcwrkrem055"]
+
+[ext_resource type="Script" uid="uid://84cpd3wjihor" path="res://fleer.gd" id="1_mhibh"]
+[ext_resource type="Texture2D" uid="uid://dbadipenekyw" path="res://icon.svg" id="2_1o10y"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_aq1yn"]
+radius = 63.348244
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_iygpu"]
+radius = 399.45212
+
+[node name="Fleer" type="CharacterBody2D"]
+script = ExtResource("1_mhibh")
+
+[node name="Icon" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 0.36078432, 1)
+texture = ExtResource("2_1o10y")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_aq1yn")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_iygpu")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 1.5
+one_shot = true
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

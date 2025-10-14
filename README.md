@@ -1,8 +1,6 @@
 
 # Top of Mind
-- Turn in [Lab 1](/Assignments/Labs/Lab_1.md) when you can
-- Work on [Lab 2](/Assignments/Labs/Lab_2.md)
-  - Look at the [Emergence Folder](/Modules/2D/Emergence) for some examples.
+- Turn in [Lab 1](/Assignments/Labs/Lab_1.md), [Lab 2](/Assignments/Labs/Lab_2.md) and [Lab 3](/Assignments/Labs/Lab_3.md)
 - Previous Slides:
   - [Week 1 Slides](https://docs.google.com/presentation/d/1o1wn7qCIHvm6pyRf_S_lDHJCvFAZv06cnDHy8nc7OfY/edit?usp=sharing)
   - [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
@@ -219,18 +217,31 @@ This course follows a **practice-first, theory-second** approach:
 **Due:** Lab 2 - Emergent Systems
 **Project:** [Lab 3 - Core Game Systems](/Assignments/Labs/Lab_3.md) **(ASSIGNED)**
 
-### Week 7 10/14 - System Architecture & Code Organization
-**Assigned Reading:** Nystrom "Game Programming Patterns" - [State](https://gameprogrammingpatterns.com/state.html) + [Component](https://gameprogrammingpatterns.com/component.html) patterns *(discuss next week)*
+### Week 7 10/14 - System Architecture & Polish 
+**Assigned Reading:** Nystrom "Game Programming Patterns" - [State](https://gameprogrammingpatterns.com/state.html) + [Singleton](https://gameprogrammingpatterns.com/singleton.html) + [Component](https://gameprogrammingpatterns.com/component.html) patterns
 
 **Class Structure:**
-1. **Q&A:** Lab 3 system analysis - what emergent properties did you discover?
-2. **Discussion:** Now that you understand emergence, how do we organize growing systems?
-3. **Workshop:** Refactoring techniques - signals, composition, scene organization
-4. **Workshop:** 2D game development - architect systems that can evolve and grow
+- Show and Tell
+
+- Polish
+  - UI
+  - Sound
+  - Light
+  - Particles
+
+- Smart Structures
+  - Classes
+  - Resources
+  - Singletons
+
+- AI?
+  - State machines
+  - Behaviour Trees?
+
 
 **Due:** Lab 3 - System Analysis
 
-### Week 8 10/21 - Complex Systems in 2D Games
+### Week 8 10/21 - 
 
 **In Class Playtest**
 
