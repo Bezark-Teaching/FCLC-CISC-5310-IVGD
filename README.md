@@ -218,7 +218,7 @@ This course follows a **practice-first, theory-second** approach:
 **Project:** [Lab 3 - Core Game Systems](/Assignments/Labs/Lab_3.md) **(ASSIGNED)**
 
 ### Week 7 10/14 - System Architecture & Polish 
-**Assigned Reading:** Nystrom "Game Programming Patterns" - [State](https://gameprogrammingpatterns.com/state.html) + [Singleton](https://gameprogrammingpatterns.com/singleton.html) + [Component](https://gameprogrammingpatterns.com/component.html) patterns
+**Assigned Reading:** Nystrom "Game Programming Patterns" - [State](https://gameprogrammingpatterns.com/state.html) + [Singleton](https://gameprogrammingpatterns.com/singleton.html) patterns
 
 **Class Structure:**
 - Show and Tell
