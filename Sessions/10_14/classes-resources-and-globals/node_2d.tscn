@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=3 uid="uid://dce0a0v7cg074"]
+
+[ext_resource type="Script" uid="uid://ya6db0sm0jvq" path="res://Beefy_enemy.gd" id="1_wtcfe"]
+[ext_resource type="Resource" uid="uid://8e4mjg3v08ds" path="res://BigAxe.tres" id="2_0e48y"]
+[ext_resource type="Resource" uid="uid://rkc7wn8yqr4c" path="res://LittleDagger.tres" id="3_epypp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0e48y"]
+size = Vector2(336, 63)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(103, 388)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(158, 21.5)
+shape = SubResource("RectangleShape2D_0e48y")
+
+[node name="ColorRect" type="ColorRect" parent="StaticBody2D"]
+offset_right = 319.0
+offset_bottom = 49.0
+
+[node name="Enemy" type="CharacterBody2D" parent="."]
+script = ExtResource("1_wtcfe")
+weapon = ExtResource("2_0e48y")
+metadata/_custom_type_script = "uid://bgnaic7oo4ldq"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy"]
+
+[node name="Enemy2" type="CharacterBody2D" parent="."]
+script = ExtResource("1_wtcfe")
+weapon = ExtResource("3_epypp")
+metadata/_custom_type_script = "uid://bgnaic7oo4ldq"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy2"]

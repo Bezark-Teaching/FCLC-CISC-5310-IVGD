@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://bqlwukwx1pr0o"]
+
+[ext_resource type="PackedScene" uid="uid://cj317uaaymaq0" path="res://moving_camera_2d.tscn" id="1_ta61f"]
+[ext_resource type="Texture2D" uid="uid://rmekmsujb2xi" path="res://icon.svg" id="2_g418a"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Parallax2D" type="Parallax2D" parent="."]
+scroll_scale = Vector2(0.1, 0.1)
+
+[node name="Icon" type="Sprite2D" parent="Parallax2D"]
+position = Vector2(403, 190)
+texture = ExtResource("2_g418a")
+
+[node name="Camera2D" parent="." instance=ExtResource("1_ta61f")]
+position = Vector2(203, 185)
+
+[node name="Icon2" type="Sprite2D" parent="."]
+modulate = Color(1, 0.5294118, 1, 1)
+position = Vector2(562, 194)
+scale = Vector2(1, 0.5234375)
+texture = ExtResource("2_g418a")

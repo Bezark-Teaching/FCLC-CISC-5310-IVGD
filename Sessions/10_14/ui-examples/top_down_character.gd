@@ -18,7 +18,7 @@ func _process(delta):
 
 func change_score(amount):
 	score += amount
-	$CanvasLayer/HBoxContainer/Score.text = str(score)
+	$HBoxContainer/Score.text = str(score)
 
 func my_cool_function():
 	print("wow so cool")

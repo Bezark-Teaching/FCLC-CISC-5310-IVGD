@@ -10,6 +10,8 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	if Input.is_action_just_pressed("ui_accept"):
+		if lines.lines_of_dialogue[current_line].scene_to_load:
+			get_tree().change_scene_to_packed(lines.lines_of_dialogue[current_line].scene_to_load)
 		current_line += 1
 		if lines.lines_of_dialogue.size()>current_line:
 			display(lines.lines_of_dialogue[current_line])

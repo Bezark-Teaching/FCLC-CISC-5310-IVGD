@@ -1,11 +1,16 @@
-[gd_scene load_steps=6 format=3 uid="uid://b5rrt4rovjgt"]
+[gd_scene load_steps=10 format=3 uid="uid://b5rrt4rovjgt"]
 
-[ext_resource type="FontFile" uid="uid://bu1e5iea2i4m6" path="res://mexcellent 3d.otf" id="1_0ar8b"]
-[ext_resource type="Script" path="res://main_menu.gd" id="1_05ssl"]
-[ext_resource type="FontFile" uid="uid://bitpop06d1nij" path="res://mexcellent rg.otf" id="2_opqtj"]
+[ext_resource type="Script" uid="uid://mw76ujqub7b7" path="res://main_menu.gd" id="1_05ssl"]
+[ext_resource type="FontFile" uid="uid://cg8rhm5ajs0yl" path="res://Scary Vampire.otf" id="1_h7a2f"]
+[ext_resource type="FontFile" uid="uid://cecdouo83tye1" path="res://Scary Vampire.ttf" id="3_qoqlk"]
+[ext_resource type="Texture2D" uid="uid://cgqhqk5rjwwvj" path="res://Apple.png" id="4_iwfq2"]
+[ext_resource type="Texture2D" uid="uid://bvu5kuhckl1ny" path="res://Collected.png" id="5_7r1g0"]
+
+[sub_resource type="Theme" id="Theme_iwfq2"]
+Button/fonts/font = ExtResource("1_h7a2f")
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4trbc"]
-bg_color = Color(0.909804, 0.6, 0.6, 1)
+bg_color = Color(0.80065554, 0.6213808, 0.84325105, 1)
 border_width_left = 6
 border_width_top = 6
 border_width_right = 6
@@ -15,10 +20,16 @@ corner_radius_top_left = 4
 corner_radius_top_right = 4
 corner_radius_bottom_right = 4
 corner_radius_bottom_left = 4
+shadow_color = Color(0.1254902, 0.1254902, 0.1254902, 1)
+shadow_size = 31
 
 [sub_resource type="LabelSettings" id="LabelSettings_6wdrn"]
-font = ExtResource("1_0ar8b")
+font = ExtResource("3_qoqlk")
 font_size = 64
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cqjrg"]
+atlas = ExtResource("4_iwfq2")
+region = Rect2(0, 0, 28.666687, 22)
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -27,6 +38,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = SubResource("Theme_iwfq2")
 script = ExtResource("1_05ssl")
 
 [node name="PanelContainer" type="PanelContainer" parent="."]
@@ -38,28 +50,36 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_4trbc")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer"]
+[node name="VBoxContainer2" type="VBoxContainer" parent="PanelContainer"]
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 
-[node name="Label" type="Label" parent="PanelContainer/VBoxContainer"]
+[node name="Label" type="Label" parent="PanelContainer/VBoxContainer2"]
 layout_mode = 2
 text = "My Cool Game"
 label_settings = SubResource("LabelSettings_6wdrn")
 horizontal_alignment = 1
 
-[node name="Button" type="Button" parent="PanelContainer/VBoxContainer"]
+[node name="VBoxContainer" type="HBoxContainer" parent="PanelContainer/VBoxContainer2"]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("2_opqtj")
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Button" type="Button" parent="PanelContainer/VBoxContainer2/VBoxContainer"]
+layout_mode = 2
 theme_override_font_sizes/font_size = 32
 text = "Start Game"
 
-[node name="Button2" type="Button" parent="PanelContainer/VBoxContainer"]
+[node name="Button2" type="Button" parent="PanelContainer/VBoxContainer2/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("2_opqtj")
 theme_override_font_sizes/font_size = 32
 text = "How To Play
 "
 
-[connection signal="button_down" from="PanelContainer/VBoxContainer/Button" to="." method="_on_button_button_down"]
+[node name="TextureButton" type="TextureButton" parent="PanelContainer/VBoxContainer2"]
+layout_mode = 2
+texture_normal = SubResource("AtlasTexture_cqjrg")
+texture_pressed = ExtResource("5_7r1g0")
+
+[connection signal="button_down" from="PanelContainer/VBoxContainer2/VBoxContainer/Button" to="." method="_on_button_button_down"]

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Weapon" load_steps=3 format=3 uid="uid://8e4mjg3v08ds"]
+
+[ext_resource type="Script" uid="uid://bdn2i6wb3rjsv" path="res://WeaponData.gd" id="1_s6ctf"]
+[ext_resource type="Texture2D" uid="uid://btd33r43kh82n" path="res://icon.svg" id="2_1lfto"]
+
+[resource]
+script = ExtResource("1_s6ctf")
+title = "Big Axe"
+thumbnail = ExtResource("2_1lfto")
+damage_amount = 10000
+metadata/_custom_type_script = "uid://bdn2i6wb3rjsv"

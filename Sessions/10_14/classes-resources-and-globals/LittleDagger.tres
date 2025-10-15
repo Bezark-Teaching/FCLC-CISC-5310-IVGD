@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Weapon" load_steps=3 format=3 uid="uid://rkc7wn8yqr4c"]
+
+[ext_resource type="Script" uid="uid://bdn2i6wb3rjsv" path="res://WeaponData.gd" id="1_1tr27"]
+[ext_resource type="Texture2D" uid="uid://btd33r43kh82n" path="res://icon.svg" id="2_xf0ke"]
+
+[resource]
+script = ExtResource("1_1tr27")
+title = "Dagger"
+thumbnail = ExtResource("2_xf0ke")
+damage_amount = 1
+metadata/_custom_type_script = "uid://bdn2i6wb3rjsv"

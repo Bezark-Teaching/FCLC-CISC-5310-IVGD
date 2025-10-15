@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://ncahj5p3y1fd"]
 
-[ext_resource type="Script" path="res://Dialogue Box.gd" id="1_rk1p3"]
+[ext_resource type="Script" uid="uid://d3fgkutxyh5oe" path="res://Dialogue Box.gd" id="1_rk1p3"]
 [ext_resource type="Resource" uid="uid://cymn1xfbmg7au" path="res://Dialogue.tres" id="2_qkken"]
-[ext_resource type="Texture2D" uid="uid://8hfy0f2tasq7" path="res://icon.svg" id="2_tmj65"]
+[ext_resource type="Texture2D" uid="uid://bvuk5pq4t7efl" path="res://icon.svg" id="2_tmj65"]
 
 [node name="Dialogue Box" type="Panel"]
 anchors_preset = 15
@@ -17,7 +17,7 @@ script = ExtResource("1_rk1p3")
 lines = ExtResource("2_qkken")
 
 [node name="Portrait" type="TextureRect" parent="."]
-layout_mode = 2
+layout_mode = 0
 offset_right = 128.0
 offset_bottom = 128.0
 texture = ExtResource("2_tmj65")
