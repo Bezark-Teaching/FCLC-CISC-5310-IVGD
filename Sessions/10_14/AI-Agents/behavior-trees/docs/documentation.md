@@ -23,36 +23,36 @@ The node icons where designed/choosen to give you a quick overview of their purp
 - [Finite State Machine](#finite-state-machine)
   - [Usage](#usage)
   - [Nodes](#nodes)
-	- [ FiniteStateMachine](#-finitestatemachine)
-	  - [Properties](#properties)
-	  - [Methods](#methods)
-	  - [Signals](#signals)
-	- [ FSMState](#-fsmstate)
-	  - [Methods](#methods-1)
-	- [ FSMTransition](#-fsmtransition)
-	  - [Properties](#properties-1)
-	  - [Methods](#methods-2)
+    - [ FiniteStateMachine](#-finitestatemachine)
+      - [Properties](#properties)
+      - [Methods](#methods)
+      - [Signals](#signals)
+    - [ FSMState](#-fsmstate)
+      - [Methods](#methods-1)
+    - [ FSMTransition](#-fsmtransition)
+      - [Properties](#properties-1)
+      - [Methods](#methods-2)
 - [Behaviour Tree](#behaviour-tree)
   - [Usage](#usage-1)
   - [Tree Nodes](#tree-nodes)
-	- [ BTRoot](#-btroot)
-	  - [Properties](#properties-2)
-	- [ BTComposite](#-btcomposite)
-	  - [Properties](#properties-3)
-	- [ BTLeaf](#-btleaf)
-	- [ BTDecorator](#-btdecorator)
-	- [Status Enum](#status-enum)
+    - [ BTRoot](#-btroot)
+      - [Properties](#properties-2)
+    - [ BTComposite](#-btcomposite)
+      - [Properties](#properties-3)
+    - [ BTLeaf](#-btleaf)
+    - [ BTDecorator](#-btdecorator)
+    - [Status Enum](#status-enum)
 - [ Blackboard](#-blackboard)
   - [Creating a new Blackboard](#creating-a-new-blackboard)
   - [When to use a Blackboard](#when-to-use-a-blackboard)
-	- [Adding and retrieving data](#adding-and-retrieving-data)
+    - [Adding and retrieving data](#adding-and-retrieving-data)
 - [Nesting Behaviours inside Behaviours](#nesting-behaviours-inside-behaviours)
   - [State Machine nested in Behaviour Tree](#state-machine-nested-in-behaviour-tree)
   - [Behaviour Tree nested in State Machine](#behaviour-tree-nested-in-state-machine)
 - [Using Script Templates](#using-script-templates)
 - [Examples](#examples)
   - [Example: Busy villagers drinking, becoming ghosts and moving to random positions](#example-busy-villagers-drinking-becoming-ghosts-and-moving-to-random-positions)
-	- [What does a villager do?](#what-does-a-villager-do)
+    - [What does a villager do?](#what-does-a-villager-do)
 
 
 
@@ -73,29 +73,29 @@ This is the root node of the State Machine. All `FSMStates` must be children of 
 
 #### Properties
 - bool `autostart`
-	- If `true` the FSM will start automatically when ready.
+    - If `true` the FSM will start automatically when ready.
 - Enum `process_type`
-	- When set to `Physics` the FSM _on_update() will be run in `_physics_process()` callback.
-	- When set to `Idle` the FSM _on_update() will be run in `_process()` callback.
+    - When set to `Physics` the FSM _on_update() will be run in `_physics_process()` callback.
+    - When set to `Idle` the FSM _on_update() will be run in `_process()` callback.
 - bool `active`
-	- When `true` the State Machine will run and update its current state.
+    - When `true` the State Machine will run and update its current state.
 - FSMState `initial_state`
-	- The state that is entereted when the State Machine starts.
+    - The state that is entereted when the State Machine starts.
 - Node `actor`
-	- The actor is the different states. Most of the time you want to use the root node of your current scene.
+    - The actor is the different states. Most of the time you want to use the root node of your current scene.
 - Blackboard `blackboard`
-	- When left empty, a new local blackboard will be created. Otherwise the given blackboard will be used, which can be shared between multiple State Machines and Behaviour Trees.
+    - When left empty, a new local blackboard will be created. Otherwise the given blackboard will be used, which can be shared between multiple State Machines and Behaviour Trees.
 
 #### Methods
 - void `start()`
-	- Starts the State Machine. This is called automatically when `autostart` is `true`.
+    - Starts the State Machine. This is called automatically when `autostart` is `true`.
 - void `fire_event(event: String)`
-	- Fires an event. This will trigger any transitions that are listening for this event.
+    - Fires an event. This will trigger any transitions that are listening for this event.
 
 
 #### Signals
 - `state_changed(state: FSMState)`
-	- Emitted when the current state changes.
+    - Emitted when the current state changes.
 
 
 ### ![FSM State Icon](../addons/behaviour_toolkit/icons/FSMState.svg) FSMState
@@ -103,11 +103,11 @@ This is the base class for all states. On ready, all `FSMTransition` child nodes
 
 #### Methods
 - void `_on_enter(actor: Node, blackboard: Blackboard)`
-	- Called when the state is entered.
+    - Called when the state is entered.
 - void `_on_update(_delta: float, actor: Node, blackboard: Blackboard)`
-	- Called every frame while the state is active.
+    - Called every frame while the state is active.
 - void `_on_exit(actor: Node, blackboard: Blackboard)`
-	- Called when the state is exited.
+    - Called when the state is exited.
 
 
 ### ![FSM Transition Icon](../addons/behaviour_toolkit/icons/FSMTransition.svg) FSMTransition
@@ -115,18 +115,18 @@ This is the base class for all transitions. To implement your logic you can over
 
 #### Properties
 - FSMState `next_state`
-	- The state that is entered when the transition is triggered.
+    - The state that is entered when the transition is triggered.
 - bool `use_event`
-	- If `true` the transition will be triggered if the given event is fired.
+    - If `true` the transition will be triggered if the given event is fired.
 - String `event`
-	- The event that triggers the transition.
+    - The event that triggers the transition.
 
 
 #### Methods
 - void `_on_transition(actor: Node, blackboard: Blackboard)`
-	- Called when the transition is triggered.
+    - Called when the transition is triggered.
 - bool `is_valid`
-	- Should return `true` if the conditions for the transition are met.
+    - Should return `true` if the conditions for the transition are met.
 
 
 # Behaviour Tree
@@ -146,18 +146,18 @@ This is the root of your behaviour tree. It is designed to only have one child n
 
 #### Properties
 - bool `autostart`
-	- If `true` the FSM will start automatically when ready.
+    - If `true` the FSM will start automatically when ready.
 - Enum `process_type`
-	- When set to `Physics` the BTree tick() will be run in `_physics_process()` callback.
-	- When set to `Idle` the BTree tick() will be run in `_process()` callback.
+    - When set to `Physics` the BTree tick() will be run in `_physics_process()` callback.
+    - When set to `Idle` the BTree tick() will be run in `_process()` callback.
 - bool `active`
-	- When `true` the State Machine will run and update its current state.
+    - When `true` the State Machine will run and update its current state.
 - FSMState `initial_state`
-	- The state that is entereted when the State Machine starts.
+    - The state that is entereted when the State Machine starts.
 - Node `actor`
-	- The actor is the different states. Most of the time you want to use the root node of your current scene.
+    - The actor is the different states. Most of the time you want to use the root node of your current scene.
 - Blackboard `blackboard`
-	- When left empty, a new local blackboard will be created. Otherwise the given blackboard will be used, which can be shared between multiple State Machines and Behaviour Trees.
+    - When left empty, a new local blackboard will be created. Otherwise the given blackboard will be used, which can be shared between multiple State Machines and Behaviour Trees.
 
 
 ### ![BTComposite Icon](../addons/behaviour_toolkit/icons/BTComposite.svg) BTComposite
@@ -178,7 +178,7 @@ Composites nodes are used to combine multiple leaves into a single node and eval
 
 #### Properties
 - Array[BTLeaf] `leaves`
-	- The leaves that are the children of this node.
+    - The leaves that are the children of this node.
 
 
 ### ![BTLeaf Icon](../addons/behaviour_toolkit/icons/BTLeaf.svg) BTLeaf

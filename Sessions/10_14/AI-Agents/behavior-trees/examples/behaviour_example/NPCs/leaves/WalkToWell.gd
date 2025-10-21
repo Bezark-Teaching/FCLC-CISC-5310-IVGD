@@ -20,3 +20,4 @@ func tick(_delta: float, actor: Node, blackboard: Blackboard) -> BTStatus:
 	var well = blackboard.get_value("well_area")
 	actor.move_to(well.position)
 	return BTStatus.RUNNING
+

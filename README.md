@@ -1,5 +1,6 @@
 
 # Top of Mind
+- Watch [Hello 3D Pt. 1](https://www.youtube.com/watch?v=YKmOb1VFDsQ) and [Hello 3D Pt. 2](https://www.youtube.com/watch?v=fMbfi5HR-uc)!
 - Turn in [Lab 1](/Assignments/Labs/Lab_1.md), [Lab 2](/Assignments/Labs/Lab_2.md) and [Lab 3](/Assignments/Labs/Lab_3.md)
 - Previous Slides:
   - [Week 1 Slides](https://docs.google.com/presentation/d/1o1wn7qCIHvm6pyRf_S_lDHJCvFAZv06cnDHy8nc7OfY/edit?usp=sharing)
@@ -234,16 +235,18 @@ This course follows a **practice-first, theory-second** approach:
   - Resources
   - Singletons
 
-- AI?
-  - State machines
-  - Behaviour Trees?
 
 
 **Due:** Lab 3 - System Analysis
 
-### Week 8 10/21 - 
+### Week 8 10/21 Playtesting 
 
-**In Class Playtest**
+- **In Class Playtest**
+- Game Programming Patterns Discussion
+- AI
+  - State machines
+  - Behaviour Trees?
+  - NavRegions!
 
 <!-- **Class Structure:** -->
 <!-- 1. **Discussion:** Game Programming Patterns reading - how do patterns help organize complex systems? -->
