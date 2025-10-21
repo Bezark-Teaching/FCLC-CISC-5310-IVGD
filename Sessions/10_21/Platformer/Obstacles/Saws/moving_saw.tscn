@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://cf88d6uciisll"]
+
+[ext_resource type="PackedScene" uid="uid://isi15leghbp7" path="res://Obstacles/Saws/saw.tscn" id="1_pauxm"]
+[ext_resource type="Script" uid="uid://dmomu5w3mw1ed" path="res://Obstacles/Saws/moving_saw.gd" id="1_wpyvl"]
+
+[sub_resource type="Curve2D" id="Curve2D_4joxh"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -98, -56, -69.043076, 13.062203, 69.043076, -13.062203, -1, -32, 33.588524, -30.16747, -33.588524, 30.16747, 64, 0, 0, 0, 0, 0, -28, 57, 0, 0, 0, 0, -98, -56)
+}
+point_count = 5
+
+[node name="MovingSaw" type="Node2D"]
+script = ExtResource("1_wpyvl")
+
+[node name="Path" type="Path2D" parent="."]
+curve = SubResource("Curve2D_4joxh")
+
+[node name="Follower" type="PathFollow2D" parent="Path"]
+position = Vector2(-98, -56)
+rotation = 0.9245333
+
+[node name="Saw" parent="Path/Follower" instance=ExtResource("1_pauxm")]
+position = Vector2(-2.28882e-05, 0)
+rotation = -1.11362
