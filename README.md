@@ -268,19 +268,26 @@ This course follows a **practice-first, theory-second** approach:
 <!-- 3. **Lecture:** Introduction to 3D in Godot - scenes, cameras, basic movement -->
 <!-- 4. **Workshop:** Create your first 3D scene - basic navigation and interaction -->
 
-**Due:** 2D Game Complete
-**Project:** Capstone Game **(ASSIGNED)** - Begin planning sophisticated final project
-**Project:** Lab 4 - 3D Interactive Scene **(ASSIGNED)** - 3 weeks to develop
-**Project:** Walking Sim **(ASSIGNED)** - Environmental storytelling experience
 
 ### Week 10 11/4 - 3D Physics & Spatial Design
-**Assigned Reading:** [Reynolds "Steering Behaviors"](https://www.red3d.com/cwr/steer/) online article - 8 pages *(discuss next week)*
+<!-- **Assigned Reading:** [Reynolds "Steering Behaviors"](https://www.red3d.com/cwr/steer/) online article - 8 pages *(discuss next week)* -->
 
 **Class Structure:**
-1. **Discussion:** Norman reading - how do physical objects suggest their use?
-2. **Lecture:** 3D physics systems, rigid bodies, collision detection, environmental design
-3. **Workshop:** Build physics-based interactions, experiment with materials and forces
-4. **Design Session:** Plan Lab 4 & Walking Sim - what kinds of 3D spaces will you create?
+- Show and Tell
+- Hello 3D
+- Materials and Models
+- Environemnts and Vibes
+  - Light
+  - Sound
+  - Fog
+  - Particles
+
+- **Design Session:** Plan Lab 4 & Walking Sim - what kinds of 3D spaces will you create?
+
+**Due:** 2D Game Complete
+
+**Project:** Capstone Game **(ASSIGNED)** - Begin planning sophisticated final project
+**Project:** Walking Sim **(ASSIGNED)** - Environmental storytelling experience
 
 ### Week 11 11/11 - Environmental Storytelling & AI Agents
 **Assigned Reading:** Jenkins ["Game Design as Narrative Architecture"](Readings/3D-Environments/09.-Henry-Jenkins-Game-Design-As-Narrative-Architecture.pdf) - 15 pages *(discuss next week)*
