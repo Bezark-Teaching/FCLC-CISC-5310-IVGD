@@ -1,7 +1,8 @@
 
 # Top of Mind
 - Watch [Hello 3D Pt. 1](https://www.youtube.com/watch?v=YKmOb1VFDsQ) and [Hello 3D Pt. 2](https://www.youtube.com/watch?v=fMbfi5HR-uc)!
-- Turn in [Lab 1](/Assignments/Labs/Lab_1.md), [Lab 2](/Assignments/Labs/Lab_2.md) and [Lab 3](/Assignments/Labs/Lab_3.md)
+- Turn in your [2D Game](/Assignments/2D/2DGame.md)
+
 - Previous Slides:
   - [Week 1 Slides](https://docs.google.com/presentation/d/1o1wn7qCIHvm6pyRf_S_lDHJCvFAZv06cnDHy8nc7OfY/edit?usp=sharing)
   - [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
@@ -269,13 +270,14 @@ This course follows a **practice-first, theory-second** approach:
 <!-- 4. **Workshop:** Create your first 3D scene - basic navigation and interaction -->
 
 
-### Week 10 11/4 - 3D Physics & Spatial Design
+### Week 10 11/4 - 3D Spatial Design
 <!-- **Assigned Reading:** [Reynolds "Steering Behaviors"](https://www.red3d.com/cwr/steer/) online article - 8 pages *(discuss next week)* -->
 
 **Class Structure:**
 - Show and Tell
 - Hello 3D
 - Materials and Models
+- [Picture This](/)
 - Environemnts and Vibes
   - Light
   - Sound
@@ -286,8 +288,8 @@ This course follows a **practice-first, theory-second** approach:
 
 **Due:** 2D Game Complete
 
-**Project:** Capstone Game **(ASSIGNED)** - Begin planning sophisticated final project
-**Project:** Walking Sim **(ASSIGNED)** - Environmental storytelling experience
+**Project:** [Capstone Game](/Assignments/Capstone/Capstone_Game.md) **(ASSIGNED)** - Begin planning sophisticated final project
+**Project:** [Walking Sim](/Assignments/Labs/Lab_4.md) **(ASSIGNED)** - Environmental storytelling experience
 
 ### Week 11 11/11 - Environmental Storytelling & AI Agents
 **Assigned Reading:** Jenkins ["Game Design as Narrative Architecture"](Readings/3D-Environments/09.-Henry-Jenkins-Game-Design-As-Narrative-Architecture.pdf) - 15 pages *(discuss next week)*
