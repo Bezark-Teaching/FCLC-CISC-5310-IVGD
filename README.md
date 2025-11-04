@@ -277,14 +277,12 @@ This course follows a **practice-first, theory-second** approach:
 - Show and Tell
 - Hello 3D
 - Materials and Models
-- [Picture This](/)
+- [Picture This](Readings/3D-Environments/PictureThis.pdf)
 - Environemnts and Vibes
   - Light
   - Sound
   - Fog
   - Particles
-
-- **Design Session:** Plan Lab 4 & Walking Sim - what kinds of 3D spaces will you create?
 
 **Due:** 2D Game Complete
 
