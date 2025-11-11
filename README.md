@@ -293,10 +293,13 @@ This course follows a **practice-first, theory-second** approach:
 **Assigned Reading:** Jenkins ["Game Design as Narrative Architecture"](Readings/3D-Environments/09.-Henry-Jenkins-Game-Design-As-Narrative-Architecture.pdf) - 15 pages *(discuss next week)*
 
 **Class Structure:**
-1. **Discussion:** Reynolds reading - steering behaviors in your 3D environments
-2. **Lecture:** AI agents, navigation meshes, state machines vs behavior trees
-3. **Workshop:** Implement basic AI agents with navigation and simple behaviors
-4. **Progress Review:** Show Lab 4 & Walking Sim development, get feedback on spatial design
+- 2D Playtests
+
+- Advanced 3D
+  - Shaders
+  - Environments
+  - Materials
+
 
 ### Week 12 11/18 - Capstone Presentations & Professional Development
 **Assigned Reading:** Raymond ["The Cathedral and the Bazaar"](Readings/Professional-Practice/Raymond_Eric_S_The_Cathedral_and_the_Bazaar_rev_ed.pdf) (excerpts) - 10 pages *(discuss next week)*
