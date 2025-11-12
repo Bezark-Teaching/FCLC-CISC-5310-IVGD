@@ -1,5 +1,6 @@
 
 # Top of Mind
+- [Godot Shaders](https://www.youtube.com/watch?v=nyFzPaWAzeQ)
 - Watch [Hello 3D Pt. 1](https://www.youtube.com/watch?v=YKmOb1VFDsQ) and [Hello 3D Pt. 2](https://www.youtube.com/watch?v=fMbfi5HR-uc)!
 - Turn in your [2D Game](/Assignments/2D/2DGame.md)
 
