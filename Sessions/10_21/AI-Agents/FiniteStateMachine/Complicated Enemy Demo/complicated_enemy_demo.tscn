@@ -1,0 +1,78 @@
+[gd_scene load_steps=6 format=3 uid="uid://enw4nj74pt5p"]
+
+[ext_resource type="PackedScene" uid="uid://b8qjwo70eklew" path="res://Assets/Player/Player.tscn" id="1_xknmx"]
+[ext_resource type="PackedScene" uid="uid://bm37c3vlntpfp" path="res://Complicated Enemy Demo/complex_enemy.tscn" id="2_dx3dt"]
+[ext_resource type="PackedScene" uid="uid://cy33diqeivgmf" path="res://Complicated Enemy Demo/platform.tscn" id="3_jr51s"]
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_jr51s"]
+vertices = PackedVector2Array(-412.46875, 466.72656, -421.89063, 483, -501.45313, 483, -688.03906, 375, -570.9531, 375, 1996, 355, -565.59375, 355, 343.5, 323.5, 1351.7734, 290.6172, 280.5, 323.5, 518.52344, 290.6172, 427.5, 272.5, 499.5, 231.5, 499.5, 194.5, 518.52344, 191.96094, -2123.9063, 789.8203, -1918, 424.53906, -1918, 503, -1155.7266, 127.40625, -762.52344, 355, -1878.7969, 355, -1695.2969, 29.46875, 364.5, 272.5, 343.5, 286.5, 436.5, 231.5, 427.5, 235.5, -222.89063, 1013.9375, -506.8203, 503, -434.5625, 544.8281, -321.9375, -365.89063, 280.5, 286.5, -1106.3203, 42.03125, 1351.7734, 191.96094, 2070.5078, 788.78125, -410.35938, 503, 1996, 503, 2247.1484, -174.85156, 436.5, 194.5, 364.5, 235.5)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3, 4), PackedInt32Array(5, 6, 7, 8), PackedInt32Array(9, 7, 6), PackedInt32Array(10, 8, 7), PackedInt32Array(10, 7, 11, 12), PackedInt32Array(12, 13, 14, 10), PackedInt32Array(15, 16, 17), PackedInt32Array(18, 19, 20, 21), PackedInt32Array(22, 11, 7, 23), PackedInt32Array(24, 12, 11, 25), PackedInt32Array(26, 15, 17, 27, 28), PackedInt32Array(29, 30, 9, 6, 31), PackedInt32Array(5, 8, 32), PackedInt32Array(33, 26, 28, 34, 35), PackedInt32Array(36, 33, 35, 5), PackedInt32Array(29, 36, 5, 32), PackedInt32Array(29, 32, 14), PackedInt32Array(29, 14, 13, 37), PackedInt32Array(31, 18, 21), PackedInt32Array(31, 21, 29), PackedInt32Array(37, 24, 25, 38, 29), PackedInt32Array(23, 30, 29, 38, 22)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(-323, -376, -1702, 21, -2140, 798, -223, 1024, 2079, 798, 2259, -184)])
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6aedd"]
+size = Vector2(3894, 128)
+
+[node name="Complicated Enemy Demo" type="Node2D"]
+
+[node name="CharacterBody2D" parent="." groups=["player"] instance=ExtResource("1_xknmx")]
+
+[node name="Complex Enemy" parent="." instance=ExtResource("2_dx3dt")]
+position = Vector2(410, 330)
+
+[node name="NavigationRegion2D" type="NavigationRegion2D" parent="."]
+navigation_polygon = SubResource("NavigationPolygon_jr51s")
+
+[node name="Level" type="StaticBody2D" parent="NavigationRegion2D"]
+position = Vector2(0, 366)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NavigationRegion2D/Level"]
+position = Vector2(39, 63)
+shape = SubResource("RectangleShape2D_6aedd")
+
+[node name="ColorRect" type="ColorRect" parent="NavigationRegion2D/Level"]
+offset_left = -1892.0
+offset_top = -2.0
+offset_right = 1984.0
+offset_bottom = 128.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Level2" type="StaticBody2D" parent="NavigationRegion2D"]
+position = Vector2(927, 280)
+scale = Vector2(0.20885, -0.614451)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NavigationRegion2D/Level2"]
+position = Vector2(39, 63)
+shape = SubResource("RectangleShape2D_6aedd")
+
+[node name="ColorRect" type="ColorRect" parent="NavigationRegion2D/Level2"]
+offset_left = -1892.0
+offset_top = -2.0
+offset_right = 1984.0
+offset_bottom = 128.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Level3" type="StaticBody2D" parent="NavigationRegion2D"]
+position = Vector2(-744, 264)
+rotation = -2.61691
+scale = Vector2(0.20885, -0.614451)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NavigationRegion2D/Level3"]
+position = Vector2(39, 63.00006)
+scale = Vector2(0.9999999, 0.99999994)
+shape = SubResource("RectangleShape2D_6aedd")
+
+[node name="ColorRect" type="ColorRect" parent="NavigationRegion2D/Level3"]
+offset_left = -1892.0
+offset_top = -2.0
+offset_right = 1984.0
+offset_bottom = 128.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Platform" parent="NavigationRegion2D" instance=ExtResource("3_jr51s")]
+position = Vector2(312, 305)
+
+[node name="Platform2" parent="NavigationRegion2D" instance=ExtResource("3_jr51s")]
+position = Vector2(396, 254)
+
+[node name="Platform3" parent="NavigationRegion2D" instance=ExtResource("3_jr51s")]
+position = Vector2(468, 213)

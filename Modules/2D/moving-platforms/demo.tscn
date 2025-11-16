@@ -1,0 +1,48 @@
+[gd_scene load_steps=7 format=3 uid="uid://fqewgy6v1sb4"]
+
+[ext_resource type="Script" uid="uid://cfgv8a432hbpm" path="res://character_body_2d.gd" id="1_m0rpm"]
+[ext_resource type="Texture2D" uid="uid://354jxmmclmgo" path="res://icon.svg" id="2_c6xj6"]
+[ext_resource type="Script" uid="uid://di0c7rej6ttxu" path="res://moving_platform.gd" id="3_6bw2v"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kem5a"]
+size = Vector2(976, 55)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_gxmxl"]
+radius = 65.12296
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n4w22"]
+size = Vector2(350, 43)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(28, 594)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(478, 17.5)
+shape = SubResource("RectangleShape2D_kem5a")
+
+[node name="ColorRect" type="ColorRect" parent="StaticBody2D"]
+offset_right = 956.0
+offset_bottom = 51.0
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("1_m0rpm")
+
+[node name="Icon" type="Sprite2D" parent="CharacterBody2D"]
+texture = ExtResource("2_c6xj6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("CircleShape2D_gxmxl")
+
+[node name="MovingPlatform" type="AnimatableBody2D" parent="."]
+position = Vector2(462, 493)
+script = ExtResource("3_6bw2v")
+
+[node name="ColorRect" type="ColorRect" parent="MovingPlatform"]
+offset_right = 348.0
+offset_bottom = 40.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MovingPlatform"]
+position = Vector2(173, 20.5)
+shape = SubResource("RectangleShape2D_n4w22")

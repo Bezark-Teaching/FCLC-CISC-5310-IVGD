@@ -1,0 +1,44 @@
+[gd_scene load_steps=5 format=3 uid="uid://d35c7bnnjh56k"]
+
+[ext_resource type="Script" uid="uid://dntg4g27xxp4a" path="res://player.gd" id="1_h2yge"]
+[ext_resource type="PackedScene" uid="uid://dwfcwrkrem055" path="res://fleer.tscn" id="1_ig7tw"]
+[ext_resource type="Texture2D" uid="uid://dbadipenekyw" path="res://icon.svg" id="2_1bvp3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lquwl"]
+size = Vector2(127, 118)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(0.2, 0.2)
+
+[node name="Player" type="CharacterBody2D" parent="."]
+unique_name_in_owner = true
+script = ExtResource("1_h2yge")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+position = Vector2(-3.5, -1)
+shape = SubResource("RectangleShape2D_lquwl")
+
+[node name="Icon" type="Sprite2D" parent="Player"]
+texture = ExtResource("2_1bvp3")
+
+[node name="Sheep" type="Node2D" parent="."]
+
+[node name="Fleer" parent="Sheep" instance=ExtResource("1_ig7tw")]
+position = Vector2(45, -1154)
+
+[node name="Fleer2" parent="Sheep" instance=ExtResource("1_ig7tw")]
+position = Vector2(-450, 237)
+
+[node name="Fleer3" parent="Sheep" instance=ExtResource("1_ig7tw")]
+position = Vector2(-1169, 808)
+
+[node name="Fleer4" parent="Sheep" instance=ExtResource("1_ig7tw")]
+position = Vector2(-798, -893)
+
+[node name="Fleer5" parent="Sheep" instance=ExtResource("1_ig7tw")]
+position = Vector2(666, -562)
+
+[node name="Fleer6" parent="Sheep" instance=ExtResource("1_ig7tw")]
+position = Vector2(-1255, -181)

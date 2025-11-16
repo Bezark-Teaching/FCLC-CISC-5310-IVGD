@@ -1,0 +1,53 @@
+[gd_scene load_steps=10 format=3 uid="uid://cv0lwml1sqw0v"]
+
+[ext_resource type="Texture2D" uid="uid://b0hvpycq8qojq" path="res://Smoke Particles/PNG/Flash/flash02.png" id="1_xnif8"]
+
+[sub_resource type="CurveTexture" id="CurveTexture_1nvrg"]
+
+[sub_resource type="Gradient" id="Gradient_i1ypt"]
+offsets = PackedFloat32Array(0, 0.64324325, 1)
+colors = PackedColorArray(0.6117647, 0.5058824, 0, 1, 1, 1, 1, 1, 0.49803922, 0.29803923, 0.33333334, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_s4h77"]
+gradient = SubResource("Gradient_i1ypt")
+
+[sub_resource type="Curve" id="Curve_0756t"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.5668103, 0.51798093), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_75ba6"]
+curve = SubResource("Curve_0756t")
+
+[sub_resource type="Curve" id="Curve_deg5m"]
+_limits = [0.0, 3.0, 0.0, 1.0]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.5452587, 2.947733), 0.0, 0.0, 0, 0, Vector2(1, 2.094036), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_n2nca"]
+curve = SubResource("Curve_deg5m")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_sjc5h"]
+angle_min = -720.0
+angle_max = 720.0
+spread = 103.723
+initial_velocity_min = 592.6
+initial_velocity_max = 643.1
+gravity = Vector3(0, 98, 0)
+scale_min = 0.01
+scale_max = 0.099999994
+scale_over_velocity_curve = SubResource("CurveTexture_n2nca")
+color_ramp = SubResource("GradientTexture1D_s4h77")
+alpha_curve = SubResource("CurveTexture_1nvrg")
+emission_curve = SubResource("CurveTexture_75ba6")
+
+[node name="Node2D" type="Node2D"]
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="."]
+amount = 1000
+texture = ExtResource("1_xnif8")
+lifetime = 5.0
+speed_scale = 3.0
+explosiveness = 0.5
+randomness = 0.5
+trail_lifetime = 0.09999999999999999
+process_material = SubResource("ParticleProcessMaterial_sjc5h")

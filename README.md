@@ -1,8 +1,9 @@
 
 # Top of Mind
-- Turn in [Lab 1](/Assignments/Labs/Lab_1.md) when you can
-- Work on [Lab 2](/Assignments/Labs/Lab_2.md)
-  - Look at the [Emergence Folder](/Modules/2D/Emergence) for some examples.
+- [Godot Shaders](https://www.youtube.com/watch?v=nyFzPaWAzeQ)
+- Watch [Hello 3D Pt. 1](https://www.youtube.com/watch?v=YKmOb1VFDsQ) and [Hello 3D Pt. 2](https://www.youtube.com/watch?v=fMbfi5HR-uc)!
+- Turn in your [2D Game](/Assignments/2D/2DGame.md)
+
 - Previous Slides:
   - [Week 1 Slides](https://docs.google.com/presentation/d/1o1wn7qCIHvm6pyRf_S_lDHJCvFAZv06cnDHy8nc7OfY/edit?usp=sharing)
   - [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
@@ -219,20 +220,35 @@ This course follows a **practice-first, theory-second** approach:
 **Due:** Lab 2 - Emergent Systems
 **Project:** [Lab 3 - Core Game Systems](/Assignments/Labs/Lab_3.md) **(ASSIGNED)**
 
-### Week 7 10/14 - System Architecture & Code Organization
-**Assigned Reading:** Nystrom "Game Programming Patterns" - [State](https://gameprogrammingpatterns.com/state.html) + [Component](https://gameprogrammingpatterns.com/component.html) patterns *(discuss next week)*
+### Week 7 10/14 - System Architecture & Polish 
+**Assigned Reading:** Nystrom "Game Programming Patterns" - [State](https://gameprogrammingpatterns.com/state.html) + [Singleton](https://gameprogrammingpatterns.com/singleton.html) patterns
 
 **Class Structure:**
-1. **Q&A:** Lab 3 system analysis - what emergent properties did you discover?
-2. **Discussion:** Now that you understand emergence, how do we organize growing systems?
-3. **Workshop:** Refactoring techniques - signals, composition, scene organization
-4. **Workshop:** 2D game development - architect systems that can evolve and grow
+- Show and Tell
+
+- Polish
+  - UI
+  - Sound
+  - Light
+  - Particles
+
+- Smart Structures
+  - Classes
+  - Resources
+  - Singletons
+
+
 
 **Due:** Lab 3 - System Analysis
 
-### Week 8 10/21 - Complex Systems in 2D Games
+### Week 8 10/21 Playtesting 
 
-**In Class Playtest**
+- **In Class Playtest**
+- Game Programming Patterns Discussion
+- AI
+  - State machines
+  - Behaviour Trees?
+  - NavRegions!
 
 <!-- **Class Structure:** -->
 <!-- 1. **Discussion:** Game Programming Patterns reading - how do patterns help organize complex systems? -->
@@ -254,28 +270,37 @@ This course follows a **practice-first, theory-second** approach:
 <!-- 3. **Lecture:** Introduction to 3D in Godot - scenes, cameras, basic movement -->
 <!-- 4. **Workshop:** Create your first 3D scene - basic navigation and interaction -->
 
-**Due:** 2D Game Complete
-**Project:** Capstone Game **(ASSIGNED)** - Begin planning sophisticated final project
-**Project:** Lab 4 - 3D Interactive Scene **(ASSIGNED)** - 3 weeks to develop
-**Project:** Walking Sim **(ASSIGNED)** - Environmental storytelling experience
 
-### Week 10 11/4 - 3D Physics & Spatial Design
-**Assigned Reading:** [Reynolds "Steering Behaviors"](https://www.red3d.com/cwr/steer/) online article - 8 pages *(discuss next week)*
+### Week 10 11/4 - 3D Spatial Design
+<!-- **Assigned Reading:** [Reynolds "Steering Behaviors"](https://www.red3d.com/cwr/steer/) online article - 8 pages *(discuss next week)* -->
 
 **Class Structure:**
-1. **Discussion:** Norman reading - how do physical objects suggest their use?
-2. **Lecture:** 3D physics systems, rigid bodies, collision detection, environmental design
-3. **Workshop:** Build physics-based interactions, experiment with materials and forces
-4. **Design Session:** Plan Lab 4 & Walking Sim - what kinds of 3D spaces will you create?
+- Show and Tell
+- Hello 3D
+- Materials and Models
+- [Picture This](Readings/3D-Environments/PictureThis.pdf)
+- Environemnts and Vibes
+  - Light
+  - Sound
+  - Fog
+  - Particles
+
+**Due:** 2D Game Complete
+
+**Project:** [Capstone Game](/Assignments/Capstone/Capstone_Game.md) **(ASSIGNED)** - Begin planning sophisticated final project
+**Project:** [Walking Sim](/Assignments/Labs/Lab_4.md) **(ASSIGNED)** - Environmental storytelling experience
 
 ### Week 11 11/11 - Environmental Storytelling & AI Agents
 **Assigned Reading:** Jenkins ["Game Design as Narrative Architecture"](Readings/3D-Environments/09.-Henry-Jenkins-Game-Design-As-Narrative-Architecture.pdf) - 15 pages *(discuss next week)*
 
 **Class Structure:**
-1. **Discussion:** Reynolds reading - steering behaviors in your 3D environments
-2. **Lecture:** AI agents, navigation meshes, state machines vs behavior trees
-3. **Workshop:** Implement basic AI agents with navigation and simple behaviors
-4. **Progress Review:** Show Lab 4 & Walking Sim development, get feedback on spatial design
+- 2D Playtests
+
+- Advanced 3D
+  - Shaders
+  - Environments
+  - Materials
+
 
 ### Week 12 11/18 - Capstone Presentations & Professional Development
 **Assigned Reading:** Raymond ["The Cathedral and the Bazaar"](Readings/Professional-Practice/Raymond_Eric_S_The_Cathedral_and_the_Bazaar_rev_ed.pdf) (excerpts) - 10 pages *(discuss next week)*

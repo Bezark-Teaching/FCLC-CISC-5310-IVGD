@@ -1,13 +1,12 @@
 # Lab 4: Walking Sim
-**Theory Lens**: Environmental Storytelling & Spatial Affordances  
-**Due**: Week 13 (11/25)  
+**Theory Lens**: Environmental Storytelling
+**Due**: Week 13 (11/25)
 **Points**: 20
 
 ## Overview
-Create a 3D walking simulator that tells a story purely through environmental design, spatial composition, and atmospheric elements. This project combines spatial affordances with environmental storytelling to create meaningful 3D experiences.
+Create a 3D walking simulator that tells a story purely through environmental design, spatial composition, and atmospheric elements. This project focuses on environmental storytelling to create meaningful 3D experiences.
 
 ## Learning Objectives
-- Apply affordance theory to communicate narrative without explicit text/UI
 - Master 3D atmosphere creation through lighting, audio, and composition
 - Create immersive experiences through spatial design alone
 - Understand environmental storytelling as game design practice
@@ -27,7 +26,7 @@ Create a 3D walking simulator that tells a story purely through environmental de
 - **Performance Optimization**: Proper LOD, occlusion culling, or scene organization
 
 ### Duration & Scope
-- **15-20 minute experience**: Focused, complete narrative arc
+- **5-10 minute experience**: Focused, complete narrative arc
 - **Single path recommended**: Guide player through intentional spatial sequence
 - **Environmental interaction**: Minimal but meaningful (doors, lights, simple triggers)
 
@@ -40,12 +39,12 @@ Create a 3D walking simulator that tells a story purely through environmental de
 - 2: Basic environmental storytelling with some effective moments
 - 0: No clear environmental narrative
 
-**Spatial Design & Affordances (7 points)**
-- 7: Excellent spatial composition where form clearly suggests function and guides player movement
-- 5: Good spatial design with clear affordances and effective player guidance
-- 3: Adequate spatial design with some effective affordances
-- 1: Basic spatial design with minimal clear affordances
-- 0: Poor spatial design that confuses player movement or interaction
+**Spatial Design & Composition (7 points)**
+- 7: Excellent spatial composition that effectively guides player movement and creates clear sense of place
+- 5: Good spatial design with effective player guidance and strong compositional choices
+- 3: Adequate spatial design with some effective compositional elements
+- 1: Basic spatial design with minimal compositional consideration
+- 0: Poor spatial design that confuses player movement or lacks clear composition
 
 **Atmospheric Implementation (5 points)**
 - 5: Professional-quality atmosphere through lighting, audio, and environmental effects

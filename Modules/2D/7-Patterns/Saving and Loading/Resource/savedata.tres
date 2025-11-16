@@ -4,4 +4,4 @@
 
 [resource]
 script = ExtResource("1_sqwo2")
-position = Vector2(130, 500)
+position = Vector2(130, 95)

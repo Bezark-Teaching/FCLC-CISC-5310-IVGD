@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://mtvic1e6wvao"]
+
+[ext_resource type="Texture2D" uid="uid://1ynui37sffd" path="res://icon.svg" id="1_0e48y"]
+[ext_resource type="Shader" uid="uid://dnasyi8qih5b5" path="res://vhs.gdshader" id="2_epypp"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_0hol4"]
+shader = ExtResource("2_epypp")
+shader_parameter/fov = 90.0
+shader_parameter/cull_back = true
+shader_parameter/inset = 0.0
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Icon2" type="Sprite2D" parent="."]
+position = Vector2(530, 245)
+texture = ExtResource("1_0e48y")
+
+[node name="Icon" type="Sprite2D" parent="."]
+material = SubResource("ShaderMaterial_0hol4")
+position = Vector2(375, 231)
+texture = ExtResource("1_0e48y")

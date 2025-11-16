@@ -16,7 +16,7 @@ Create a sophisticated game that demonstrates mastery of systems thinking, emerg
 
 ### Project Scope & Collaboration
 - **Individual or Group Work**: Self-selected teams up to 3 people (individual projects encouraged for portfolio development)
-- **15-25 Minute Experience**: Complete, polished game with clear beginning, middle, and end
+- **5-15 Minute Experience**: Complete, polished game with clear beginning, middle, and end
 - **Platform Choice**: Any combination of 2D/3D in Godot 4.x that best serves your design vision
 - **Distribution Ready**: Exported and published on itch.io for public access
 
