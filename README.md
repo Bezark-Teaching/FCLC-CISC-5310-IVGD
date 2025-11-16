@@ -339,7 +339,9 @@ This course follows a **practice-first, theory-second** approach:
 3. **Workshop:** Capstone development - polish, optimize, and prepare for release
 4. **Individual Check-ins:** Final troubleshooting and scope adjustment for capstone projects
 
-### Week 15 12/9 - Final Presentations & Professional Growth
+### Week 15 12/9 - Review
+
+### Week 16 12/16 - Final Presentations & Professional Growth
 
 **Class Structure:**
 1. **Discussion:** Playtesting reading - how do you know when a game is "done"?
