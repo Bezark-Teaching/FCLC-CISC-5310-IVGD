@@ -293,7 +293,8 @@ This course follows a **practice-first, theory-second** approach:
 ## PART IV: PROFESSIONAL PRACTICE (Weeks 13-15)
 *Industry context and professional development*
 
-### Week 13 11/25 - Advanced AI & Interactive Systems (Thanksgiving Week- maybe no class...)
+### Week 13 11/25 - NO IN PERSON CLASS
+
 **Assigned Reading:** [Isla "Handling Complexity in the Halo 2 AI"](https://www.gamedeveloper.com/programming/gdc-2005-proceeding-handling-complexity-in-the-i-halo-2-i-ai)(excerpts) - 10 pages *(discuss next week)*
 
 **Class Structure:**
