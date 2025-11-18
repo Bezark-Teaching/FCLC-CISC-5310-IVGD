@@ -1,0 +1,26 @@
+[gd_scene load_steps=6 format=3 uid="uid://cjrd2o4g5dltt"]
+
+[ext_resource type="Shader" uid="uid://0wdnjas3y5tj" path="res://basic_spatial.tres" id="1_pvaxc"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_7e2y4"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_wl1o0"]
+noise = SubResource("FastNoiseLite_7e2y4")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_7dasw"]
+render_priority = 0
+shader = ExtResource("1_pvaxc")
+shader_parameter/Glitch = false
+shader_parameter/texy = SubResource("NoiseTexture2D_wl1o0")
+
+[sub_resource type="TextMesh" id="TextMesh_luqsu"]
+material = SubResource("ShaderMaterial_7dasw")
+text = "Hello World"
+font_size = 127
+curve_step = 0.1
+depth = 0.5
+
+[node name="Node3D" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("TextMesh_luqsu")
