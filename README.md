@@ -303,13 +303,12 @@ This course follows a **practice-first, theory-second** approach:
 
 
 ### Week 12 11/18 - Capstone Presentations & Professional Development
-**Assigned Reading:** Raymond ["The Cathedral and the Bazaar"](Readings/Professional-Practice/Raymond_Eric_S_The_Cathedral_and_the_Bazaar_rev_ed.pdf) (excerpts) - 10 pages *(discuss next week)*
+<!-- **Assigned Reading:** Raymond ["The Cathedral and the Bazaar"](Readings/Professional-Practice/Raymond_Eric_S_The_Cathedral_and_the_Bazaar_rev_ed.pdf) (excerpts) - 10 pages *(discuss next week)* -->
 
 **Class Structure:**
-1. **Discussion:** Jenkins reading - how does space tell stories in games?
-2. **Presentations:** Capstone project technical presentations
-3. **Lecture:** Open source development, Godot's community model, contributing to projects  
-4. **Workshop:** Final capstone development sprint planning based on presentation feedback
+<!-- 1. **Discussion:** Jenkins reading - how does space tell stories in games? -->
+1. **Presentations:** Capstone project technical presentations
+2. **Lecture:** Shaders. Networking?
 
 **Due:** Capstone Presentation
 
@@ -320,13 +319,13 @@ This course follows a **practice-first, theory-second** approach:
 
 ### Week 13 11/25 - NO IN PERSON CLASS
 
-**Assigned Reading:** [Isla "Handling Complexity in the Halo 2 AI"](https://www.gamedeveloper.com/programming/gdc-2005-proceeding-handling-complexity-in-the-i-halo-2-i-ai)(excerpts) - 10 pages *(discuss next week)*
+<!-- **Assigned Reading:** [Isla "Handling Complexity in the Halo 2 AI"](https://www.gamedeveloper.com/programming/gdc-2005-proceeding-handling-complexity-in-the-i-halo-2-i-ai)(excerpts) - 10 pages *(discuss next week)* -->
 
-**Class Structure:**
-1. **Discussion:** Cathedral & Bazaar reading - how does open source affect game development?
-2. **Lecture:** Advanced AI techniques, perception systems, believable behavior (shortened format due to holiday)
-3. **Workshop:** Polish capstone projects - integrate AI agents with environmental storytelling
-4. **Individual Check-ins:** Brief meetings on capstone progress and final scope
+<!-- **Class Structure:** -->
+<!-- 1. **Discussion:** Cathedral & Bazaar reading - how does open source affect game development? -->
+<!-- 2. **Lecture:** Advanced AI techniques, perception systems, believable behavior (shortened format due to holiday) -->
+<!-- 3. **Workshop:** Polish capstone projects - integrate AI agents with environmental storytelling -->
+<!-- 4. **Individual Check-ins:** Brief meetings on capstone progress and final scope -->
 
 **Due:** Walking Sim
 

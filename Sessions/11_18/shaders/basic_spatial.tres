@@ -1,4 +1,4 @@
-[gd_resource type="VisualShader" load_steps=23 format=3 uid="uid://0wdnjas3y5tj"]
+[gd_resource type="VisualShader" load_steps=20 format=3 uid="uid://0wdnjas3y5tj"]
 
 [sub_resource type="VisualShaderNodeTexture2DParameter" id="VisualShaderNodeTexture2DParameter_43iiy"]
 parameter_name = "texy"
@@ -43,19 +43,12 @@ parameter_name = "Glitch"
 [sub_resource type="VisualShaderNodeIf" id="VisualShaderNodeIf_u8i8y"]
 
 [sub_resource type="VisualShaderNodeInput" id="VisualShaderNodeInput_o8eof"]
+expanded_output_ports = [0]
 input_name = "vertex"
 
 [sub_resource type="VisualShaderNodeFloatOp" id="VisualShaderNodeFloatOp_alqda"]
 default_input_values = [0, 0.0, 1, 0.1]
 operator = 2
-
-[sub_resource type="VisualShaderNodeVectorDecompose" id="VisualShaderNodeVectorDecompose_uc44f"]
-
-[sub_resource type="VisualShaderNodeRemap" id="VisualShaderNodeRemap_ri4v7"]
-default_input_values = [1, Vector3(0, 0, 0), 2, Vector3(1, 1, 1), 3, Vector3(0, 0, 0), 4, Vector3(1, 2, 2), 0, Vector3(0, 0, 0)]
-op_type = 3
-
-[sub_resource type="VisualShaderNodeVectorCompose" id="VisualShaderNodeVectorCompose_ho14s"]
 
 [sub_resource type="VisualShaderNodeInput" id="VisualShaderNodeInput_wkoii"]
 input_name = "uv"
@@ -74,6 +67,7 @@ render_mode blend_mix, depth_draw_opaque, depth_test_default, cull_back, diffuse
 
 // Varyings
 varying float var_glitch;
+varying vec3 var_texy;
 
 uniform bool Glitch;
 uniform sampler2D texy : repeat_enable;
@@ -91,19 +85,6 @@ vec3 hash_noise_range( vec3 p ) {
 void vertex() {
 // Input:2
 	vec3 n_out2p0 = VERTEX;
-
-
-	vec3 n_out4p0;
-// Remap:4
-	vec3 n_in4p1 = vec3(0.00000, 0.00000, 0.00000);
-	vec3 n_in4p2 = vec3(1.00000, 1.00000, 1.00000);
-	vec3 n_in4p3 = vec3(0.00000, 0.00000, 0.00000);
-	vec3 n_in4p4 = vec3(1.00000, 2.00000, 2.00000);
-	{
-		vec3 __input_range = n_in4p2 - n_in4p1;
-		vec3 __output_range = n_in4p4 - n_in4p3;
-		n_out4p0 = n_in4p3 + __output_range * ((n_out2p0 - n_in4p1) / __input_range);
-	}
 
 
 // Input:6
@@ -190,7 +171,7 @@ void vertex() {
 
 
 // Output:0
-	VERTEX = n_out4p0;
+	VERTEX = n_out2p0;
 	UV = n_out7p0;
 
 
@@ -198,6 +179,7 @@ void vertex() {
 	var_glitch = n_out19p0.x;
 
 
+	var_texy = vec3(0.0);
 }
 
 void fragment() {
@@ -226,15 +208,11 @@ void fragment() {
 }
 "
 varyings/glitch = "0,0"
+varyings/texy = "0,4"
+preview_params/Glitch = "false"
 nodes/vertex/0/position = Vector2(1980, 180)
 nodes/vertex/2/node = SubResource("VisualShaderNodeInput_o8eof")
-nodes/vertex/2/position = Vector2(200, 180)
-nodes/vertex/3/node = SubResource("VisualShaderNodeVectorDecompose_uc44f")
-nodes/vertex/3/position = Vector2(860, -40)
-nodes/vertex/4/node = SubResource("VisualShaderNodeRemap_ri4v7")
-nodes/vertex/4/position = Vector2(860, 280)
-nodes/vertex/5/node = SubResource("VisualShaderNodeVectorCompose_ho14s")
-nodes/vertex/5/position = Vector2(1460, -40)
+nodes/vertex/2/position = Vector2(480, -580)
 nodes/vertex/6/node = SubResource("VisualShaderNodeInput_wkoii")
 nodes/vertex/6/position = Vector2(920, 720)
 nodes/vertex/7/node = SubResource("VisualShaderNodeUVFunc_dcsbn")
@@ -261,15 +239,16 @@ nodes/vertex/19/node = SubResource("VisualShaderNodeIf_u8i8y")
 nodes/vertex/19/position = Vector2(540, 520)
 nodes/vertex/20/node = SubResource("VisualShaderNodeFloatOp_alqda")
 nodes/vertex/20/position = Vector2(-1040, 1220)
-nodes/vertex/connections = PackedInt32Array(2, 0, 3, 0, 4, 0, 5, 1, 3, 0, 5, 0, 3, 2, 5, 2, 2, 0, 4, 0, 4, 0, 0, 0, 6, 0, 7, 0, 7, 0, 0, 4, 10, 0, 7, 1, 8, 0, 11, 0, 11, 0, 13, 0, 11, 0, 13, 3, 11, 0, 13, 4, 16, 0, 13, 5, 11, 0, 17, 0, 17, 0, 16, 1, 18, 0, 19, 0, 13, 0, 19, 4, 19, 0, 10, 0, 19, 0, 15, 0, 14, 0, 19, 3, 14, 0, 16, 0, 8, 0, 20, 0, 20, 0, 14, 0)
+nodes/vertex/connections = PackedInt32Array(6, 0, 7, 0, 7, 0, 0, 4, 10, 0, 7, 1, 8, 0, 11, 0, 11, 0, 13, 0, 11, 0, 13, 3, 11, 0, 13, 4, 16, 0, 13, 5, 11, 0, 17, 0, 17, 0, 16, 1, 18, 0, 19, 0, 13, 0, 19, 4, 19, 0, 10, 0, 19, 0, 15, 0, 14, 0, 19, 3, 14, 0, 16, 0, 8, 0, 20, 0, 20, 0, 14, 0, 2, 0, 0, 0)
+nodes/fragment/0/position = Vector2(-480, 460)
 nodes/fragment/2/node = SubResource("VisualShaderNodeTexture2DParameter_43iiy")
 nodes/fragment/2/position = Vector2(-1720, 300)
 nodes/fragment/3/node = SubResource("VisualShaderNodeTexture_d57wn")
-nodes/fragment/3/position = Vector2(-1260, 120)
+nodes/fragment/3/position = Vector2(-1180, 520)
 nodes/fragment/4/node = SubResource("VisualShaderNodeInput_yokni")
-nodes/fragment/4/position = Vector2(-1720, 140)
+nodes/fragment/4/position = Vector2(-1720, 880)
 nodes/fragment/5/node = SubResource("VisualShaderNodeVaryingGetter_g31x6")
-nodes/fragment/5/position = Vector2(-1000, 380)
+nodes/fragment/5/position = Vector2(-1720, 1120)
 nodes/fragment/6/node = SubResource("VisualShaderNodeFloatOp_b2u51")
-nodes/fragment/6/position = Vector2(-560, 320)
+nodes/fragment/6/position = Vector2(-840, 460)
 nodes/fragment/connections = PackedInt32Array(2, 0, 3, 2, 3, 0, 0, 0, 4, 0, 3, 0, 5, 0, 6, 0, 3, 0, 6, 1, 6, 0, 0, 1)

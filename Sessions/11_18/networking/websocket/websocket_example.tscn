@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://b0tqq768i2o1f"]
+
+[ext_resource type="Script" uid="uid://d0verdlqgjxf6" path="res://websocket/websocket_client.gd" id="1_24h2e"]
+
+[node name="WebsocketExample" type="Node"]
+
+[node name="WebsocketClient" type="Node" parent="."]
+script = ExtResource("1_24h2e")
+
+[node name="Timer" type="Timer" parent="WebsocketClient"]
+
+[connection signal="timeout" from="WebsocketClient/Timer" to="WebsocketClient" method="_on_timer_timeout"]
