@@ -38,10 +38,10 @@ This course balances **practical game development** with **theoretical understan
 | [Lab 2: Emergent Systems](/Assignments/Labs/Lab_2.md)              | Simple agents producing complex group behavior           | 10/7       |     7  |
 | [Lab 3: Core Game Systems](/Assignments/Labs/Lab_3.md)             | Health, damage, and respawn system implementation        | 10/14      |     7  |
 | [2D Game](/Assignments/2D/2DGame.md)                               | Complete 2D game demonstrating systems thinking          | 10/28      |    25  |
-| [Lab 4: Walking Sim](/Assignments/Labs/Lab_4.md)                   | 3D environmental storytelling experience                 | 11/25      |    20  |
+| [Lab 4: Walking Sim](/Assignments/Labs/Lab_4.md)                   | 3D environmental storytelling experience                 | 11/25      |    10 Extra Credit  |
 | [Capstone Presentation](/Assignments/Capstone/Capstone_Concept.md) | Technical presentation of final project architecture     | 11/18      |    10  |
 | [Capstone Game](/Assignments/Capstone/Capstone_Game.md)            | Sophisticated game showcasing advanced concepts          | 12/9       |    40  |
-| **Total Points Possible**                                          |                                                          |            | **150**|
+| **Total Points Possible**                                          |                                                          |            | **130**|
 
 All assignments will be graded on the due date. Students are always allowed to revise and resubmit work **up until the class before the final.**
 
