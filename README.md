@@ -329,14 +329,14 @@ This course follows a **practice-first, theory-second** approach:
 
 **Due:** Walking Sim
 
-### Week 14 12/2 - Production & Polish Practices
-**Assigned Reading:** Schell ["The Art of Game Design"](Readings/Systems-Thinking/Jesse Schell - The Art of Game Design A Book of Lenses .pdf) Ch.27 (Playtesting) - 8 pages *(discuss next week)*
+### Week 14 12/2 - XR Workshop
+<!-- **Assigned Reading:** Schell ["The Art of Game Design"](Readings/Systems-Thinking/Jesse Schell - The Art of Game Design A Book of Lenses .pdf) Ch.27 (Playtesting) - 8 pages *(discuss next week)* -->
 
-**Class Structure:**
-1. **Discussion:** Cathedral & Bazaar reading - how does open source affect game development?
-2. **Lecture:** Production practices, export settings, optimization, professional workflows
-3. **Workshop:** Capstone development - polish, optimize, and prepare for release
-4. **Individual Check-ins:** Final troubleshooting and scope adjustment for capstone projects
+<!-- **Class Structure:** -->
+<!-- 1. **Discussion:** Cathedral & Bazaar reading - how does open source affect game development? -->
+<!-- 2. **Lecture:** Production practices, export settings, optimization, professional workflows -->
+<!-- 3. **Workshop:** Capstone development - polish, optimize, and prepare for release -->
+<!-- 4. **Individual Check-ins:** Final troubleshooting and scope adjustment for capstone projects -->
 
 ### Week 15 12/9 - Review
 
