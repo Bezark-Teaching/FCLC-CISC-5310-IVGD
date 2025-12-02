@@ -30,7 +30,7 @@ Create a 3D walking simulator that tells a story purely through environmental de
 - **Single path recommended**: Guide player through intentional spatial sequence
 - **Environmental interaction**: Minimal but meaningful (doors, lights, simple triggers)
 
-## Grading Criteria (20 Points Total)
+## Grading Criteria (10 Points Total)
 
 **Environmental Storytelling (4 points)**
 - 4: Sophisticated narrative told entirely through spatial design with clear emotional impact
