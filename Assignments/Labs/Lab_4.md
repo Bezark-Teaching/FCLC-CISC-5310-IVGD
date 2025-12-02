@@ -1,7 +1,7 @@
 # Lab 4: Walking Sim
 **Theory Lens**: Environmental Storytelling
 **Due**: Week 13 (11/25)
-**Points**: 20
+**Points**: 10
 
 ## Overview
 Create a 3D walking simulator that tells a story purely through environmental design, spatial composition, and atmospheric elements. This project focuses on environmental storytelling to create meaningful 3D experiences.
@@ -32,29 +32,26 @@ Create a 3D walking simulator that tells a story purely through environmental de
 
 ## Grading Criteria (20 Points Total)
 
-**Environmental Storytelling (8 points)**
-- 8: Sophisticated narrative told entirely through spatial design with clear emotional impact
-- 6: Strong environmental narrative with mostly effective spatial storytelling
-- 4: Good use of environmental elements to suggest narrative
-- 2: Basic environmental storytelling with some effective moments
+**Environmental Storytelling (4 points)**
+- 4: Sophisticated narrative told entirely through spatial design with clear emotional impact
+- 3: Strong environmental narrative with mostly effective spatial storytelling
+- 2: Good use of environmental elements to suggest narrative
+- 1: Basic environmental storytelling with some effective moments
 - 0: No clear environmental narrative
 
-**Spatial Design & Composition (7 points)**
-- 7: Excellent spatial composition that effectively guides player movement and creates clear sense of place
-- 5: Good spatial design with effective player guidance and strong compositional choices
-- 3: Adequate spatial design with some effective compositional elements
+**Spatial Design & Composition (3 points)**
+- 3: Excellent spatial composition that effectively guides player movement and creates clear sense of place
+- 2: Good spatial design with effective player guidance and strong compositional choices
 - 1: Basic spatial design with minimal compositional consideration
 - 0: Poor spatial design that confuses player movement or lacks clear composition
 
-**Atmospheric Implementation (5 points)**
-- 5: Professional-quality atmosphere through lighting, audio, and environmental effects
-- 3: Good atmospheric elements that enhance the experience
+**Atmospheric Implementation (2 points)**
+- 2: Professional-quality atmosphere through lighting, audio, and environmental effects
 - 1: Basic atmospheric implementation
 - 0: Poor or missing atmospheric elements
 
-**Technical Implementation (2 points)**
-- 2: Smooth performance, intuitive controls, well-optimized 3D environment
-- 1: Functional implementation with minor technical issues
+**Technical Implementation (1 points)**
+- 1: Smooth performance, intuitive controls, well-optimized 3D environment
 - 0: Significant technical problems that interfere with experience
 
 ## Submission Requirements

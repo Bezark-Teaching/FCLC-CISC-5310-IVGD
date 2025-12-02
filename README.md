@@ -308,7 +308,6 @@ This course follows a **practice-first, theory-second** approach:
 **Class Structure:**
 <!-- 1. **Discussion:** Jenkins reading - how does space tell stories in games? -->
 1. **Presentations:** Capstone project technical presentations
-2. **Lecture:** Shaders. Networking?
 
 **Due:** Capstone Presentation
 
@@ -329,24 +328,15 @@ This course follows a **practice-first, theory-second** approach:
 
 **Due:** Walking Sim
 
-### Week 14 12/2 - XR Workshop
-<!-- **Assigned Reading:** Schell ["The Art of Game Design"](Readings/Systems-Thinking/Jesse Schell - The Art of Game Design A Book of Lenses .pdf) Ch.27 (Playtesting) - 8 pages *(discuss next week)* -->
-
-<!-- **Class Structure:** -->
-<!-- 1. **Discussion:** Cathedral & Bazaar reading - how does open source affect game development? -->
-<!-- 2. **Lecture:** Production practices, export settings, optimization, professional workflows -->
-<!-- 3. **Workshop:** Capstone development - polish, optimize, and prepare for release -->
-<!-- 4. **Individual Check-ins:** Final troubleshooting and scope adjustment for capstone projects -->
+### Week 14 12/2 - XR Workshop and Advanced Content
+- XR
+- Shaders!!!
+- Animation Trees
 
 ### Week 15 12/9 - Review
 
 ### Week 16 12/16 - Final Presentations & Professional Growth
 
-**Class Structure:**
-1. **Discussion:** Playtesting reading - how do you know when a game is "done"?
-2. **Final Presentations:** Capstone game presentations with live gameplay demos
-3. **Retrospective:** Course reflection using theoretical frameworks as analysis tools
-4. **Professional Development:** Portfolio building, continuing education, career paths in game development
 
 **Due:** Capstone Game + Post-mortem
 - Completed game demonstrating technical and design growth
