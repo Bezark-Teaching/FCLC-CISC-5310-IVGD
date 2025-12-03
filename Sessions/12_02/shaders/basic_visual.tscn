@@ -3,10 +3,10 @@
 [ext_resource type="Shader" uid="uid://bmrc1wpnkbypk" path="res://basic.tres" id="1_fnsow"]
 [ext_resource type="Texture2D" uid="uid://1ynui37sffd" path="res://icon.svg" id="2_kf5k4"]
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_ovdtk"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_kf5k4"]
 shader = ExtResource("1_fnsow")
 
 [node name="Icon" type="Sprite2D"]
-material = SubResource("ShaderMaterial_ovdtk")
-position = Vector2(268, 157)
+material = SubResource("ShaderMaterial_kf5k4")
+position = Vector2(63, 54)
 texture = ExtResource("2_kf5k4")
