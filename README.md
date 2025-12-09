@@ -337,10 +337,10 @@ This course follows a **practice-first, theory-second** approach:
 
 ### Week 16 12/16 - Final Presentations & Professional Growth
 
+- [Working in the Games Industry](https://docs.google.com/presentation/d/1i-RZGlzN65DgH-2sKYvK31pYVswlGjqj9AYbDTiazo0/edit?usp=sharing)
 
-**Due:** Capstone Game + Post-mortem
+**Due:** Capstone Game 
 - Completed game demonstrating technical and design growth
-- Written retrospective analyzing your development process using course frameworks
 
 
 # **Necessary Materials:**
